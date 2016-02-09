@@ -1,0 +1,443 @@
+
+
+/* --- services --- */ 
+.m-services-header{
+	height: 450px;
+    position: fixed;
+    width: 100%;
+}
+
+.m-primary-serivces{
+	background: none repeat scroll 0 0 #fff;
+    float: left;
+    padding: 30px 0;
+    width: 100%;
+    margin-top: 440px;
+}
+/* --- Contact us --- */ 
+.m-contact-pg{
+	float: left;
+    padding: 30px 0;
+    position: relative;
+    width: 100%;
+    margin-top: 398px;
+    background-color: #1d1b1a;
+    color: #fff;
+   
+}
+.contact-wrapper{
+	margin: 0 auto;
+    width: 1020px;
+
+}
+.contact-wrapper h2{
+	font-size: 24px;
+	color: #333;
+
+}
+.m-contact-add{
+	background-color: #fff;
+	padding: 15px;
+	float: left;
+	width: 100%;
+
+}
+.m-jal-off {
+	float: left;
+	width: 27%;
+}
+.m-bang-off{
+	float: left;
+	width: 27%;
+}
+.m-thane-off{
+	float: left;
+	width: 23%;
+}
+.m-jal-off h3{
+	color: #555;
+	font-size: 16px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.m-jal-off p{
+	margin: 0;
+	padding: 0;
+}
+.m-jal-off i{
+	color: #444;
+}
+.m-bang-off i{
+	color: #444;
+}
+.m-thane-off i{
+	color: #444;
+}
+.m-walkwel-logo img{
+	margin-left: 17px;
+	margin-top: -10px;
+}
+.m-bang-off h3{
+	color: #555;
+	font-size: 16px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.m-bang-off p{
+	margin: 0;
+	padding: 0;
+}
+
+.m-thane-off h3{
+	color: #555;
+	font-size: 16px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.m-thane-off p{
+	margin: 0;
+	padding: 0;
+}
+.m-cont-frm{
+	 float: left;
+     width: 46%;
+    margin-top: 40px;
+}
+.m-cont-map{	
+    float: left;
+    padding: 15px;
+    margin-top: 24px;
+    margin-left: 30px;
+}
+.m-cont-frm input{
+	width: 209px;
+	height: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	color: #444;
+	padding: 5px;
+} 
+.m-cont-frm textarea{
+	border: none;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 9px;
+	color: #444;
+} 
+.m-cont-frm input[name='submit']{
+	background-color: #fff;
+	color: #333;
+	float: right;
+	padding: 0;
+	margin-right: 18px;
+	margin-top: 10px;
+	border: none;
+}
+
+/* --- Carrer page --- */ 
+#career-form  label.error{
+	color: #fff;
+    float: left;
+    font-size: 14px;
+    margin-left: 7px;
+    margin-top: -13px;
+}
+
+.m-career-pg{
+	float: left;
+    padding: 30px 0;
+    width: 100%;
+    margin-top: 398px;
+    color: #000;
+	background:#1d1b1a; 
+}
+.m-career-left{
+	float: left;
+	width: 100%;
+}
+.m-career-left h1{
+	margin: 0;
+	color: #fff;
+}
+.m-career-left p{
+	margin: 0;
+	color: #ccc;
+}
+.m-career-left ul li{
+	color: #444;
+    list-style: square outside none;
+    margin-left: 15px;
+}
+.m-career-right{
+	float: left;
+	
+}
+.m-career-form{
+	background-color: #444;
+    left: 151px;
+    margin-left: 15px;
+    padding: 40px;
+    position: absolute;
+    top: 124px;
+    width: 69.6%;
+   
+}
+.m-career-box{
+	height:68px;
+	width:50%;
+	float: left;
+}
+.m-career-textbox{
+	float: left;   
+    width: 50%;
+}
+.m-career-form input{
+	width: 92%;
+	margin-bottom: 15px;
+	border: none;
+	padding: 11px;
+	float: left;
+	border-radius: 4px;
+	margin-right: 10px;
+	background-color: #fff;
+	margin-left: 4px;
+}
+.m-career-form select[name="experience"]{
+	width: 97%;
+	margin-bottom: 13px;
+	border: none;
+	padding: 11px;
+	float: left;
+	border-radius: 4px;
+	margin-right: 10px;
+	margin-left:10px;
+}
+.m-career-form input[name="email"], input[name="city"], input[name="pincode"], input[name="keyskills"]{
+	margin-left: 10px;
+}
+.m-career-form input[name="submit"]{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 11px;
+	margin-left: 15px;
+	width: 200px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.m-career-form input[name="file"]{
+	background-color: #fff;
+}
+
+.m-career-form textarea{
+	margin-bottom: 10px;
+	border: none;
+	padding: 11px;
+	width: 92%;
+	float: left;
+	height: 91px;
+	border-radius: 4px;
+	margin-right: 10px;
+	margin-left: 4px;
+}
+.m-career-form h2{
+	width: 200px!important;
+	color: #fff;
+	display: inline;
+}
+.m-career-form a{
+	text-decoration: none;
+	color: white;
+	float: right;
+}
+.m-career-form p{
+	width: 220px!important;
+	color: #fff;
+}
+.m-php-developer{
+	background: #ecf0f1;
+	padding: 30px;
+}
+.m-php-developer h2{
+	display: inline;
+}
+.m-php-developer p{
+	padding-bottom: 0!important;	
+	color: #444;
+}
+.m-php-button{
+	background: #344860;
+	color: #fff;
+	padding: 10px;
+	display: inline-block;
+	float: right;
+	font-size: 15px;
+}
+.m-php-button:hover{
+	background: #516680;
+	color: #FFF;
+}
+.m-buss-developer{
+	background: none repeat scroll 0 0 #ecf0f1;
+    padding: 30px;
+}
+.m-buss-developer h2{
+	display: inline;	
+}
+.m-buss-developer p{
+	color: #444;
+	padding-bottom: 0!important;	
+}
+.m-buss-developer ul li{
+	color: #444;
+}
+.m-bus-button{
+	background: none repeat scroll 0 0 #344860;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+    padding: 10px;
+}
+.m-bus-button:hover{
+	background: #516680;
+	color: #FFF;
+}
+/* -- Quote form -- */
+#quote-form label.error{
+	font-size: 14px;
+    margin-top: -20px;
+    padding: 0 !important;
+    position: absolute;
+    font-weight: 700; 
+
+}
+#quote-form .form-control{
+	margin-bottom: 20px!important;
+}
+.m-quote-pg{
+	background: none repeat scroll 0 0 #ccc;
+    color: #000;
+    float: left;
+    margin-top: 398px;
+    width: 100%;
+}
+.m-quote-form{
+	color: #444;
+	text-align: center;
+	background-color: #ccc;
+	padding-bottom: 10px;
+}
+.m-quote-form h3{
+	color: #444;
+	font-size: 15px;
+	text-align: center;
+	text-transform: none;
+}
+.m-quote-design{
+	background-color: #444;
+	color: #fff;
+	padding: 15px;
+	margin: 10px;
+	height: auto;
+	border-radius: 5px;
+
+}
+.m-quote-design h3{
+	color: #fff;
+	font-size: 20px;
+}
+.m-quote-design input[type="checkbox"]{	
+
+}
+.m-quote-design ul li{
+	list-style: none;
+	display: inline-block;
+	width: 227px;
+}
+.m-quote-design-2{
+	background-color: #444;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.m-quote-design-2 h3{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.m-quote-design-2 input{
+	width: 40%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.m-quote-design-2 input[name="submit"]{
+	width: 20%;
+	background-color: #ccc;
+	padding: 10px;
+}
+.m-quote-design-2 textarea{
+	width: 81.5%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 0;
+}
+#request.request-form{
+	display: block!important;
+	height: auto;
+	opacity: 1;
+	position: inherit;	
+}
+.request-form textarea[name="description"]{
+	height: 100px;
+}
+
+.request-form .container{     width: 100%; } /* Contact validation css */
+#contact-form label,#career-form label.error,#quote-form label.error{
+	background-color: #E23D3D;     
+	padding: 2px 5px 2px 5px;     
+	border-radius:5px;     
+	font-size: 12px;     
+	margin-top: -11px;     
+	color: #fff; 
+} 
+#career-form label.error{
+	margin-top: 44px;
+}
+#contact-form .error,#quote-form .error,#career-form .error{     
+	border: 1px solid#E23D3D; 
+} 
+#contact-form label:before,#quote-form .error:before,#career-form label.error:before{     
+	content: url("../img/validate-arrow.png");     
+	left: 10px;
+	position: absolute;     
+	top: -10px; 
+} 
+.m-contact-field{     
+	float: left; 
+}
+#contact-form label.error,#career-form label.error,#quote-form label.error{
+	position: absolute;     
+	display: block; 
+}
+.apply-button{
+	text-transform:uppercase;
+}
+.m-career-right{
+	width:200px;
+	height:600px;
+	margin-top:30px;
+}
+.m-career-right li{
+	line-height:30px;
+	font-size:14px;
+}
+.m-career-right li a{
+	border-left:5px solid transparent;
+	padding-left:10px;
+}
+.m-career-right li a.active{
+	border-left-color:#d86a1d;
+	color:#d86a1d;
+}

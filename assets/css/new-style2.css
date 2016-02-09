@@ -1,0 +1,188 @@
+/* --- services --- */ 
+.m-services-header{
+	height: 450px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.m-primary-serivces{
+	background: none repeat scroll 0 0 #fff;
+    float: left;
+    padding: 30px 0;
+    position: inherit;
+    width: 100%;
+    z-index: 9999;
+    margin-top: 440px;
+}
+/* --- Contact us --- */ 
+.m-contact-pg{
+	float: left;
+    padding: 30px 0;
+    position: relative;
+    width: 100%;
+    z-index: 9999;
+    margin-top: 434px;
+    background-color: #008E75;
+    color: #fff;
+   
+}
+.contact-wrapper{
+	margin: 0 auto;
+    width: 1020px;
+
+}
+.contact-wrapper h2{
+	font-size: 24px;
+	color: #333;
+
+}
+.m-contact-add{
+	background-color: #fff;
+	padding: 15px;
+	float: left;
+	width: 100%;
+
+}
+.m-jal-off {
+	float: left;
+	width: 30%;
+}
+.m-bang-off{
+	float: left;
+	width: 30%;
+}
+.m-thane-off{
+	float: left;
+	width: 30%;
+}
+.m-jal-off h3{
+	color: #555;
+	font-size: 16px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.m-jal-off p{
+	margin: 0;
+	padding: 0;
+}
+.m-jal-off i{
+	color: #008E75;
+}
+.m-bang-off i{
+	color: #008E75;
+}
+.m-thane-off i{
+	color: #008E75;
+}
+.m-bang-off h3{
+	color: #555;
+	font-size: 16px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.m-bang-off p{
+	margin: 0;
+	padding: 0;
+}
+
+.m-thane-off h3{
+	color: #555;
+	font-size: 16px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.m-thane-off p{
+	margin: 0;
+	padding: 0;
+}
+.m-cont-frm{
+	 float: left;
+     width: 46%;
+    margin-top: 40px;
+}
+.m-cont-map{	
+    float: left;
+    padding: 15px;
+    margin-top: 24px;
+    margin-left: 30px;
+}
+.m-cont-frm input{
+	width: 209px;
+	height: 30px;
+	border: none;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	color: #444;
+	padding: 5px;
+} 
+.m-cont-frm textarea{
+	border: none;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 9px;
+	color: #444;
+} 
+.m-cont-frm input[name='submit']{
+	background-color: #105B4C;
+	color: #fff;
+	padding: 3px;
+	float: right;
+	margin-right: 18px;
+	margin-top: 10px;
+}
+/* --- Carrer page --- */ 
+
+.m-career-pg{
+	float: left;
+    padding: 30px 0;
+    position: relative;
+    width: 100%;
+    z-index: 9999;
+    margin-top: 434px;
+    color: #000;   
+}
+.m-career-left{
+	float: left;
+}
+.m-career-left h1{
+	margin: 0;
+}
+.m-career-left ul li{
+	color: #444;
+    list-style: square outside none;
+    margin-left: 15px;
+}
+.m-career-right{
+	float: left;
+}
+.m-career-form{
+	background-color: #ccc;
+	padding: 10px;
+	width: 100%;
+	margin-left: 15px;
+}
+.m-career-form input{
+	width: 185px;
+	margin-bottom: 10px;
+	border: none;
+	padding: 3px;
+
+}
+.m-career-form input[name="submit"]{
+	background-color: #444;
+	color: #fff;
+	text-align: center;
+	padding: 3px;
+}
+.m-career-form textarea{
+	margin-bottom: 10px;
+	border: none;
+	padding: 3px;
+}
+.m-career-form h2{
+	width: 200px!important;
+}
+.m-career-form p{
+	width: 220px!important;
+}

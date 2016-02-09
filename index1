@@ -1,0 +1,556 @@
+<?php
+ include('token.php');
+?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/new-style.css" />
+<title>Walkwel Technology | Web Design, Web Development, Business Solutions</title>
+<meta name="google-site-verification" content="13o4fDohXUvqSHVVKRlL8E5xE65IPE9QXN6KXFSBJmw" />
+<meta name="p:domain_verify" content="6e936a79889770d9057152483ea37fc3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Walkwel Technology provide professional and quality services for website design, web development, graphic design, ERP solutions and business solutions etc.">
+<meta name="keywords" content="Walwel Technology, Business Solutions, Web Designing, Web Development, Web Hosting, Online Marketing, ERP Solutions, Mobile Applications, Graphic Designing">
+<meta name="robots" content="all, index, follow">
+<meta name="copyright" content="Copyright © 2014 Walkwel Technology Pvt. Ltd. All Rights Reserved.">
+<meta name="author" content="walkwel.in">
+<meta name="language" content="English">
+<meta name="revisit-after" content="7">
+<meta name="rating" content="safe for kids">
+<meta name="distribution" content="Global" />
+<meta name="publisher" content="http://www.walkwel.in" />
+<style>
+.button_down_container {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  z-index: 88;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+</style>
+</head>
+
+<body>
+<div id="loading">
+	<!--Page is loading <div class="textSlider" data-0=" opacity: 1; top:35%;" data-300="opacity:0; top:15%;">
+    	<hr class="divider">
+    	<div class="textGroup">
+        	<div class="rotater1">
+                <h1 class="first">INNOVATE</h1>
+                <h1>TRUST</h1>
+                <h1>TALENT</h1>
+            </div>
+            <span>/</span>
+            <div class="rotater2">
+                <h1 class="second">DEVELOP</h1>
+                <h1>PASSION</h1>
+                <h1>EXPRESS</h1>
+            </div>
+            <span>/</span>
+            <div class="rotater3">
+                <h1 class="third">IMPROVE</h1>
+                <h1>SHARE</h1>
+                <h1>QUALITY</h1>
+            </div>
+        </div>
+        <hr class="divider">
+    </div>-->
+    <h1> <img src="assets/img/logo-min.png" /></h1>
+</div>
+<div id="request">
+	<div class="container21">
+    	<div class="container">
+    	<h1 class="text-center">Let's work together</h1>
+        <div class="form ">
+        <form method="post" id="quote-form" action="quote-email.php">
+        	<div class="form-content ">
+            	<h1 class="text-center">1. What service are you looking for ?</h1>
+            	<fieldset>
+                  <div class="col-md-3">                 
+                  <input type="checkbox" id="erp_solution" name="erp_solution" value="ERP Solution" />
+                    <label>ERP Solution</label>
+                    </div>
+                    <div class="col-md-3">
+                    <input type="checkbox" id="website" name="website" value="Website"/>
+                    <label>Website</label>
+                    </div>
+                    <div class="col-md-3">
+                    <input type="checkbox" id="bus_solution" name="bus_solution" value="Business Solution"/>
+                    <label>Business Solution</label>
+                    </div>
+                    <div class="col-md-3">
+                    <input type="checkbox" id="seo" name="seo" value="SEO"/>
+                    <label>SEO</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="form-content">
+            	<h1 class="text-center">2. What type of website solution are you looking for ?</h1>
+            	<fieldset>
+                  <div class="col-md-3">
+                  <input type="checkbox" name="cms" value="CMS" />
+                    <label>CMS</label>
+                    </div>
+                    <div class="col-md-3">
+                    <input type="checkbox" name="e_commerce" value="E-Commerce"/>
+                    <label>Ecommerce</label>
+                    </div>
+                    <div class="col-md-3">
+                    <input type="checkbox" name="apps" value="Apps"/>
+                    <label>Apps</label>
+                    </div>
+                    <div class="col-md-3">
+                    <input type="checkbox" name="development" value="Development"/>
+                    <label>Development</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="form-content">
+            	<h1 class="text-center">3. What is your budget for the project ?</h1>
+                <fieldset>
+                    <div class="col-md-3">
+                    <input type="radio" name="budget" value="25,000 - 50,000" />
+                    <label>25,000 - 50,000</label>
+                    </div>
+                    <div class="col-md-3">
+                    <input type="radio" name="budget" value="50,000 to 1,00,000" />
+                    <label>50,000 to 1,00,000</label>
+                    </div>
+                    <div class="col-md-3">
+                    <input type="radio" name="budget" value="1,00,000 to 5,00,000"/>
+                    <label>1,00,000 to 5,00,000</label>
+                    </div>
+                    <div class="col-md-3">
+                    <input type="radio" name="budget" value="5,00,000+" />
+                    <label>5,00,000 +</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="form-content">
+            	<h1 class="text-center">4. We just need a few details from you.</h1>
+                    <fieldset>
+                    <div class="col-md-6">
+                      <input type="text" name="company_name" class="form-control" id="inputCName" placeholder="Company">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" name="q_name" class="form-control" id="q_name" placeholder="Name">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="email" name="q_email" class="form-control" id="q_email" placeholder="Email">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" name="q_phone" class="form-control" id="q_phone" placeholder="Phone">
+                    </div>
+                    <div class="col-md-12">
+                      <textarea class="form-control" placeholder="Project Description" id="q_description" name="q_description" ></textarea>
+                    </div>
+                    <input type="hidden" name="quote_form_token" value="<?php echo  $_SESSION['session_token']; ?>" />
+                    <div class="col-sm-offset-5 col-sm-2 text-center">
+                      <input type="submit" value="Send Enquiry" name="submit" class="btn btn-default w-quote-button"></input>
+                    </div>
+                    </form>
+                    </fieldset>
+            </div>
+           
+        </div>
+        
+        </div>
+    	<a class="cancel"><i class="fa fa-times"></i></a>
+    </div>
+</div>
+<!-- Header logo/nav -->
+<a id="h1"></a>
+<div id="header" class="headerStick"  data-0="opacity: 0.7;background:rgba(0, 0, 0, 0)" data-100="opacity: 1;background:rgba(15, 24, 29, 1)">
+	<div class="logo">
+    	<a href="index.html"><img src="assets/img/logo.png" alt="Walkwel Technology" title="Walkwel Technology" /></a>
+    </div>
+    <div class="quote">
+    	<a class="req-quote">Quote</a>
+    </div>
+    <div class="navigation">
+    	<ul>
+        	<li><a href="#h1">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="career.php">Career</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </div>
+</div>
+<!-- Banner image/text -->
+<div id="banner" class="bannerSlider" ><!-- data-1000="opacity:1;" data-1001="opacity:0;" -->
+	<div class="slider">
+    	<div class="image">
+        	<img src="assets/slider/slide1.jpg" alt="Walkwel" class="responsive" />
+        </div>
+    </div>
+    <div class="textSlider" data-0=" opacity: 1; top:35%;" data-300="opacity:0; top:15%;">
+    	<hr class="divider">
+    	<div class="textGroup">
+        	<div class="rotater1">
+                <h1 class="first">INNOVATE</h1>
+                <h1>TRUST</h1>
+                <h1>TALENT</h1>
+            </div>
+            <span>/</span>
+            <div class="rotater2">
+                <h1 class="second">DEVELOP</h1>
+                <h1>PASSION</h1>
+                <h1>EXPRESS</h1>
+            </div>
+            <span>/</span>
+            <div class="rotater3">
+                <h1 class="third">IMPROVE</h1>
+                <h1>SHARE</h1>
+                <h1>QUALITY</h1>
+            </div>
+        </div>
+        <hr class="divider">
+    </div>
+    <div class="scrolDownArow"  data-0="opacity:1;" data-250="opacity:0;">
+    	<a class="button_down_container" title="SCROLL DOWN">
+            <img src="assets/img/cover_arrow.png" alt="Scroll Down" />
+          </a>
+    </div>
+</div>
+<!-- about us -->
+<div id="about" class="aboutus" >
+	<div class="wrapper">
+        <h5>It’s Nice to meet you</h5>
+        <p class="p">
+            Walkwel Technology delivers specialized and high quality services for Web design and development, 
+            Enterprise Mobility, and Custom Enterprise &amp; Business Solutions. We pursue and respond to our customers’ needs 
+            and measure all key aspects of the products’ competence against well-defined and challenging performance targets 
+            to provide innovative, cost-effective, and timely solutions for your business. <!--With every leap, we set the bar higher.-->
+        </p>
+			<div class="col-md-3">
+            	<a href="about.html">
+                    <img src="assets/img/vision.png" alt="" />
+                    <h4>OUR VISION</h4>
+                    <p>
+                    	Test the limits of technology at hand.
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-3">
+            	<a href="about.html">
+                    <img src="assets/img/about-icon.png" alt="" />
+                    <h4>OUR GOAL</h4>
+                    <p>Surpassing customer expectations<br>is hitting bull’s eye.
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-3">
+            	<a href="about.html">
+                    <img src="assets/img/culture.png" alt="" />
+                    <h4>OUR CULTURE</h4>
+                    <p>Work can be fun when creative juices flow.
+                    </p>
+                </a>
+            </div>
+            <div class="scrolDownArow" data-700="opacity:1;" data-800="opacity:0;">
+                <a class="button_down_container" title="SCROLL DOWN">
+                    <img src="assets/img/cover_arrow.png" alt="Scroll Down" />
+                  </a>
+            </div>
+    </div>
+</div>
+<!-- what we offer slider -->
+<div id="slider1" class="whatWeOffer" ><!-- data-350="opacity:0;top:200px;" data-400="opacity:1;" data-500="opacity:1;" data-1400="top:-50px;" -->
+	<div class="wrapper">
+        <div class="text">
+            <h3>What we offer</h3>
+            <h2>to businesses</h2>
+            <p>Increase corporate efficiency and accuracy through automation of key business processes.<br>
+            We at Walkwel, harness the power and intelligence of agile and lean methods, while <br>leveraging the benifits of cutting edge tools that take smart solutions to the next level.</p>
+        </div>
+        <div class="scrolDownArow" data-1300="opacity:1;" data-1500="opacity:0;">
+            <a class="button_down_container" title="SCROLL DOWN">
+                <img src="assets/img/cover_arrow.png" alt="Scroll Down" />
+              </a>
+        </div>
+    </div>
+</div>
+    <a style="position:absolute; top:2100px;" id="h3"></a>
+
+<!-- primary services -->
+<div id="services" class="primaryServices" data-900="top:900px;" data-1100="opacity:0;top:0;" data-1200="opacity:1;" ><!--  data-1600="top:1200px;" data-1300="top:1435px;" -->
+	<div class="wrapper">
+    	<div class="prim-service" data-0="opacity:0;" data-1800="opacity:0;top:100px;" data-2000="opacity:1;top:0;">
+        	<div class="goBack">
+                <a class="button_down_container" title="Close">
+                    <img src="assets/img/close.png" alt="Close" width="23" />
+                  </a>
+            </div>
+            <h5>Our Primary Services</h5>
+            <div class="prim-ser-container">
+                <div class="col-md-3 large web">
+                    <a>
+                        <i class="ico"></i>
+                        <h4>Web &amp; Interactive Applications</h4>
+                    </a>
+                    <p>
+                    Extracting the maximum benefit out of the feature packed Web 2.0, the designers at Walkwel Technology build beautiful websites, graphic designs, digital communication and advertising. We put to use HTML 5, CSS3, JQuery, Node.js, Photoshop cc, Coraldraw X7, CMS  among plethora of new technologies and tools to envision what our clients desire.
+                    </p>
+                    <ul>
+                        <li class="divider"><span></span></li>
+                        <li>Web Designing</li>
+                        <li>Web Development</li>
+                        <li>Online Marketing / SEO</li>
+                        <li class="divider"><span ></span></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 large enterprise1">
+                    <a>
+                        <i class="ico enterprise"></i>
+                        <h4>Enterprise Solutions</h4>
+                    </a>
+                    <p>
+                    Walkwel Technology provides comprehensive business functionality that ties the entire enterprise together, 
+                    connecting all the moving parts and providing better visibility into operations. The team at our development floor have the skill and expertise to provide on-demand capability to help meet both your internal targets and promises to the market. 
+                    </p>
+        <ul>
+                        <li class="divider"><span></span></li>
+                        <li>ERP Solutions</li>
+                        <li>Custom Software Applications</li>
+                        <li>Hire Dedicated Resources</li>
+                        <li>Application Support &amp; Maintainence</li>
+                        <li>SEO / Online Marketing</li>
+                        <li class="divider"><span></span></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 large mobile1">
+                    <a>
+                        <i class="ico mobile"></i>
+                        <h4>Mobile Applications</h4>
+                    </a>
+                    <p>When you choose Walkwel Technology, you’re associating with a crew that designs and builds robust &amp; powerful, feature-rich mobile apps with strikingly gorgeous interfaces in the most prominent platform or framework that is at use in the industry at present. We tailor each mobile app to its perfect fit for the platform it is meant for – IOS, Android and Windows.</p>
+                    <ul>
+                        <li class="divider"><span></span></li>
+                        <li>IPhone App Development</li>
+                        <li>Android Apps Development</li>
+                        <li>Windows Mobile App Development</li>
+                        <li class="divider"><span></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub-services web-ser-container">
+            	<div class="services-thumb">
+                    <a>
+                        <h4>Web Design</h4>
+                        <p>
+                        	Following the W3C standards, we’re constantly using new design trends that are being introduced to make high impact show-stopping designs. Be it subtle parallax to add a bit of depth to a site, interactive exploring, hand drawn illustrations or any trendy colour combinations, our designers make full use of HTML5, CSS3, JQuery, SVG etc. to make stand out creations.
+                        </p>
+                    </a>
+                </div>
+                <div class="services-thumb">
+                    <a>
+                        <h4>Web Development</h4>
+                        <p>
+                        Our web development team speak the language of World Wide Web. Feature rich dynamic websites, eCommerce web solutions, multi-tiered applications and highly integrated, easy-to-use, flexible web solutions that give our clients a clear strategic advantage is what we do.                   
+                        We are committed to deliver creative quality solutions by using latest technology.
+                        </p>
+                    </a>
+                </div>
+                <div class="services-thumb">
+                    <a>
+                        <h4>Graphic Design </h4>
+                        <p>Whether starting a new venture or realizing that your current logo or brand identity no longer meets the industry standard, our graphic designers are a talented, resourceful bunch who can create and re-design an inspired bespoke product that will transform your business brand into a comprehensible online experience that stands out.
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="sub-services enterprise-ser-container">
+            	<div class="services-thumb">
+                    <a>
+                        <h4>ERP Solutions</h4>
+                        <p>
+                       Delivering the necessary apparatus, working efficacy, and real-time awareness our customers require for out 
+                        rivalling in the marketplace. 
+                        </p>
+                    </a>
+                </div>
+                <div class="services-thumb">
+                    <a>
+                        <h4>Custom Software Application</h4>
+                        <p>
+                        	Walkwel Technology delivers enterprise custom application development solutions that help meet business objectives.
+                        </p>
+                    </a>
+                </div>
+                <div class="services-thumb">
+                    <a>
+                        <h4>Hire Dedicated Resources</h4>
+                        <p>
+                        	You can hire us as your back-office where you have 100% control over resources, time, performance and results. 
+                        </p>
+                    </a>
+                </div>
+                <div class="services-thumb">
+                    <a>
+                        <h4>Application Support &amp; Maintainence</h4>
+                        <p>
+                        	Application Support and Maintenance is an important element towards enhancing and extending the life of the applications.
+                        </p>
+                    </a>
+                </div>
+                <div class="services-thumb">
+                    <a>
+                        <h4>Quality Assurance</h4>
+                        <p>
+                        We have the ability to flex the core resource pool assigned to a client or a project in order to meet strict project timelines and targets. 
+                        </p>
+                    </a>
+                </div>
+                <div class="services-thumb">
+                    <a>
+                        <h4>SEO / Online Marketing</h4>
+                        <p>
+                        	Walkwel Online Marketing team have set goals to help client business to tracking their marketing results.
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="sub-services mobile-ser-container">
+            	<div class="services-thumb">
+                    <a>
+                        <h4>Android Applications</h4>
+                        <p>
+                        	Walkwel creates fresh and innovative Android applications as well as converting enterprise level legacy 
+                            systems to Android applications.
+                        </p>
+                    </a>
+                </div>
+                <div class="services-thumb">
+                    <a>
+                        <h4>IPhone Applications</h4>
+                        <p>
+                        Walkwel employs the most brilliant, tech-obsessed mobile developers and engineers in the ﬁeld. 
+                        The programmers at our development studio have the expertise you seek in practically any platform or framework you can imagine
+                        </p>
+                    </a>
+                </div>
+                <div class="services-thumb">
+                    <a>
+                        <h4>Windows Mobile Applications</h4>
+                        <p>
+                        	The bulk presence of mobiles in today's market has influenced and transformed most of our lives and businesses. 
+                            
+                        </p>
+                    </a>
+                </div>
+                <div class="services-thumb">
+                    <a>
+                        <h4>Google Glass Applications</h4>
+                        <p>
+                        Glassware are apps and services designed especially for Glass, built with Glass design principles.
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scrolDownArow" data-1800="opacity:0;" data-2000="opacity:1;" data-2200="opacity:0;">
+            <a class="button_down_container d2" title="SCROLL DOWN">
+                <img src="assets/img/cover_arrow.png" alt="Scroll Down" />
+              </a>
+        </div>
+</div>
+<!-- portfolio slider -->
+<div id="slider2" class="portfolio" data-0="opacity:0;top:2200px;"  data-2300="opacity:1;" data-250="">
+	<div class="wrapper">
+        <div class="text">
+            <h3>We develop incredibly</h3>
+            <h2>PRODUCTIVE DESIGNS</h2>
+        </div>
+    </div>
+</div>
+
+<!-- testimonials 
+<div id="testimonials" class="quotes">
+	<div class="wrapper">
+		<div class="icon"> <img src="assets/img/testimonial-icon.png" alt="Testimonials" /></div>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis quis lobortis dui, 
+ultricies interdum augue. Curabitur eleifend velit sed eros cursus consectetur. 
+Sed a felis faucibus, dictum arcu vehicula, feugiat tellus.</p>
+    </div>
+</div>-->
+<!-- what we offer slider -->
+<div id="slider3" class="contactUs" ><!-- data-350="opacity:0;top:200px;" data-400="opacity:1;" data-500="opacity:1;" data-1400="top:-50px;" -->
+<a id="h5"></a>
+	<div class="wrapper">
+        <div class="text" style="text-align:center">
+            <h3>Like what you see ?</h3>
+            <h2 style="margin-bottom: 35px;">Let's Talk !</h2>
+            <a href="contact.php" class="btn">Contact Us</a>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<div id="footer" class="m-footer">
+	<div class="address">
+        <div class="wrapper">
+            <div class="m-footer-left">
+            <h3>Walkwel Technology Pvt. Ltd.</h3>
+              <p>Garha Road, Jalandhar City, 144001, Punjab, India.</p> 
+    
+              <p>Copyright &copy; 2014. Walkwel Technology. All Rights Reserved. </p>  
+            </div>
+            <div class="m-footer-right">
+           
+              <p><i class="fa fa-phone"></i> &nbsp;(91) 181 5041414 &nbsp; <i class="fa fa-envelope"></i>
+    info@walkwel.in</p>  
+              <p><span> Follow Us</span>&nbsp;
+               <a href="https://www.facebook.com/walkwel?ref=hl"><i class="fa fa-facebook"></i></a>
+               <a href="https://www.linkedin.com/profile/view?id=354390531"><i class="fa fa-linkedin"></i></a>
+               <a href="https://plus.google.com/+WalkwelIn/about"><i class="fa fa-google-plus"></i></a>
+               <a href="https://twitter.com/Walkwel"><i class="fa fa-twitter"></i></a>
+               </p>
+               <br>
+                
+            </div>
+            
+        </div>
+    </div>
+     <div class="copy">
+        <div class="wrapper">
+            <p class="txt">Copyright © 2014. Walkwel Technology. All Rights Reserved.</p>
+            <ul class="links">
+                <li><a href="career.php">Career</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="quote.php">Get a Quote</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+   
+</div>
+<!-- scripts -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/skrollr.js"></script>
+<script type="text/javascript" src="assets/js/jquery.slimscroll.js"></script>
+<script type="text/javascript" src="assets/js/nprogress.js"></script>
+<script type="text/javascript" src="assets/js/jquery.validate.js"></script>
+<script type="text/javascript" src="assets/js/quote-validate.js"></script>
+<script>
+NProgress.start();
+</script>
+<script type="text/javascript" src="assets/js/walkwel.js"></script>
+</body>
+</html>

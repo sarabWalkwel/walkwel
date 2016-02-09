@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.navbar-right .dropdown-menu{
+	width:100%;
+}
+.navbar .dropdown-menu ul li a{
+	color:#444;
+	font-size:11px;
+}
+.navbar .dropdown .dropdown-menu li a{
+	color:#444;
+	font-size:11px;
+
+}
+.dropdown-menu{
+	min-width: 210px;
+}
+.navbar-nav > li > .dropdown-menu{
+	left:0;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dropdown-menu2 {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    display: none;
+    float: left;
+    font-size: 14px;
+    left: 99%;
+    list-style: outside none none;
+    margin: 0 0 0;
+    width:100%;
+    padding: 5px 10px;
+    position: absolute;
+    text-align: left;
+    z-index: 1000;
+	top:0;
+	
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background:none;
+	color:#fed136;
+}
+.m-contact{
+	color:#fff;
+}
+.m-about {
+    background-attachment: scroll;
+    background-image: url("../img/about.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.m-contact2{
+	background-attachment: scroll;
+    background-image: url("../img/contact.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.m-webdesign{
+	background-attachment: scroll;
+    background-image: url("../img/web-design.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.m-webdevel{
+	background-attachment: scroll;
+    background-image: url("../img/web-develop.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.m-graphic-design{
+	background-attachment: scroll;
+    background-image: url("../img/graphic-design.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.m-erp{
+	background-attachment: scroll;
+    background-image: url("../img/erp-solution.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.m-custom-app{
+	background-attachment: scroll;
+    background-image: url("../img/custom-app.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.m-dedicated{
+	background-attachment: scroll;
+    background-image: url("../img/dedicated-services.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.m-support{
+	background-attachment: scroll;
+    background-image: url("../img/support-main.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.m-online-market{
+	background-attachment: scroll;
+    background-image: url("../img/online-marketing.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.m-mobile-app{
+	background-attachment: scroll;
+    background-image: url("../img/mobile-app.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+@media (min-width:320px) and (max-width:480px){
+	.dropdown-menu2{
+		position:relative;
+		left:0;
+	}
+	.dropdown-submenu > a:after{
+	border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid;
+    display: inline-block;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    width: 0;
+	color:#fff;
+	}
+	.dropdown-submenu:hover > a:after{
+	border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid;
+    display: inline-block;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    width: 0;
+	color:#fff;
+	}
+	.dropdown-menu > li > a{
+		color:#fff!important;
+	}
+	.dropdown-submenu > a{
+		background-color:transparent !important;
+	}
+	.dropdown-menu2{
+	border-radius:0;
+	}
+	section{
+	padding: 50px 0 35px;
+	}
+	.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
+		font-size:16px;
+	}
+	.navbar img{
+		margin-top:7px;
+		margin-left:10px;
+		width:70%;
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+User-agent: *
+
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /junk/
+Disallow: career-email.php
+Disallow: contact-email.php
+Disallow: quote-email.php
+Disallow: token.php
+
+Allow: /
+
+

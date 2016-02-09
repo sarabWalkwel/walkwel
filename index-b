@@ -1,0 +1,674 @@
+<?php
+ include('token.php');
+?>
+<!doctype html>
+<html>
+<head>
+<title>Walkwel Technology | Enterprise Solutions</title>
+<meta name="description" content="Looking for Enterprise solutions? At Walkwel, we have dedicated team to resolve your business problems and help grow your business. Our aim is to satisfy our client.">
+<meta name="keywords" content="Enterprise Solutions, Web Design & Development, Walkwel, ERP, Mobile Applications Development, Web Development, Customer Software Development, Enterprise Resource Planning">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="shortcut icon" href="assets/img/favicon.ico">
+
+
+<meta name="google-site-verification" content="13o4fDohXUvqSHVVKRlL8E5xE65IPE9QXN6KXFSBJmw" />
+<meta name="p:domain_verify" content="6e936a79889770d9057152483ea37fc3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all, index, follow">
+<meta name="copyright" content="Copyright &copy; 2014 Walkwel Technology Pvt. Ltd. All Rights Reserved.">
+<meta name="author" content="walkwel.in">
+<meta name="language" content="English">
+<meta name="revisit-after" content="7">
+<meta name="rating" content="safe for kids">
+<meta name="distribution" content="Global" />
+<meta name="publisher" content="http://www.walkwel.in" />
+<!--
+<link href='http://fonts.googleapis.com/css?family=Montserrat:700|Raleway' rel='stylesheet' type='text/css'>
+-->
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/normalize1.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
+<style>
+    .m-footer{
+        position: fixed;
+        top: 547px;
+        z-index: 12;
+    }
+    #request [class^="col-md-"]{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        box-sizing: border-box;
+        float: left;
+        text-align: right;
+    }
+    #request .col-md-2 {
+        width: 16.6667%;
+    }
+    #request .col-md-5 {
+        width: 41.6667%;
+    }
+    #request .col-md-7 {
+        width: 58.3333%;
+    }
+    #request .form-control{
+        margin-bottom: 10px !important;
+    }
+</style>
+
+</head>
+
+<body>
+<div id="loading">	
+    <h1> <img src="assets/img/walkwel-logo.gif" width="140" height="140" /></h1>
+</div>
+<a id="h1"></a>
+<div class="overlay animate"></div>
+<div id="request" class="animate">
+    <div class="container21">
+        <div class="container">
+            <div class="main-heading" style="padding-bottom:10px; padding-top:10px;">
+               <h3 class="text-center">Let's work together</h3>
+            </div>
+            <div class="form">
+                <form method="post" id="quote-form" action="quote-email.php">
+                    <div class="form-content">
+                        <fieldset>
+                            <div class="col-md-5 text-right">
+                                <label for="">What Solution are you looking for ?</label>
+                            </div>
+                            <div class="col-md-7">
+                                <select class="form-control">
+                                    <option value="1">Web</option>
+                                    <option value="2">Software</option>
+                                    <option value="3">Mobile</option>
+                                    <option value="4">Design</option>
+                                    <option value="5">IT Counsulting</option>
+                                </select>
+                            </div>
+                            <div class="col-md-5 text-right">
+                                <label for="currency">What is your budget for the project ?</label>
+                            </div>
+                            <div class="col-md-2">
+                                <select name="currency" class="form-control" style="margin-bottom: 0px !important; height: 46px;">
+                                    <option value="1">INR</option>
+                                    <option value="2">US Dollar</option>
+                                </select>
+                            </div>  
+                            <div class="col-md-5">
+                                <input name="amount" class="form-control" placeholder="Enter Amount" />
+                            </div>   
+                            <div class="col-md-5 text-right">
+                                <label for="">Your Name</label>
+                            </div>
+                            <div class="col-md-7">
+                                <input type="text" name="name" class="form-control" id="q_name" placeholder="">
+                            </div>  
+                            <div class="col-md-5 text-right">
+                                <label for="">Your Company name</label>
+                            </div>
+                            <div class="col-md-7">
+                                <input type="text" name="company_name" class="form-control" id="inputCName" placeholder="">
+                            </div> 
+                            <div class="col-md-5 text-right">
+                                <label for="">Email Address</label>
+                            </div>
+                            <div class="col-md-7">
+                                <input type="email" name="email" class="form-control" id="q_email" placeholder="">
+                            </div>  
+                            <div class="col-md-5 text-right">
+                                <label for="">Phone Number</label>
+                            </div>
+                            <div class="col-md-7">
+                                <input type="text" name="phone" class="form-control" id="q_phone" placeholder="">
+                            </div>  
+                            <div class="col-md-5 text-right">
+                                <label for="">Message</label>
+                            </div>
+                            <div class="col-md-7">
+                              <textarea class="form-control" placeholder="Project Description" id="description" name="q_description" ></textarea>
+                            </div> 
+                            <div class="col-md-12">
+                            </div>
+                            <input type="hidden" name="quote_form_token" value="<?php echo  $_SESSION['session_token']; ?>" />
+                            <div class="col-sm-offset-5 col-sm-2 text-center">
+                              <input type="submit" value="Submit" name="submit" class="btn btn-default w-quote-button"></input>
+                            </div>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <a class="cancel"><i class="fa fa-times"></i></a>
+    </div>
+</div>
+<div id="header" class="headerStick" data-0="background:rgba(0, 0, 0, 0)" data-100="background:rgba(218, 107, 29, 0.8)">
+    <div class="logo">
+        <a href="index.html" data-0="width:260px;" data-100="width:60px;"
+        ><img src="assets/img/logo.png" alt="Walkwel Technology" title="Walkwel Technology" width="260" height="75" /></a>
+    </div>
+    <div class="quote">
+        <a class="req-quote">Quote</a>
+    </div>
+    <div class="navigation">
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="About">Company</a></li>
+            <li><a id="showTop">Solutions &nbsp;<i class="fa fa-caret-down"></i></a>
+                <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="cbp-spmenu-s3">
+                    <div class="navigation21">
+                    <div class="block">
+                        <h4> <i class="fa fa-globe"></i> &nbsp;Web </h4>
+                        <p>
+                            Following is the set of yarns we use to spin the web.
+                        </p>
+                        <a href="seo.php">SEO</a>
+                        <a href="cms.php">CMS</a>
+                        <a href="e-commerce.php">E-Commerce</a>
+                        <a href="web-portal.php">Web Portals</a>
+                    </div>
+                    <div class="block">
+                        <h4><i class="fa fa-laptop"></i> &nbsp;Software</h4>
+                        <p>
+                        List of our “Soft”ware products that punch “Harddd”!!!
+                        </p>
+                        <a href="erp.php">ERP</a>
+                        <a href="web_app.php">Web Applications</a>
+                        <a href="custom_software.php">Custom Software</a>
+                    </div>
+                    <div class="block">
+                        <h4><i class="fa fa-mobile"></i> &nbsp;Mobile</h4>
+                        <p>
+                            Your ideas &amp; our apps "A match made in <font style="text-decoration: line-through;">Heaven</font> Walkwel"
+                        </p>
+                    <a href="ios-apps.php">IOS Applications</a>
+                    <a href="mobile-applications.php">Android Applications</a>
+                    <a href="window-apps.php">Windows Mobile Applications</a>
+                    </div>
+                    <div class="block">
+                        <h4><i class="fa fa-paint-brush"></i> &nbsp;Design</h4>
+                        <p>
+                            We love to add colour to a canvas as long as it is digital.
+                        </p>
+                        <a href="print-design.php">Print Design</a>
+                        <a href="logo-design.php">Logo Design</a>
+                        <a href="web-designing.php">Web Designing</a>
+                    </div>
+                    <div class="block">
+                        <h4><i class="fa fa-bullhorn"></i> &nbsp;Consulting</h4>
+                        <p>
+                            To help you become a better juggler of tasks. 
+                        </p>
+                        <a href="it-consulting.php">IT Consulting</a>
+                        <a href="it-consulting.php">Quality Assurance</a>
+                        <a href="business-intelligence.php">Business Intelligence</a>
+                        <a href="hire-dedicated-resources.php">Hire Dedicated Resources</a>
+                        <a href="support-maintainence.php">Support &amp; Maintainence</a>
+                    </div>
+                    </div>
+                </nav>
+            </li>
+            <li><a id="showCareer">Career &nbsp;<i class="fa fa-caret-down"></i></a>
+                <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="career-menu">
+                    <div class="block" style="width:38%;">
+                        <h4> <i class="fa fa-coffee"></i> &nbsp;Why work at Walkwel </h4>
+                        <h6>How about transforming into a digi-ninja!!!!</h6>
+                        <p>A cheerful friendly character, with dogged determination, dedication to perfection &amp; loads of passion for tech. A right mix of these ingredients form the mythical Ninja. We invite anyone who possesses these inherent traits to join us on this epic journey to become “Staff of Legends”….
+                        </p>
+                    </div>
+                    <div class="block" style="width:30%;">
+                        <h4> <i class="fa fa-birthday-cake"></i> &nbsp;Benefits </h4>
+                        <ul class="work-benefits">
+                            <li>Competitive salary</li>
+                            <li>Holiday increases according to length of service</li>
+                            <li>Smart casual dress code</li>
+                            <li>Regular staff nights out</li>
+                        </ul>
+                    </div>
+                    <div class="block" style="width:30%; background:#f2f2f2; border:1px solid #ddd;height: auto;padding-bottom: 40px;">
+                        <h4><i class="fa fa-bullhorn"></i> &nbsp;Current Vacancies</h4>
+                        <a href="analytics.php">Analytics</a>
+                        <a href="php.php">PHP Developer</a>
+                        <a href="designer.php">Front End Designers</a>
+                        <a href="apps.php">Apps Developer (Android / IOS)</a>
+                        <a href="jmv.php">Java Virtual Machine Developer ( JVM )</a>
+                        <a href="Career" class="call-to-action btn">View All Jobs</a>
+                    </div>
+                </nav>
+            </li>
+            <li><a href="Contact">Contact</a></li>
+        </ul>
+    </div>
+</div>
+<div data-role="mobile" class="headerStick" style="background:rgba(218, 107, 29, 0.8)">
+    <div class="logo">
+        <a href="index.html"><img src="assets/img/logo.png" alt="Walkwel Technology" title="Walkwel Technology" width="260" height="75" /></a>
+    </div>
+    <div class="quote">
+        <a onclick="openMenu();">Menu</a>
+    </div>
+    <div class="navigation">
+        <ul>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="about.html">Company</a></li>
+            <li><a href="solutions.php">Solutions</a></li>
+            <li><a href="career.php">Career</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</div>
+<!-- Header logo/nav -->
+<!-- Banner image/text -->
+<div id="banner" class="bannerSlider" data-460="height:100%;display:block;" data-650="height:0%;display:block;" data-700="height:0%;display:none;" ><!-- data-1000="opacity:1;" data-1001="opacity:0;" -->
+	<div class="slider">
+        <div class="land-delta">
+            <div class="del del-abt">
+                <h1>
+                <span class="svg">We pride ourselves</span>
+                <br>
+                <span class="svg">on delivering<large> above</large> our</span> 
+                <br> <span class="svg">  <large>customer's expectations.</large></span> </h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>When it comes down to it, we love what we do. Or else we wouldn't do it.</h2>
+            </div>
+            <div class="del del-qu">
+            </div>
+            <div class="del del-soc">
+            </div>
+        </div>    	
+        <div class="image">
+        	<img src="assets/slider/slide4.jpg" alt="Walkwel" class="responsive" />
+        </div>
+    </div>
+    <div class="textSlider" data-0=" opacity: 1; top:26%;" data-300="opacity:0; top:15%;">
+    	<div class="textGroup">
+        	<div class="rotater1">
+                <h1 class="first">INNOVATE</h1>
+                <h1>TRUST</h1>
+                <h1>TALENT</h1>
+            </div>
+            <span>/</span>
+            <div class="rotater2">
+                <h1 class="second">DEVELOP</h1>
+                <h1>PASSION</h1>
+                <h1>EXPRESS</h1>
+            </div>
+            <span>/</span>
+            <div class="rotater3">
+                <h1 class="third">IMPROVE</h1>
+                <h1>SHARE</h1>
+                <h1>QUALITY</h1>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="scrolDownArow" data-0="opacity:1;" data-250="opacity:0;">
+    	<a class="button_down_container" title="SCROLL DOWN">
+            <img src="assets/img/cover_arrow.png" alt="Scroll Down" width="43" height="22" />
+          </a>
+    </div>
+    -->
+</div>
+<div class="page_content">
+    <!-- about us -->
+    <div id="about" class="aboutus" >
+    	<div class="wrapper">
+        	<div class="main-heading">
+                            <img src="assets/slider/splash.png" data-0="position:absolute; top:0; left:800px"  />
+                            <!-- data-0="position:absolute; top:-200px; left:350px" data-400="top:-200px;left:350px"  data-600="top:0; left:800px" -->
+
+            <h3 >Namastey!!!!!</h3>
+            <h4 >A little something about us.<br><br>
+            We Crawl, Jump, Sprint &amp; sometimes Rollover ahead of existing trends.<br><br>
+Approach -“Putting Clients in the Driver's Seat". We would navigate your vision towards success.<br><br>
+End product - “We have a winner on our hands”.<small>Apologies for being cheeky, we are that good.</small>  
+</h4>
+        </div>
+            <!--<div class="main-heading">
+                <h3 data-350="margin-left:0px;opacity:0;" data-500="margin-left:80px;opacity:1;">Namastey!!!!!</h3>
+                <h4 >A little something about us.<br><br>
+                <span data-400="margin-left:-50px;opacity:0;">
+                Mantra - &quot;Leap to Future&quot;. We Crawl, Jump, Sprint &amp; sometimes Rollover ahead of existing trends.<br><br>
+                </span>
+                <span data-400="margin-left:-50px;opacity:0;">
+                Approach -“Putting Clients in the Driver's Seat". We would navigate your vision towards success.<br><br>
+                </span>
+                <span data-400="margin-left:-50px;opacity:0;">
+                End product - “We have a winner on our hands”.Apologies for being cheeky, we are that good.  
+                </span>
+                </h4>
+            </div>-->
+        </div>
+    </div>
+    <!-- what we offer slider -->
+    <div id="slider1" class="whatWeOffer" data-450="top:200%;height:100%;" data-460="top:0%;"  data-1600="height:100%;" data-1670="height:60%" data-1750="opacity:1;"  data-1900="opacity:0;display:block;" data-1950="display:none;" ><!-- data-350="opacity:0;top:200px;" data-400="opacity:1;" data-500="opacity:1;" data-1400="top:-50px;" -->
+    	<div class="wrapper" >
+            <div class="main-heading text">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            	<div ><!-- data-1150="opacity:0;"  data-1250="opacity:1;" -->
+                    <h3 style="color:#fff;">What we offer to <br><span style="background:#fff; color:#333; padding-left:30px; padding-right:20px;">businesses</span></h3>
+                </div>
+                <h4 style="color:#fff;">Increase corporate efficiency and accuracy through automation of key business processes.
+                We at Walkwel, harness the power and intelligence of agile and lean methods, while leveraging the benifits of cutting edge tools that take smart solutions to the next level.</h4>
+                <!-- data-1200="opacity:0;"  data-1400="opacity:1;" -->
+            </div>
+        </div>
+    </div>
+
+    <!-- about us -->
+    <div id="about1" style="z-index:26" class="technologies" data-1000="top:300%;" data-1200="" >
+        <div class="main-heading text-center" style="padding-top:30px; padding-bottom:60px">
+            <h3 class=" text-center">Technologies We Use</h3>
+        </div>
+        <div class="container-fluid">
+            <div class="row" style="padding:0 20px">
+                <div class="col-md-12">
+                    <div class="grid">
+                        <figure class="effect-goliath">
+                            <img src="img/java.jpg" alt="img18"/>
+                            <figcaption>
+                                <h2> <span></span></h2>
+                                <p>Java</p>
+                                <!--<a href="#">View more</a>-->
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/html5.jpg" alt="img22"/>
+                            <figcaption>
+                                <h2><span></span></h2>
+                                <p>HTML 5</p>
+                                <!--<a href="#">View more</a>-->
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/node.jpg" alt="img18"/>
+                            <figcaption>
+                                <h2> <span></span></h2>
+                                <p>Node.Js</p>
+                                <!--<a href="#">View more</a>-->
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/android.jpg" alt="img22"/>
+                            <figcaption>
+                                <h2><span></span></h2>
+                                <p>Android</p>
+                                <!--<a href="#">View more</a>-->
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/mysql.jpg" alt="img22"/>
+                            <figcaption>
+                                <h2><span></span></h2>
+                                <p>MySQL</p>
+                                <!--<a href="#">View more</a>-->
+                            </figcaption>           
+                        </figure>
+                    </div>
+                    <div class="grid">
+                        <figure class="effect-goliath">
+                            <img src="img/php.jpg" alt="img18"/>
+                            <figcaption>
+                                <h2> <span></span></h2>
+                                <p>PHP</p>
+                                <!--<a href="#">View more</a>-->
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/ios.jpg" alt="img22"/>
+                            <figcaption>
+                                <h2><span></span></h2>
+                                <p>IOS</p>
+                                <!--<a href="#">View more</a>-->
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/windows.jpg" alt="img18"/>
+                            <figcaption>
+                                <h2> <span></span></h2>
+                                <p>Windows</p>
+                                <!--<a href="#">View more</a>-->
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/css.jpg" alt="img22"/>
+                            <figcaption>
+                                <h2><span></span></h2>
+                                <p>CSS 3</p>
+                                <!--<a href="#">View more</a>-->
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/net.jpg" alt="img22"/>
+                            <figcaption>
+                                <h2><span></span></h2>
+                                <p>Microsoft Dot Net</p>
+                                <!--<a href="#">View more</a>-->
+                            </figcaption>           
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- primary services -->
+    <div id="services" class="primaryServices" data-900="top:900px; display:block;" data-1100="opacity:0;top:0;" data-1200="opacity:1;" data-3950="opacity:1; display:block;" data-3960="opacity:0; display:none;" ><!--  data-1600="top:1200px;" data-1300="top:1435px;" -->
+    	<div class="wrapper">
+        	<div class="prim-service" data-0="opacity:0;" data-1800="opacity:0;top:100px;" data-2000="opacity:1;top:0;">
+                <h5>Our Solutions</h5>
+                <div class="prim-ser-container">
+                    <div class="col-md-3 large web">
+                        <a href="web.php">
+                            <i class="fa fa-globe"></i>
+                            <h4>Web</h4>
+                        </a>
+                        <p>
+                        Extracting the maximum benefit out of the feature packed Web 2.0.</p>
+                    </div>
+                    <div class="col-md-3 large enterprise1">
+                        <a href="software.php">
+                            <i class="fa fa-laptop"></i>
+                            <h4>Software</h4>
+                        </a>
+                        <p>
+                        List of our “Soft”ware solutions that punch “Harddd”!!! </p>
+                    </div>
+                    <div class="col-md-3 large mobile1">
+                        <a href="mobile.php">
+                            <i class="fa fa-mobile"></i>
+                            <h4>Mobile</h4>
+                        </a>
+                        <p>Your ideas &amp; our apps "A match made in Heaven Walkwel" </p>
+                        
+                    </div>
+                    <div class="col-md-3 large web" style="margin-left: 155px;margin-top: 40px;">
+                        <a href="design.php">
+                            <i class="fa fa-paint-brush"></i>
+                            <h4>Design</h4>
+                        </a>
+                        <p>
+                        We love to add colour to a canvas as long as it is digital. </p>
+                    </div>
+                    <div class="col-md-3 large enterprise1" style="margin-top: 40px;">
+                        <a href="consulting.php">
+                            <i class="fa fa-bullhorn"></i>
+                            <h4>Consulting</h4>
+                        </a>
+                        <p>
+                        To help you become a better juggler of tasks. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio slider -->
+    <div id="slider2" class="portfolio" data-0="opacity:0;top:2200px;"  data-2300="opacity:1;" data-250="">
+    	<div class="wrapper">
+            <div class="text">
+                <h3>We develop incredibly</h3>
+                <h2>PRODUCTIVE DESIGNS</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- what we offer slider -->
+    <div id="slider3" class="contactUs" data-0="top: 4000px;" ><!-- data-350="opacity:0;top:200px;" data-400="opacity:1;" data-500="opacity:1;" data-1400="top:-50px;" -->
+        <a id="h5"></a>
+    	<div class="wrapper">
+            <div class="text" style="text-align:center">
+                <div class="main-heading" style="padding-bottom:20px">
+                    <h3 style="color:#fff;">Contact Us</h3>
+                    <h4 style="color:#fff; font-size:26px">If you have a new business enquiry,<br> a cracking project idea or simply want to have a chat <br>and explore how we can work together, we'd love to hear from you.</h4>
+                </div>
+                <!---<a href="contact.php" class="btn">Contact Us</a>-->
+                <div class="footer-icons">
+                    <div class="icon icon-telephone">
+                        <i class="fa fa-phone"></i>
+                        <p>+91-181-5041414</p>
+                    </div>
+                    <div class="icon icon-telephone">
+                        <i class="fa fa-envelope"></i>
+                        <p>info@walkwel.in</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer" class="m-footer" data-3500="display:none;" data-3800="display:block;">
+        <div class="address" style="border:none;">
+            <div class="wrapper">
+                <div class="m-footer-left" style="text-align:center; width:100%;">
+                <!--
+                  <h3>Solutions</h3>
+                  <dl>
+                    <dt>Web</dt>
+                      <dd>Web Design</dd>
+                      <dd>E-Commerce</dd>
+                      <dd>Web Portals</dd>
+                      <dd>CMS</dd>
+                    <dt>Software</dt>
+                      <dd>Web Applications</dd>
+                      <dd>Desktop Applications</dd>
+                      <dd>CRM Applications</dd>
+                      <dd>Custom Software</dd>
+                  </dl>
+                  <dl>
+                    <dt>Mobile</dt>
+                      <dd>IOS Applications</dd>
+                      <dd>Android Applications</dd>
+                      <dd>Windows Mobile Applications</dd>
+                    <dt>Design
+                      <dd>Graphic Design</dd>
+                      <dd>Usability Analysis</dd>
+                      <dd>Multimedia Websites</dd>
+                    </dt>
+                    <dt>Consulting
+                      <dd>IT Consulting</dd>
+                      <dd>Software Consulting</dd>
+                      <dd>Business Intelligence</dd>
+                      <dd>Application Support &amp; Maintainence</dd>
+                    </dt>
+                  </dl>
+                  -->
+                  <br>
+                <h3>Walkwel Technology Pvt. Ltd.</h3>
+                <p>Garha Road, Jalandhar City, 144001, Punjab, India.</p>   
+                <!--
+                  <p><i class="fa fa-phone"></i> &nbsp;(91) 181 5041414 &nbsp; <i class="fa fa-envelope"></i>
+        info@walkwel.in</p>  
+                  <p><span> Follow Us</span>&nbsp;
+                   <a href="http://facebook.com/walkwel" target="_blank"><i class="fa fa-facebook"></i></a>
+                   <a href="http://lnkd.in/bUaZ-8M" target="_blank"><i class="fa fa-linkedin"></i></a>
+                   <a href="https://twitter.com/Walkwel" target="_blank"><i class="fa fa-twitter"></i></a></p>
+                   <br>
+                   -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div data-4030=""></div>
+<script type="text/javascript" src="assets/js/ssm.js"></script>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+<script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
+
+<script type="text/javascript" src="assets/js/jquery.validate.js"></script>
+<script type="text/javascript" src="assets/js/quote-validate.js"></script>
+<!-- scripts -->
+<script type="text/javascript" src="assets/js/skrollr.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="assets/js/skrollr.ie.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="assets/js/walkwel.js"></script>
+<script src="assets/js/modernizr.custom.js"></script>
+<script type="text/javascript">
+
+
+$('.logo a').hover(function() {
+    $(this).animate({width:260},50);
+},
+function() {
+    $(this).animate({width:60},50);
+});
+$().ready(function() {
+	// validate quote form
+	$("#quote-form").validate({
+	rules: {
+		name: "required",
+		email:
+			{
+				required: true,
+				email: true
+			},
+		phone:
+			{
+				required: true,
+				digits: true,
+				minlength: 10,
+				maxlength: 10
+			},			
+			
+		description:
+			{
+				required: true,
+				minlength: 100,
+				maxlength: 300
+			},
+			
+		},
+		messages: {
+			name: "Please enter your name",
+			email: "Please enter a valid email address",
+			phone: {
+				required: "Please enter your phone no.",
+				digits: "Please enter only digits.",
+				minlength: "Please enter at least 10 digits.",
+				maxlength: "Please enter no more than 10 digits. "
+			},
+			description: {
+				required: "Please enter your message",
+				minlength: "Please enter at least 100 characters.",
+				maxlength: "Please enter no more than 300 characters."
+			}
+		}
+	});
+});
+</script>
+</body>
+</html>
+
+
+
+
