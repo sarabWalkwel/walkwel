@@ -511,7 +511,7 @@ svg{
     <div class="container21">
         <div class="container">
             <div class="main-heading" style="padding-bottom:10px; padding-top:10px;">
-               <h3 class="text-center">Contact Us</h3>
+               <h1 class="text-center">Contact Us</h1>
             </div>
             <div class="form">
                 <form method="post" id="contactq-form" action="quote-email.php">
@@ -740,14 +740,16 @@ svg{
             <div class="main-heading">
                 <div class="col-md-5 text-center namstay-img">
                     <img src="assets/img/hands.png" height="390"  />
-                    <h3>Namastey!</h3> 
+                    <h1>Namastey!</h1> 
                 </div>
                 <div class="col-md-7 text-center mantra-text">
-                    <h3 class="text-left">Welcome to the official website of one such vendor - Walkwel</h3>
+                    <h1 class="text-left">We are Walkwel</h1>
                     <p>To make your business a success you need complete software solutions such as a website, mobile apps, etc. With that you need branding that aligns with your vision and mission. Also, you need an addictive UX that attracts users to your business. What you don't need is to hire three different firms to execute them all.
     
                     <br><br>You need only one vendor that doesn't compromise on quality. You need only one vendor that considers your success as their success by intending to build a relationship. You need only one vendor that is ISO 9001:2008 certified and has a proven track record doing business all over the world.
                     <br><br>You need only one vendor that doesn't compromise on quality. You need only one vendor that considers your success as their success by intending to build a relationship. You need only one vendor that is ISO 9001:2008 certified and has a proven track record doing business all over the world.
+                        <br><br>
+                        Welcome to the official website of one such vendor - Walkwel
                     </p>
                 </div>
             </div>
@@ -831,7 +833,7 @@ svg{
                     <img height="390" src="assets/img/our-story.png" style="width: 100%; height: auto; margin: 28px 0px;">
                 </div>
                 <div class="col-md-7 text-center mantra-text">
-                    <h3 class="text-left">This is Our Story</h3>
+                    <h1 class="text-left">This is Our Story</h1>
                     <p>A bunch of friends, sipping chai on a breezy evening in Bangalore, clicked upon an idea. They went ahead, made their first client, and Walkwel was born.
     
                     <br><br>In the years that followed, many clients were added. The team grew in size, and so did the scale of operations. The work kept coming, while maintaining great relationship with our first ever client.
@@ -845,7 +847,7 @@ svg{
         <!-- technologies -->
     <div id="about1" style="z-index:26" class="technologies" >
         <div class="main-heading text-center" style="padding-top:30px; padding-bottom:20px">
-            <h3 class=" text-center">Technologies We Use</h3>
+            <h1 class=" text-center">We provide solutions using these technologies</h1>
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -934,7 +936,7 @@ svg{
         <div class="wrapper">
             <div class="text" style="text-align:center">
                 <div class="main-heading" style="padding-bottom:20px">
-                    <h3 style="color:#fff;">Contact Us</h3>
+                    <h1 style="color:#fff;">Contact Us</h1>
                     <h4 style="color:#fff; font-size:26px">If you have a new business enquiry,<br> a cracking project idea or simply want to have a chat <br>and explore how we can work together, we'd love to hear from you.</h4>
                 </div>
                 <div class="footer-icons">

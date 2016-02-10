@@ -26,6 +26,7 @@
 body {
     background-image: url("../slider/slide4.jpg") ;
     background-size: contain;
+    background-repeat: no-repeat;
     font-family: Montserrat,sans-serif;
 }
 #cbp-spmenu-s3,
@@ -4151,10 +4152,10 @@ input[name=pincode] {
 .fun-facts {
   padding: 80px 20px 0;
 }
-.main-heading h3              { font-family: Montserrat, sans-serif; color: #333; text-transform: none; font-weight: 700; font-size: 34px; text-align: center; line-height: 38px; }
-.main-heading h3.text-left { font-family: Montserrat, sans-serif; color: #333; text-transform: none; font-weight: 700; font-size: 28px; text-align: left; line-height: 38px; }
-.main-heading h3 a            { color: #333 !important; font-size: 30px; }
-.main-heading h3 small {
+.main-heading h1              { font-family: Montserrat, sans-serif; color: #333; text-transform: none; font-weight: 700; font-size: 34px; text-align: center; line-height: 38px; }
+.main-heading h1.text-left { font-family: Montserrat, sans-serif; color: #333; text-transform: none; font-weight: 700; font-size: 34px; text-align: left; line-height: 38px; margin-top: 10px; }
+.main-heading h1 a            { color: #333 !important; font-size: 30px; }
+.main-heading h1 small {
   color: #666;
   font-size: 30px;
 }
@@ -4192,7 +4193,7 @@ input[name=pincode] {
 }
 .main-heading > h5.text-center {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    color: #868686;
+    color: #bababa;
     font-family: open_sansregular;
     font-size: 16px;
     font-weight: 400;
@@ -4403,6 +4404,8 @@ input[name=pincode] {
     z-index: 22;
     width: 100%;
     background-color: rgba(0, 0, 0, .7);
+    background-image: url("../slider/slide4.jpg") ;
+    background-size: cover;
 }
 .solutions .service {
     padding: 34px;
