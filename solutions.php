@@ -36,6 +36,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
 
     <link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
 
     <title>Solutions | Customer Software Development | Walkwel Technology</title>
 
@@ -75,7 +76,7 @@
 
 </head>
 
-<body class="about">
+<body class="inner">
 
 <div id="loading">
 
@@ -88,232 +89,163 @@
 <!-- Banner image/text -->
 
 <div id="banner" class="m-services-header" >
-
-	<div class="slider">
-
-    	<div class="image">
-
-        	<img src="assets/slider/web-walkwel.jpg" alt="web-walkwel" class="responsive" />
-
+  <div class="slider">
+      <div class="image">
+          <img src="assets/slider/aboutus.jpg" alt="about-walkwel" class="responsive" />
             <div class="m-about-head banner-title" style="width:100%; text-align:center;">
-
-            <h3 style="font-size:100px">our solutions.</h3>
-
-            <h4>Extracting the maximum benefit out of the feature packed Web 2.0. </h4>
-
-            </div>
-
+            <!--<h1>ABOUT US</h1>-->
+            <div class="container-fluid">
+                <h1>Solutions</h1>
+                <div class="breadcrumb-box">
+                    <ul class="breadcrumb">
+                      <li> <a href="index.html">Home</a> </li>
+                      <li class="active">Solutions</li>
+                    </ul>
+                </div>
+            </div>            
         </div>
-
+        </div>
     </div>
-
 </div>
 
 <!-- about us -->
 
 <!-- primary services -->
 
-<div id="content" class="content aboutIn">	
-
-    <ol class="breadcrumb">
-
-      <li><a href="#">Home</a></li>
-
-      <li class="active">Solutions</li>
-
-    </ol>
+<div id="content" class="content aboutIn ">	
 
     <div class="container" style="padding-top:40px;">
-
-        <div class="row">
-
-            <div class="col-md-6">
-
-                <div class="main-heading">
-
-                    <h3><a href="web.php">Web</a></h3>
-
-                    <p>
-
-                        Walkwel provides professional website design, development and maintenance services. Our skilled web designers and developers accomplish various website projects from brochure sites to multi-functional web portals. Walkwel has a large pool of resources and the required business and technical expertise to develop websites of any complexity. We provide complete front-end and back-end development based on the latest technologies and industry trends.
-
-                    </p>
-
-                    <ul class="solutions-list">
-
-                        <li><a href="seo.php">SEO</a></li>
-
-                        <li><a href="cms.php">CMS</a></li>
-
-                        <li><a href="e-commerce.php">E-Commerce</a></li>
-
-                        <li><a href="web-portal.php">Web Portals</a></li>
-
-                    </ul>
-
+        <div class="row animatedParent animateOnce">
+            <div class="col-md-6 ">
+                <div class="main-heading animated fadeInLeft">
+                    <h3>Web Design</h3>
+                    <p>We love anything that is delightful, engaging and fluid. So are our websites. Be it a single page parallex or a multi page dynamic, all our websites are crafted with care and precision. We are cautious that it's not only about the looks. Because a certain Steve Jobs had famously remarked "It’s not just what it looks like and feels like. Design is how it works."</p>
                 </div>
-
             </div>
-
             <div class="col-md-6 text-center" data-role="pc">
-
-                <img src="assets/img/sol-icons/web-walkwel.png" alt="web-walkwel">
-
+                <img src="img/website-design.jpg" alt="web-walkwel " class="animated fadeInRight">
             </div>
-
         </div>
-
-        <div class="row">
-
+        <div class='animatedParent animateOnce'>
+            <hr class='animated fadeIn slow' />
+        </div>
+        <div class="row animatedParent animateOnce">
             <div class="col-md-6 text-center" data-role="pc">
-
-                <img src="assets/img/sol-icons/software-walkwel.png" alt="software-walkwel">
-
+                <img src="img/website-development.jpg" alt="software-walkwel" class="animated fadeInLeft">
             </div>
-
             <div class="col-md-6">
-
-                <div class="main-heading">
-
-                    <h3><a href="software.php">Software</a></h3>
-
-                    <p>
-
-                        Whether you are looking for software development solutions to increase the capacity of your existing team or want to outsource a project to a specialised partner, Walkwel has a model which can be tailored to meet your requirements
-
-                    </p>
-
-                    <ul class="solutions-list">
-
-                        <li><a href="erp.php">ERP</a></li>
-
-                        <li><a href="web_app.php">Web Applications</a></li>
-
-                        <li><a href="custom_software.php">Custom Softwares</a></li>
-
-                    </ul>
-
+                <div class="main-heading animated fadeInRight">
+                    <h3>Web Development</h3>
+                    <p>All our websites are beautiful, responsive and performance optimized. The result is a nifty user experience, happy moments, and increased revenues. Because a website is the main point of contact for your customers. Don't make it small. Go ahead, take a leap and see the effect. Your customers will be the happiest.</p>
                 </div>
-
             </div>
-
         </div>
-
-        <div class="row">
-
+        <div class='animatedParent animateOnce'>
+            <hr class='animated fadeIn slow' />
+        </div>
+        <div class="row animatedParent animateOnce">
             <div class="col-md-6">
-
-                <div class="main-heading">
-
-                    <h3><a href="mobile.php">Mobile</a></h3>
-
-                    <p>
-
-                        Our experienced and enthusiastic developers can help you turn your ideas into a feature-rich, easy-to-use app which is a pleasure to use, and works to achieve your business goals.
-
-                    </p>
-
-                    <ul class="solutions-list">
-
-                        <li><a href="ios-apps.php">IOS Applications</a></li>
-
-                        <li><a href="mobile-applications.php">Android Applications</a></li>
-
-                        <li><a href="window-apps.php">Windows Mobile Applications</a></li>
-
-                    </ul>
-
+                <div class="main-heading animated fadeInLeft">
+                    <h3>Mobile Apps</h3>
+                    <p>PC sales might be dipping down but smartphone sales are consistently increasing. Shift your business to mobile. Get your own mobile app, for iPhone and Android. Share the App / Play Store links with your customers, and see the effect. We'll execute all of it to perfection.</p>
                 </div>
-
             </div>
-
             <div class="col-md-6 text-center" data-role="pc">
-
-                <img src="assets/img/sol-icons/mobile-walkwel.png" alt="mobile-walkwel">
-
+                <img src="img/mobile-app-design.jpg" alt="mobile-walkwel" class="animated fadeInRight">
             </div>
-
         </div>
-
-        <div class="row">
-
+        <div class='animatedParent animateOnce'>
+            <hr class='animated fadeIn slow' />
+        </div>
+        <div class="row animatedParent animateOnce">
             <div class="col-md-6 text-center" data-role="pc">
-
-                <img src="assets/img/sol-icons/design-walkwel.png" alt="design-walkwel">
-
+                <img src="img/seo.jpg" alt="design-walkwel" class="animated fadeInLeft">
             </div>
-
             <div class="col-md-6">
-
-                <div class="main-heading">
-
-                    <h3><a href="design.php">Design</a></h3>
-
-                    <p>
-
-                       Ready to engage visitors, lower bounce rates and improve your conversions? Responsive web design could be the tool you need to get visitors clicking. Time and again smart UX design has been shown to improve visitor retention, customer engagement, visitor returns and give online businesses a great big boost.
-
-                    </p>
-
-                    <ul class="solutions-list">
-
-                        <li><a href="web-designing.php">Web Designing</a></li>
-
-                        <li><a href="print-design.php">Print Design</a></li>
-
-                        <li><a href="logo-design.php">Logo Design</a></li>
-
-                    </ul>
-
+                <div class="main-heading animated fadeInRight">
+                    <h3>SEO</h3>
+                    <p>Get your website listed in all leading search engines such as Google and Bing, without spending a dime on paid advertisements. Research reveals that 90% search engine clicks are organic i.e. not on an advertisement. Another research reveals that 85% search queries don't go to second page. The solution? Search Engine Optimization, done by experts.</p>
                 </div>
-
             </div>
-
         </div>
-
-        <div class="row">
-
+        <div class='animatedParent animateOnce'>
+            <hr class='animated fadeIn slow' />
+        </div>
+        <div class="row animatedParent animateOnce">
             <div class="col-md-6">
-
-                <div class="main-heading">
-
-                    <h3><a href="consulting.php">Consulting</a></h3>
-
-                    <p>
-
-                        When you have to impress your web audience, the importance of a fast loading website is undeniable. 79% of online shoppers will never come back to a slow website. An HTML based website gives you a strong foundation for satisfying visitors with quick loading and multi-device compatibility features. Moreover, search engines find HTML websites the easiest to read, making them highly advantageous for your business’ online visibility.
-
-                    </p>
-
-                    <ul class="solutions-list">
-
-                        <li><a href="it-consulting.php">IT Consulting</a></li>
-
-                        <li><a href="quality-assurance.php">Quality Assurance</a></li>
-
-                        <li><a href="business-intelligence.php">Business Intelligence</a></li>
-
-                        <li><a href="hire-dedicated-resources.php">Hire Dedicated Resources</a></li>
-
-                        <li><a href="support-maintainence.php">Support &amp; Maintainece</a></li>
-
-                    </ul>
-
+                <div class="main-heading animated fadeInLeft">
+                    <h3>Custom Software</h3>
+                    <p>ERP? Desktop apps? Educational suite? Developed with fun and an intent to serve? You'll get the Software of your choice, with requirements as per your wishes. No need to rub the magic lamp, we'll be your Genie, you just need to connect with us. Simply because your wish is our command.</p>
                 </div>
-
             </div>
-
             <div class="col-md-6 text-center" data-role="pc">
-
-                <img src="assets/img/sol-icons/consulting-walkwel.png" alt="consulting-walkwel">
-
+                <img src="img/custom-software.jpg" alt="consulting-walkwel" class="animated fadeInRight">
             </div>
-
         </div>
-
+        <div class='animatedParent animateOnce'>
+            <hr class='animated fadeIn slow' />
+        </div>
+        <div class="row animatedParent animateOnce">
+            <div class="col-md-6 text-center" data-role="pc">
+                <img src="img/testing.jpg" alt="consulting-walkwel" class="animated fadeInLeft">
+            </div>
+            <div class="col-md-6">
+                <div class="main-heading animated fadeInRight">
+                    <h3>Quality Assurance</h3>
+                    <p>Finding and fixing faults, aka testing, is a serious activity. It includes knowing what you are doing, thinking out of the box, and taking risks. If done incorrectly it results in a bad software, which is frustrating, irritating and expensive. Fret not, you are in safe hands with Walkwel.</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class='animatedParent animateOnce'>
+            <hr class='animated fadeIn slow' />
+        </div>
+        <div class="row animatedParent animateOnce">
+            <div class="col-md-6">
+                <div class="main-heading animated fadeInLeft">
+                    <h3>Integration</h3>
+                    <p>We can make your smartphone talk to your ERP system. We can make your medical device talk to your online appointment system. We integrate your hetrogeneous systems, making them talk in a common language. The possibilities are endless, and the results can be very glorious.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center" data-role="pc">
+                <img src="img/software-Integration.jpg" alt="consulting-walkwel" class="animated fadeInRight">
+            </div>
+        </div>
+        <div class='animatedParent animateOnce'>
+            <hr class='animated fadeIn slow' />
+        </div>
+        <div class="row animatedParent animateOnce">
+             <div class="col-md-6 text-center" data-role="pc">
+                <img src="img/e-commerce-solution.jpg" alt="consulting-walkwel" class="animated fadeInLeft">
+            </div>
+            <div class="col-md-6">
+                <div class="main-heading animated fadeInRight">
+                    <h3>E-commerce Solutions</h3>
+                    <p>Move beyond brick and mortar business. Place a bet on the Internet. Sell your products anywhere & everywhere. We'll make that happen, by creating a User friendly and responsive e-commerce store suited to your requirements, that'll load quickly in desktop as well as mobile phones, directly integrated with your bank account.</p>
+                </div>
+            </div>
+           
+        </div>
+        <div class='animatedParent animateOnce'>
+            <hr class='animated fadeIn slow' />
+        </div>
+        <div class="row animatedParent animateOnce">
+            <div class="col-md-6">
+                <div class="main-heading animated fadeInLeft">
+                    <h3>Outsourcing</h3>
+                    <p>Finding and fixing faults, aka testing, is a serious activity. It includes knowing what you are doing, thinking out of the box, and taking risks. If done incorrectly it results in a bad software, which is frustrating, irritating and expensive. Fret not, you are in safe hands with Walkwel.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center" data-role="pc">
+                <img src="img/outsourcing.jpg" alt="consulting-walkwel" class="animated fadeInRight">
+            </div>
+        </div>
+       <div class='animatedParent animateOnce'>
+            <hr class='animated fadeIn slow' />
+        </div>
         <!--
 
-        <div class="row">
+        <div class="row animatedParent animateOnce">
 
             <div class="col-md-12">
 
@@ -333,7 +265,7 @@
 
     </div>
 
-    <div class="row">
+    <div class="row animatedParent animateOnce">
 
         <div class="">
 
@@ -354,13 +286,12 @@
 </div>
 
 <!-- scripts -->
-
+<script src="js/jquery.js"></script>
 <script type="text/javascript" src="assets/js/skrollr.js"></script>
-
 <script type="text/javascript" src="assets/js/jquery.slimscroll.js"></script>
-
 <script type="text/javascript" src="assets/js/walkwel.js"></script>
 
+<script src='js/css3-animate-it.js'></script>
 </body>
 
 </html>
