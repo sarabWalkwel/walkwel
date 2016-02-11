@@ -187,6 +187,53 @@ h3 a{
 	left: -240px;
 }
 
+/*new css*/
+.port-menu .block {
+    margin-top: 0px !important;
+    height: 225px !important;
+    border-right: 1px dotted rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.port-menu img{
+    padding: 0px !important;
+}
+.port-menu 
+{
+	transition:all 0.3s !important;
+	height: 225px !important;
+	left:-10% !important;
+	visibility: hidden;
+	opacity: 0;
+}
+.port-menu a{
+	transition:all 0.3s !important;
+}
+.navigation li:hover .cbp-spmenu.port-menu
+{
+    visibility: visible;
+    left:0% !important;
+    opacity: 1;
+}
+.cbp-spmenu-horizontal .view-port {
+    background: url(../../img/portbg.jpg) no-repeat;
+    font-size: 10px !important;
+    text-align: center;
+    background-position: center;
+    width: 140px !important;
+    color: #fff !important;
+    display: inline-block;
+    margin-left: 70px;
+}
+.cbp-spmenu-horizontal .view-port:hover {
+    background: url(../../img/porthbg.jpg) no-repeat;
+    font-size: 10px !important;
+    text-align: center;
+    background-position: center;
+    width: 140px !important;
+    color: #fff !important;
+    }
+
+
 /* Transitions */
 
 .cbp-spmenu,

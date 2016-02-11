@@ -263,7 +263,7 @@ svg{
 </style>
 </head>
 <body>
-<div id="loading">	
+<div id="loading">  
     <h1> <img src="assets/img/walkwel-logo.gif" width="140" height="140" /></h1>
 </div>
 <a id="h1"></a>
@@ -365,17 +365,17 @@ svg{
 <!--Header -->
 <div class="overlay animate"></div>
 <div id="request" class="animate">
-	<div class="container21">
-    	<div class="container">
+    <div class="container21">
+        <div class="container">
             <div class="main-heading" style="padding-bottom:10px; padding-top:10px;">
-        	   <h3 class="text-center">Let's work together</h3>
+               <h3 class="text-center">Let's work together</h3>
             </div>
             <div class="form">
                 <form method="post" id="quote-form" action="quote-email.php">
                     <!-- 
-                	<div class="form-content">
-                    	<h1 class="text-center">What service are you looking for ?</h1>
-                    	<fieldset>
+                    <div class="form-content">
+                        <h1 class="text-center">What service are you looking for ?</h1>
+                        <fieldset>
                           <div class="col-md-3">                 
                             <input type="checkbox" id="erp_solution" name="erp_solution" value="ERP Solution" />
                             <label>ERP Solution</label>
@@ -416,7 +416,7 @@ svg{
                         </fieldset>
                     </div> 
                     <div class="form-content">
-                    	<h1 class="text-center">What is your budget for the project ?</h1>
+                        <h1 class="text-center">What is your budget for the project ?</h1>
                         <fieldset>
                             <div class="col-md-3">
                             <input type="radio" name="budget" value="25,000 - 50,000" />
@@ -504,7 +504,7 @@ svg{
                 </form>
             </div>
         </div>
-    	<a class="cancel"><i class="fa fa-times"></i></a>
+        <a class="cancel"><i class="fa fa-times"></i></a>
     </div>
 </div>
 <div id="contact" class="animate">
@@ -567,7 +567,7 @@ svg{
 </div>
 <div id="header" class="headerStick"  data-0="background:rgba(0, 0, 0, 0)" data-100="background:rgba(218, 107, 29, 0.8)">
     <div class="logo">
-        <a href="Home"  data-0="width:260px;" data-100="width:60px;"
+        <a href="index.html"  data-0="width:260px;" data-100="width:60px;"
         ><img src="assets/img/logo.png" alt="Walkwel Technology" title="Walkwel Technology" /></a>
     </div>
     <div class="quote">
@@ -575,9 +575,9 @@ svg{
     </div>
     <div class="navigation">
         <ul>
-            <li><a href="Home">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about-walkwel.html">About Us</a></li>
-            <li><a id="showTop" href="Solutions">Solutions &nbsp;<i class="fa fa-caret-down"></i></a>
+            <li><a id="showTop" href="Solutions.html">Solutions &nbsp;<i class="fa fa-caret-down"></i></a>
                 <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="cbp-spmenu-s3">
                     <div class="navigation21">
                         <div class="block">
@@ -637,7 +637,7 @@ svg{
                     </div>
                 </nav>
             </li>
-            <li><a id="showCareer" href="Career">Career &nbsp;<i class="fa fa-caret-down"></i></a>
+            <li><a id="showCareer" href="Career.html">Career &nbsp;<i class="fa fa-caret-down"></i></a>
                 <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="career-menu">
                     <div class="block" style="width:38%;">
                         <h4> <i class="fa fa-coffee"></i> &nbsp;Why work at Walkwel </h4>
@@ -657,40 +657,61 @@ svg{
                     </div>
                     <div class="block" style="width:30%; background:#f2f2f2; border:1px solid #ddd;height: auto;padding-bottom: 40px;">
                         <h4><i class="fa fa-bullhorn"></i> &nbsp;Current Vacancies</h4>
-                        <a href="Analytics">Analytics</a>
-                        <a href="PHP">PHP Developer</a>
-                        <a href="Designer">Front End Designers</a>
-                        <a href="Apps">Apps Developer (Android / IOS)</a>
-                        <a href="JVM">Java Virtual Machine Developer ( JVM )</a>
-                        <a href="Career" class="call-to-action btn">View All Jobs</a>
+                        <a href="Analytics.html">Analytics</a>
+                        <a href="PHP.html">PHP Developer</a>
+                        <a href="Designer.html">Front End Designers</a>
+                        <a href="Apps.html">Apps Developer (Android / IOS)</a>
+                        <a href="JVM.html">Java Virtual Machine Developer ( JVM )</a>
+                        <a href="Career.html" class="call-to-action btn">View All Jobs</a>
                     </div>
                 </nav>
             </li>
-            <li><a href="Portfolio">Our Portfolio</a></li>
-            <li><a href="Contact">Contact</a></li>
+             <li><a href="Portfolio.html" id="">Our Portfolio &nbsp;<i class="fa fa-caret-down"></i></a>
+                 <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top port-menu" >
+                    <div class="block" style="width:458px;">
+                       <img src="img/portfolioimage.jpg" alt="">
+                    </div>
+                    <div class="block" style="width:22%;">
+                       <a href="#"><h4>Web Development</h4></a>
+                       <p>Progressively fashion catalysts for change after functional unities.</p>
+                       <a href="#" class="view-port">View Portfolio</a>
+                    </div>
+                    <div class="block" style="width:22%;">
+                        <a href="#"><h4>Web Development</h4></a>
+                       <p>Progressively fashion catalysts for change after functional unities.</p>
+                       <a href="#" class="view-port">View Portfolio</a>
+                    </div>
+                    <div class="block" style="width:22%; background:#f2f2f2;height: auto;padding-bottom: 40px;">
+                         <a href="#"><h4>Web Development</h4></a>
+                       <p>Progressively fashion catalysts for change after functional unities.</p>
+                       <a href="#" class="view-port">View Portfolio</a>
+                    </div>
+                </nav>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
 </div>
 <div data-role="mobile" class="headerStick">
     <div class="logo">
-        <a href="Home"><img src="assets/img/logo.png" alt="Walkwel-logo" title="Walkwel Technology" width="260" height="75" /></a>
+        <a href="index.html"><img src="assets/img/logo.png" alt="Walkwel-logo" title="Walkwel Technology" width="260" height="75" /></a>
     </div>
     <div class="quote">
         <a onclick="openMenu();">Menu</a>
     </div>
     <div class="navigation">
         <ul>
-            <li><a href="Home">Home</a></li>
-            <li><a href="About">Company</a></li>
-            <li><a href="Services">Solutions</a></li>
-            <li><a href="Career">Career</a></li>
-            <li><a href="contact-email.php">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">Company</a></li>
+            <li><a href="Services.html">Solutions</a></li>
+            <li><a href="Career.html">Career</a></li>
+            <li><a href="contact-email.html">Contact</a></li>
         </ul>
     </div>
 </div><!-- Header logo/nav -->
 <!-- Banner image/text -->
 <div id="banner" class="home bannerSlider">
-	<div class="slider">
+    <div class="slider">
         <div class="land-delta">
             <div class="del del-abt">
                 <h1>
@@ -709,11 +730,11 @@ svg{
             </div>
             <div class="del del-soc">
             </div>
-        </div>    	
+        </div>      
     </div>
     <div class="textSlider" data-0=" opacity: 1; top:26%;" data-300="opacity:0; top:15%;">
-    	<div class="textGroup">
-        	<div class="rotater1">
+        <div class="textGroup">
+            <div class="rotater1">
                 <h1 class="first">INNOVATE</h1>
                 <h1>TRUST</h1>
                 <h1>TALENT</h1>
@@ -761,7 +782,7 @@ svg{
                 </div>
                 <div class="col-md-4">
                     <div class="service">
-                        <a href="Web">
+                        <a href="Web.html">
                             <i class="fa fa-globe"></i>
                             <div class="main-heading">
                                 <h4 class="text-center">Websites</h4>
@@ -773,7 +794,7 @@ svg{
                 </div>
                 <div class="col-md-4">
                     <div class="service software">
-                        <a href="Software">
+                        <a href="Software.html">
                         <i class="fa fa-laptop"></i>
                         <div class="main-heading">
                             <h4 class="text-center">Software</h4>
@@ -785,7 +806,7 @@ svg{
                 </div>
                 <div class="col-md-4  design">
                     <div class="service">
-                        <a href="Design">
+                        <a href="Design.html">
                         <i class="fa fa-gratipay"></i>
                         <div class="main-heading">
                             <h4 class="text-center">Brand Identity</h4>
@@ -797,7 +818,7 @@ svg{
                 </div>
                 <div class="col-md-4  mobile">
                     <div class="service">
-                        <a href="Mobile">
+                        <a href="Mobile.html">
                         <i class="fa fa-mobile"></i>
                         <div class="main-heading">
                             <h4 class="text-center">Mobile App</h4>
@@ -809,7 +830,7 @@ svg{
                 </div>
                 <div class="col-md-4  consulting">
                     <div class="service">
-                        <a href="Consulting">
+                        <a href="Consulting.html">
                         <i class="fa fa-shopping-cart"></i>
                         <div class="main-heading">
                             <h4 class="text-center">E-Commerce</h4>
@@ -977,47 +998,47 @@ function() {
     $(this).animate({width:60},50);
 });
 $().ready(function() {
-	// validate quote form
-	$("#quote-form").validate({
-	rules: {
-		name: "required",
-		email:
-			{
-				required: true,
-				email: true
-			},
-		phone:
-			{
-				required: true,
-				digits: true,
-				minlength: 10,
-				maxlength: 10
-			},			
-			
-		description:
-			{
-				required: true,
-				minlength: 100,
-				maxlength: 300
-			},
-			
-		},
-		messages: {
-			name: "Please enter your name",
-			email: "Please enter a valid email address",
-			phone: {
-				required: "Please enter your phone no.",
-				digits: "Please enter only digits.",
-				minlength: "Please enter at least 10 digits.",
-				maxlength: "Please enter no more than 10 digits. "
-			},
-			description: {
-				required: "Please enter your message",
-				minlength: "Please enter at least 100 characters.",
-				maxlength: "Please enter no more than 300 characters."
-			}
-		}
-	});
+    // validate quote form
+    $("#quote-form").validate({
+    rules: {
+        name: "required",
+        email:
+            {
+                required: true,
+                email: true
+            },
+        phone:
+            {
+                required: true,
+                digits: true,
+                minlength: 10,
+                maxlength: 10
+            },          
+            
+        description:
+            {
+                required: true,
+                minlength: 100,
+                maxlength: 300
+            },
+            
+        },
+        messages: {
+            name: "Please enter your name",
+            email: "Please enter a valid email address",
+            phone: {
+                required: "Please enter your phone no.",
+                digits: "Please enter only digits.",
+                minlength: "Please enter at least 10 digits.",
+                maxlength: "Please enter no more than 10 digits. "
+            },
+            description: {
+                required: "Please enter your message",
+                minlength: "Please enter at least 100 characters.",
+                maxlength: "Please enter no more than 300 characters."
+            }
+        }
+    });
 });
 $(document).scroll(function() {
     var scrolTop = $(window).scrollTop();

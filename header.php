@@ -203,7 +203,7 @@
 </div>
 <div id="header" class="headerStick"  data-0="background:rgba(0, 0, 0, 0.2)" data-100="background:rgba(218, 107, 29, 0.8)">
     <div class="logo">
-        <a href="Home"  data-0="width:260px;" data-100="width:60px;"
+        <a href="index.html"  data-0="width:260px;" data-100="width:60px;"
         ><img src="assets/img/logo.png" alt="Walkwel Technology" title="Walkwel Technology" /></a>
     </div>
     <div class="quote">
@@ -213,7 +213,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about-walkwel.html">About Us</a></li>
-            <li><a id="showTop" href="solutions">Solutions &nbsp;<i class="fa fa-caret-down"></i></a>
+            <li><a id="showTop" href="solutions.html">Solutions &nbsp;<i class="fa fa-caret-down"></i></a>
                 <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="cbp-spmenu-s3">
                     <div class="navigation21">
                         <div class="block">
@@ -273,7 +273,7 @@
                     </div>
                 </nav>
             </li>
-            <li><a id="showCareer" href="Career">Career &nbsp;<i class="fa fa-caret-down"></i></a>
+            <li><a id="showCareer" href="Career.html">Career &nbsp;<i class="fa fa-caret-down"></i></a>
                 <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="career-menu">
                     <div class="block" style="width:38%;">
                         <h4> <i class="fa fa-coffee"></i> &nbsp;Why work at Walkwel </h4>
@@ -293,23 +293,44 @@
                     </div>
                     <div class="block" style="width:30%; background:#f2f2f2; border:1px solid #ddd;height: auto;padding-bottom: 40px;">
                         <h4><i class="fa fa-bullhorn"></i> &nbsp;Current Vacancies</h4>
-                        <a href="Analytics">Analytics</a>
-                        <a href="PHP">PHP Developer</a>
-                        <a href="Designer">Front End Designers</a>
-                        <a href="Apps">Apps Developer (Android / IOS)</a>
-                        <a href="JVM">Java Virtual Machine Developer ( JVM )</a>
-                        <a href="Career" class="call-to-action btn">View All Jobs</a>
+                        <a href="Analytics.html">Analytics</a>
+                        <a href="PHP.html">PHP Developer</a>
+                        <a href="Designer.html">Front End Designers</a>
+                        <a href="Apps.html">Apps Developer (Android / IOS)</a>
+                        <a href="JVM.html">Java Virtual Machine Developer ( JVM )</a>
+                        <a href="Career.html" class="call-to-action btn">View All Jobs</a>
                     </div>
                 </nav>
             </li>
-            <li><a href="Portfolio">Our Portfolio</a></li>
-            <li><a href="Contact">Contact</a></li>
+            <li><a href="Portfolio.html" id="">Our Portfolio &nbsp;<i class="fa fa-caret-down"></i></a>
+                 <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top port-menu" >
+                    <div class="block" style="width:458px;">
+                       <img src="img/portfolioimage.jpg" alt="">
+                    </div>
+                    <div class="block" style="width:22%;">
+                       <a href="#"><h4>Web Development</h4></a>
+                       <p>Progressively fashion catalysts for change after functional unities.</p>
+                       <a href="#" class="view-port">View Portfolio</a>
+                    </div>
+                    <div class="block" style="width:22%;">
+                        <a href="#"><h4>Web Development</h4></a>
+                       <p>Progressively fashion catalysts for change after functional unities.</p>
+                       <a href="#" class="view-port">View Portfolio</a>
+                    </div>
+                    <div class="block" style="width:22%; background:#f2f2f2;height: auto;padding-bottom: 40px;">
+                         <a href="#"><h4>Web Development</h4></a>
+                       <p>Progressively fashion catalysts for change after functional unities.</p>
+                       <a href="#" class="view-port">View Portfolio</a>
+                    </div>
+                </nav>
+            </li>
+            <li><a href="Contact.html">Contact</a></li>
         </ul>
     </div>
 </div>
 <div data-role="mobile" class="headerStick">
     <div class="logo">
-        <a href="Home"><img src="assets/img/logo.png" alt="Walkwel-logo" title="Walkwel Technology" width="260" height="75" /></a>
+        <a href="index.html"><img src="assets/img/logo.png" alt="Walkwel-logo" title="Walkwel Technology" width="260" height="75" /></a>
     </div>
     <div class="quote">
         <a onclick="openMenu();">Menu</a>
@@ -317,10 +338,10 @@
     <div class="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="About">Company</a></li>
-            <li><a href="Services">Solutions</a></li>
-            <li><a href="Career">Career</a></li>
-            <li><a href="contactUs.php">Contact</a></li>
+            <li><a href="About.html">Company</a></li>
+            <li><a href="Services.html">Solutions</a></li>
+            <li><a href="Career.html">Career</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
         </ul>
     </div>
 </div>

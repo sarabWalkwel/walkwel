@@ -58,13 +58,13 @@ h3 a {
     text-decoration: underline!important;
     width: auto!important;
     margin: 0!important;
-    padding: 0!important
+    padding: 0!important;
 }
 .cbp-spmenu a {
     display: block;
     color: #fff;
     font-size: 1.1em;
-    font-weight: 300
+    font-weight: 300;
 }
 .cbp-spmenu a:hover {
     color: #258ecd;
@@ -145,84 +145,130 @@ h3 a {
     padding: 10px!important;
     font-family: 'Droid Serif', serif;
     color: #666!important;
-    line-height: 23px
+    line-height: 23px;
 }
 .cbp-spmenu-horizontal a:hover {
-    background: #ddd
+    background: #ddd;
 }
 .navigation21 {
     width: 100%;
     height: 100%;
     display: block;
-    z-index: 99999999
+    z-index: 99999999;
 }
 .cbp-spmenu-top {
     top: 54px;
-    height: 0
+    height: 0;
 }
 .cbp-spmenu-bottom {
-    bottom: -186px
+    bottom: -186px;
 }
 .cbp-spmenu-top.cbp-spmenu-open {
-    height: 450px
+    height: 450px;
 }
+
 .navigation li:hover {
-    background: #fff
+    background: #fff;
 }
 .navigation li:hover a {
-    color: #2d2d2d
+    color: #2d2d2d;
 }
 .navigation li:hover .cbp-spmenu {
     height: 450px;
     border-bottom: 2px solid #ddd;
-    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .2)
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .2);
 }
 .cbp-spmenu-bottom.cbp-spmenu-open {
-    bottom: 0
+    bottom: 0;
 }
 .cbp-spmenu-push {
     overflow-x: hidden;
     position: relative;
-    left: 0
+    left: 0;
 }
 .cbp-spmenu-push-toright {
-    left: 240px
+    left: 240px;
 }
 .cbp-spmenu-push-toleft {
-    left: -240px
+    left: -240px;
 }
 .cbp-spmenu,
 .cbp-spmenu-push {
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
-    transition: all .3s ease
+    transition: all .3s ease;
 }
+/*new css*/
+.port-menu .block {
+    margin-top: 0px !important;
+    height: 225px !important;
+    border-right: 1px dotted rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.port-menu img{
+    padding: 0px !important;
+}
+.port-menu 
+{
+    transition:all 0.3s !important;
+    height: 225px !important;
+    left:-10% !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+.port-menu a{
+    transition:all 0.3s !important;
+}
+.navigation li:hover .cbp-spmenu.port-menu
+{
+    visibility: visible !important;
+    left:0% !important;
+    opacity: 1 !important;
+}
+.cbp-spmenu-horizontal .view-port {
+    background: url(../../img/portbg.jpg) no-repeat;
+    font-size: 10px !important;
+    text-align: center;
+    background-position: center;
+    width: 140px !important;
+    color: #fff !important;
+    display: inline-block;
+    margin-left: 70px;
+}
+.cbp-spmenu-horizontal .view-port:hover {
+    background: url(../../img/porthbg.jpg) no-repeat;
+    font-size: 10px !important;
+    text-align: center;
+    background-position: center;
+    width: 140px !important;
+    color: #fff !important;
+    }
 @media screen and (max-width: 55.1875em) {
     .cbp-spmenu-horizontal {
         font-size: 75%;
-        height: 110px
+        height: 110px;
     }
     .cbp-spmenu-top {
-        top: -110px
+        top: -110px;
     }
     .cbp-spmenu-bottom {
-        bottom: -110px
+        bottom: -110px;
     }
 }
 @media screen and (max-height: 26.375em) {
     .cbp-spmenu-vertical {
         font-size: 90%;
-        width: 190px
+        width: 190px;
     }
     .cbp-spmenu-left,
     .cbp-spmenu-push-toleft {
-        left: -190px
+        left: -190px;
     }
     .cbp-spmenu-right {
-        right: -190px
+        right: -190px;
     }
     .cbp-spmenu-push-toright {
-        left: 190px
+        left: 190px;
     }
 }
 .close-button {
@@ -237,7 +283,7 @@ h3 a {
     z-index: 1001;
     background: 0 0;
     color: transparent;
-    cursor: pointer
+    cursor: pointer;
 }
 .close-button::after,
 .close-button::before {
@@ -247,15 +293,15 @@ h3 a {
     height: 100%;
     top: 0;
     left: 50%;
-    background: #fff
+    background: #fff;
 }
 .close-button::before {
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg)
+    transform: rotate(45deg);
 }
 .close-button::after {
     -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg)
+    transform: rotate(-45deg);
 }
 #cbp-spmenu-s3 .block h4 {
     font-family: Montserrat, sans-serif
@@ -363,27 +409,27 @@ figure.effect-apollo p {
     text-align: right;
     opacity: 0;
     -webkit-transition: opacity .35s;
-    transition: opacity .35s
+    transition: opacity .35s;
 }
 figure.effect-apollo h2 {
-    text-align: left
+    text-align: left;
 }
 figure.effect-apollo:hover img {
     opacity: .6;
     -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1)
+    transform: scale3d(1, 1, 1);
 }
 figure.effect-apollo:hover figcaption::before {
     -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
-    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0)
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
 }
 figure.effect-apollo:hover p {
     opacity: 1;
     -webkit-transition-delay: .1s;
-    transition-delay: .1s
+    transition-delay: .1s;
 }
 figure.effect-goliath {
-    background: #000
+    background: #000;
 }
 figure.effect-goliath h2,
 figure.effect-goliath img {
@@ -408,20 +454,20 @@ figure.effect-goliath p {
     -webkit-transition: opacity .35s, -webkit-transform .35s;
     transition: opacity .35s, transform .35s;
     -webkit-transform: translate3d(0, 50px, 0);
-    transform: translate3d(0, 50px, 0)
+    transform: translate3d(0, 50px, 0);
 }
 figure.effect-goliath:hover img {
     -webkit-transform: translate3d(0, -80px, 0);
-    transform: translate3d(0, -80px, 0)
+    transform: translate3d(0, -80px, 0);
 }
 figure.effect-goliath:hover h2 {
     -webkit-transform: translate3d(0, -100px, 0);
-    transform: translate3d(0, -100px, 0)
+    transform: translate3d(0, -100px, 0);
 }
 figure.effect-goliath:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0);
 }
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -2134,50 +2180,50 @@ a {
 }
 a:active,
 a:hover {
-    outline: 0
+    outline: 0;
 }
 abbr[title] {
-    border-bottom: 1px dotted
+    border-bottom: 1px dotted;
 }
 b,
 strong {
-    font-weight: 700
+    font-weight: 700;
 }
 dfn {
-    font-style: italic
+    font-style: italic;
 }
 h1 {
     font-size: 2em;
-    margin: .67em 0
+    margin: .67em 0;
 }
 mark {
     background: #ff0;
     color: #000
 }
 small {
-    font-size: 80%
+    font-size: 80%;
 }
 sub,
 sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 sup {
-    top: -.5em
+    top: -.5em;
 }
 sub {
-    bottom: -.25em
+    bottom: -.25em;
 }
 img {
-    border: 0
+    border: 0;
 }
 svg:not(:root) {
-    overflow: hidden
+    overflow: hidden;
 }
 figure {
-    margin: 1em 40px
+    margin: 1em 40px;
 }
 hr {
     -moz-box-sizing: content-box;
@@ -2205,7 +2251,7 @@ textarea {
     margin: 0;
 }
 button {
-    overflow: visible
+    overflow: visible;
 }
 button,
 select {
@@ -2228,7 +2274,7 @@ input::-moz-focus-inner {
     padding: 0;
 }
 input {
-    line-height: normal
+    line-height: normal;
 }
 input[type=checkbox],
 input[type=radio] {
@@ -2700,10 +2746,10 @@ img.responsive {
     width: 100%;
     z-index: 23;
 }
-.aboutus .col-md-3 {
+.aboutus {
   margin-top: 30px;
 }
-.technologies .col-md-3 {
+.technologies {
   width: 20%;
   margin: 0;
   padding: 20px 0 0;
@@ -2734,7 +2780,7 @@ img.responsive {
     background-color: #fff;
     z-index: 22
 }
-.technologies .col-md-3 {
+.technologies {
     width: 20%;
     margin: 0;
     padding: 20px 0 0
@@ -2780,90 +2826,37 @@ img.responsive {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.primaryServices .col-md-3 {
+.primaryServices {
   cursor: pointer;
 }
-.col-md-3 {
-  /* width: 310px;
-  padding: 15px;
-  float: left;
-  text-align: center;
-  margin-top: 0;
-  -o-transition: .3s;
-  -moz-transition: .3s;
-  -webkit-transition: .3s;
-  -ms-transition: .3s;
-  transition: 0.3s; */
-}
-.col-md-3 ul {
-  perspective: 500px;
-  -webkit-perspective: 500px;
-  -moz-perspective: 500px;
-  -o-perspective: 500px;
-  -ms-perspective: 500px;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  transition: .6s;
-  -webkit-transition: .6s;
-  -moz-transition: .6s;
-  -o-transition: .6s;
-  -ms-transition: .6s;
-  position: absolute;
-  width: 310px;
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-}
-.col-md-3 ul li {
-  border-top: 1px solid #ddd;
-  font-size: 13px;
-  margin: 0 10%;
-  padding: 10px 0;
-  width: 80%;
-}
-.col-md-3 ul li:hover {
-  background: #e2e2e2;
-  color: #1d3a8c;
-}
-.col-md-3 ul li:nth-child(2) {
-  border: none;
-}
-.col-md-3 .divider {
+.
+
+
+.divider {
   border: none;
   padding: 0;
 }
-.col-md-3 .divider span {
+ .divider span {
   background: #0F181D;
   height: 3px;
   width: 100%;
   display: block;
 }
-.primaryServices .col-md-3.web {
+.primaryServices .web {
   background: 0 0;
 }
-.col-md-3 a h4 {
-  transition: 0.3s;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -ms-transition: 0.3s;
-}
-.col-md-3.large:hover a h4 {
+
+.large:hover a h4 {
   color: #d86a1d;
 }
-.col-md-3.web p.flip {
+.web p.flip {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
 }
-.col-md-3 ul.animate {
+ ul.animate {
   transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
@@ -2902,22 +2895,20 @@ img.responsive {
   -o-transition: 0.3s;
   -ms-transition: 0.3s;
 }
-.prim-ser-container .col-md-3:hover i {
-  color: #d86a1d;
-}
+
 .ico.enterprise {
   background-position: -144px -6px;
 }
 .ico.mobile {
   background-position: -225px -6px;
 }
-.col-md-3.large:hover a .ico {
+.large:hover a .ico {
   background-position: -44px -86px;
 }
-.col-md-3.large:hover a .ico.enterprise {
+.large:hover a .ico.enterprise {
   background-position: -144px -86px;
 }
-.col-md-3.large:hover a .ico.mobile {
+.large:hover a .ico.mobile {
   background-position: -225px -86px;
 }
 .sub-services p {
@@ -2947,21 +2938,21 @@ img.responsive {
   opacity: 1;
   margin-top: 84px;
 }
-.primaryServices .col-md-3.small.active {
+.primaryServices .small.active {
   background: #2d2d2d;
 }
-.col-md-3.small {
+.small {
   height: auto;
   padding: 10px 15px;
 }
-.col-md-3.small .ico {
+.small .ico {
   transform: scale(0.6);
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
   -o-transform: scale(0.6);
   -ms-transform: scale(0.6);
 }
-.col-md-3.small:hover {
+.small:hover {
   background: #2d2d2d;
 }
 .serviceLeftNav {
@@ -3199,11 +3190,7 @@ ul.links li {
   width: 1020px;
   padding: 0 20px;
 }
-.aboutIn .section .col-md-3 {
-  margin-right: 30px;
-  padding: 46px 15px;
-  width: 200px;
-}
+
 #contact.animate {
   transform: translateY(100%);
   -webkit-transform: translateY(100%);
@@ -3287,16 +3274,8 @@ ul.links li {
   -ms-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
   width: 100%;
 }
-#request .col-md-6 {
-  width: 46%;
-  float: left;
-  margin: 0 2%;
-}
-#request .col-md-12 {
-  width: 96%;
-  float: left;
-  margin: 0 2%;
-}
+
+
 #request .container,
 #contact .container {
   display: table;
@@ -3682,7 +3661,7 @@ h1 span {
   padding: 30px 0 0;
   position: relative;
   width: 100%;
-  margin-top: 398px;
+  margin-top:190px;
   background-color: #1d1b1a;
   background-color: #fff;
   color: #ffffff;
@@ -4487,6 +4466,99 @@ input[name=pincode] {
 .breadcrumb a           { color: #fff; }
 .breadcrumb > .active   { color: #fff; }
 
+/*css new*/
+.footer-widget a,.footer-widget a:hover {
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-family: open sans,sans-serif;
+}
+
+.widget-title h3 {
+    font-size: 15px !important;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 8px;
+}
+
+.footer-widget ul li {
+    border: none;
+    padding: 2px 0px;
+    margin: 0;
+}
+.footer-widget ul li:hover
+{
+    background: inherit !important;
+}
+.footer-widget ul {
+    padding: 0;
+}
+ul.sublist {
+    padding-left: 20px;
+    height:0px;
+    overflow: hidden;
+    transition:all 0.2s;
+}
+.sublist-height
+{
+    height: 70px !important;
+}
+.iso-cert img {
+    float: left;
+    margin-right: 35px;
+}
+
+.iso-cert p {
+    padding: 0;
+}
+
+.footer-widget p {
+    padding: 0;
+}
+.social-links a {
+    width: 35px;
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    background: rgba(218, 107, 29, 0.8);
+    border-radius: 8px;
+    transition: all 1s;
+}
+
+.social-links:hover >a {
+    transform: rotateY(360deg);
+}
+.location {
+    width: 33.33%;
+    text-align: center;
+    height: 330px;
+    background: black;
+    -webkit-transition: -webkit-transform .33s;
+    transition: transform .33s; 
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    float: left;
+}
+
+.map,.office {
+    background: rgb(247, 247, 247);
+    border: 1px solid rgba(147, 184, 189, .8);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 20px rgba(105, 108, 109, .3), 0 0 8px 5px rgba(208, 223, 226, .4) inset;
+    box-shadow: 0 5px 20px rgba(105, 108, 109, .3), 0 0 8px 5px rgba(208, 223, 226, .4) inset;
+    height: 333px;
+}
+.map {
+    -webkit-transform: translateZ(165px);
+    transform: translateZ(165px);
+}
+.office {
+    -webkit-transform: rotateX(-90deg) translateZ(-165px);
+    transform: rotateX(-90deg) translateZ(-165px);
+}
+
+
+/* The two faces of the cube */
+
 /* Media Queries */
 @media only screen and (max-width:480px) {
   body{
@@ -4587,10 +4659,7 @@ input[name=pincode] {
   .large.web {
     margin-left: 0 !important;
   }
-  .col-md-3,
-  .technologies .col-md-3 {
-    width: 90%;
-  }
+
   .m-services-header {
     text-align: center;
   }
@@ -4611,7 +4680,7 @@ input[name=pincode] {
     width: 100%;
     text-align: center;
   }
-  .aboutIn .section .col-md-3 {
+  .aboutIn .section{
     width: 100%;
     text-align: center;
   }
@@ -4647,28 +4716,28 @@ input[name=pincode] {
 }
 @media only screen and (max-width: 1024px) {
     .land-delta {
-        display: none!important
+        display: none!important;
     }
     .cbp-spmenu-horizontal .block h4 {
-        font-size: 24px
+        font-size: 24px;
     }
     .navigation21 .block p {
-        display: none
+        display: none;
     }
     .navigation .block a {
-        font-size: 12px
+        font-size: 12px;
     }
     .navigation li:hover .cbp-spmenu {
-        height: 350px
+        height: 350px;
     }
 }
 @media only screen and (max-width: 768px) {
     [data-role=mobile] {
         display: block;
-        background: #000
+        background: #000;
     }
     #header {
-        display: none!important
+        display: none!important;
     }
     .textGroup {
         width: 100%;

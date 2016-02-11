@@ -38,13 +38,22 @@
 <body class="inner">
 <?php include('header.php') ?>
 <!-- Banner image/text -->
-<div id="banner" class="m-services-header contact" >
+<div id="banner" class="m-services-header" >
   <div class="slider">
       <div class="image">
-          <img src="assets/slider/contact-walkwel.jpg" alt="contact-Walkwel" class="responsive" />
+          <img src="assets/slider/aboutus.jpg" alt="about-walkwel" class="responsive" />
             <div class="m-about-head banner-title" style="width:100%; text-align:center;">
-            <h3>Interested in working with us?</h3>
-            </div>
+            <!--<h1>ABOUT US</h1>-->
+            <div class="container-fluid">
+                <h1>Contact Us</h1>
+                <div class="breadcrumb-box">
+                    <ul class="breadcrumb">
+                      <li> <a href="index.html">Home</a> </li>
+                      <li class="active">Contact Us</li>
+                    </ul>
+                </div>
+            </div>            
+        </div>
         </div>
     </div>
 </div>
