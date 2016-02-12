@@ -26,7 +26,10 @@
 -->
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/laxmi.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick-theme.css" />
 <style>
     #request .form-control{
         margin-bottom: 10px !important;
@@ -352,7 +355,7 @@ svg{
                             </div>
                             <input type="hidden" name="quote_form_token" value="553939e351554" />
                             <div class="col-sm-offset-5 col-sm-2 text-center">
-                              <input type="submit" value="Submit" name="submit" class="btn btn-default w-quote-button"></input>
+                              <input type="submit" value="Submit" name="submit" class="animated-btn animated-btn-default w-quote-button"></input>
                             </div>
                         </fieldset>
                     </div>
@@ -497,7 +500,7 @@ svg{
                             </div>
                             <input type="hidden" name="quote_form_token" value="553939e351554" />
                             <div class="col-sm-offset-5 col-sm-2 text-center">
-                              <input type="submit" value="Submit" name="submit" class="btn btn-default w-quote-button"/>
+                              <input type="submit" value="Submit" name="submit" class="animated-btn animated-btn-default w-quote-button"/>
                             </div>
                         </fieldset>
                     </div>
@@ -555,7 +558,7 @@ svg{
                             </div>
                             <input type="hidden" name="quote_form_token" value="553939e351554" />
                             <div class="col-sm-offset-5 col-sm-2 text-center">
-                              <input type="submit" value="Submit" name="submit" class="btn btn-default w-quote-button"/>
+                              <input type="submit" value="Submit" name="submit" class="animated-btn animated-btn-default w-quote-button"/>
                             </div>
                         </fieldset>
                     </div>
@@ -662,7 +665,7 @@ svg{
                         <a href="Designer.html">Front End Designers</a>
                         <a href="Apps.html">Apps Developer (Android / IOS)</a>
                         <a href="JVM.html">Java Virtual Machine Developer ( JVM )</a>
-                        <a href="Career.html" class="call-to-action btn">View All Jobs</a>
+                        <a href="Career.html" class="call-to-action animated-btn">View All Jobs</a>
                     </div>
                 </nav>
             </li>
@@ -672,19 +675,19 @@ svg{
                        <img src="img/portfolioimage.jpg" alt="">
                     </div>
                     <div class="block" style="width:22%;">
-                       <a href="#"><h4>Web Development</h4></a>
+                       <a href="web-development.html"><h4>Web Development</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="#" class="view-port">View Portfolio</a>
+                       <a href="web-development.html" class="view-port">View Portfolio</a>
                     </div>
                     <div class="block" style="width:22%;">
-                        <a href="#"><h4>Web Development</h4></a>
+                        <a href="erp-solutions.html"><h4>ERP Solutions</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="#" class="view-port">View Portfolio</a>
+                       <a href="erp-solutions.html" class="view-port">View Portfolio</a>
                     </div>
                     <div class="block" style="width:22%; background:#f2f2f2;height: auto;padding-bottom: 40px;">
-                         <a href="#"><h4>Web Development</h4></a>
+                         <a href="e-commerce-solutions.html"><h4>E-Commernce</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="#" class="view-port">View Portfolio</a>
+                       <a href="e-commerce-solutions.html" class="view-port">View Portfolio</a>
                     </div>
                 </nav>
             </li>
@@ -951,6 +954,93 @@ svg{
             </div>
         </div>
     </div>
+    
+    <!----- testimonails ---------->
+<div id="testimonials-clients">
+    <div class="main-heading text-center" style="padding:0 20px 15px;">
+       <h1 class="text-center">Here are some great 'ones we've worked with</h1>
+    </div>
+    <div class="slider slider-for">
+    <div class="testimonial-box" data-id="11">
+       <div>
+           <h2>"Really impressed with your team. Everything we said was done quickly. Took initiatives without our involvement and delivered on time."</h2>
+           <hr>
+           <h1>Mukesh Kumar<Br/>CEO, Founder</h1>
+           <a href="" class="animated-btn animated-btn-1"><svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+            </svg>Learn More</a>
+        </div>
+        <div><img src="assets/img/testimonial/isb-pic.jpg" alt="" /></div>
+    </div>
+    
+    <div class="testimonial-box" data-id="12">
+       <div>
+           <h2>"Everything we said was done quickly. Took initiatives without our involvement and delivered on time. Perfect"</h2>
+           <hr>
+           <h1>Neelesh Mishra<Br/>Director, CEO</h1>
+           <a href="" class="animated-btn animated-btn-1"><svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+            </svg>Learn More</a>
+        </div>
+        <div><img src="assets/img/testimonial/nivia-pic.jpg" alt="" /></div>
+    </div>
+    <div class="testimonial-box" data-id="13">
+       <div>
+           <h2>"Really impressed with your team. Everything we said was done quickly. Took initiatives without our involvement and delivered on time."</h2>
+           <hr>
+           <h1>Mukesh Kumar<Br/>CEO, Founder</h1>
+           <a href="" class="animated-btn animated-btn-1"><svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+            </svg>Learn More</a>
+        </div>
+        <div><img src="assets/img/testimonial/college.jpg" alt="" /></div>
+    </div>
+
+    <div class="testimonial-box" data-id="14">
+       <div>
+           <h2>"Really impressed with your team. Everything we said was done quickly. Took initiatives without our involvement and delivered on time."</h2>
+           <hr>
+           <h1>Mukesh Kumar<Br/>CEO, Founder</h1>
+           <a href="" class="animated-btn animated-btn-1"><svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+            </svg>Learn More</a>
+        </div>
+        <div><img src="assets/img/testimonial/isb-pic.jpg" alt="" /></div>
+    </div>
+    
+    <div class="testimonial-box" data-id="15">
+       <div>
+           <h2>"Everything we said was done quickly. Took initiatives without our involvement and delivered on time. Perfect"</h2>
+           <hr>
+           <h1>Neelesh Mishra<Br/>Director, CEO</h1>
+           <a href="" class="animated-btn animated-btn-1"><svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+            </svg>Learn More</a>
+        </div>
+        <div><img src="assets/img/testimonial/nivia-pic.jpg" alt="" /></div>
+    </div>
+    <div class="testimonial-box" data-id="16">
+       <div>
+           <h2>"Really impressed with your team. Everything we said was done quickly. Took initiatives without our involvement and delivered on time."</h2>
+           <hr>
+           <h1>Mukesh Kumar<Br/>CEO, Founder</h1>
+           <a href="" class="animated-btn animated-btn-1"><svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+            </svg>Learn More</a>
+        </div>
+        <div><img src="assets/img/testimonial/college.jpg" alt="" /></div>
+    </div>
+  </div>
+    <div class="slider slider-nav">
+    <div data-id="1"></div>
+    <div data-id="2"></div>
+    <div data-id="3"></div>
+    <div data-id="4"></div>
+    <div data-id="5"></div>
+    <div data-id="6"></div>
+  </div>
+</div>
+    
     <!-- what we offer slider -->
     <div id="slider3" class="contactUs" >
         <a id="h5"></a>
@@ -991,8 +1081,31 @@ svg{
 <script type="text/javascript" src="assets/js/jquery.validate.js"></script>
 <script type="text/javascript" src="assets/js/skrollr.js"></script>
 <script type="text/javascript" src="assets/js/walkwel.js"></script>
+<script type="text/javascript" src="bower_components/jquery/src/"></script>
+<script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
 <script type="text/javascript">
-
+    
+$(document).ready(function () {
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        infinite: true,
+        asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 4, // 3,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: false,
+        autoplay: true,
+        centerMode: false,
+        infinite: true,
+        focusOnSelect: true
+    });
+});    
+    
 $('.logo a').hover(function() {
     $(this).animate({width:260},50);
 },

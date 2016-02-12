@@ -1,0 +1,24 @@
+{
+  "name": "walkwel",
+  "homepage": "https://github.com/sarabWalkwel/walkwel",
+  "authors": [
+    "Laxmi Negi <laxmi.negi@walkwel.in>"
+  ],
+  "description": "walkwel project",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "j"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick-carousel": "https://github.com/kenwheeler/slick.git#^1.5.9"
+  }
+}

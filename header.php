@@ -308,19 +308,19 @@
                        <img src="img/portfolioimage.jpg" alt="">
                     </div>
                     <div class="block" style="width:22%;">
-                       <a href="#"><h4>Web Development</h4></a>
+                       <a href="web-development.html"><h4>Web Development</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="#" class="view-port">View Portfolio</a>
+                       <a href="web-development.html" class="view-port">View Portfolio</a>
                     </div>
                     <div class="block" style="width:22%;">
-                        <a href="#"><h4>Web Development</h4></a>
+                        <a href="erp-solutions.html"><h4>ERP Solutions</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="#" class="view-port">View Portfolio</a>
+                       <a href="erp-solutions.html" class="view-port">View Portfolio</a>
                     </div>
                     <div class="block" style="width:22%; background:#f2f2f2;height: auto;padding-bottom: 40px;">
-                         <a href="#"><h4>Web Development</h4></a>
+                         <a href="e-commerce-solutions.html"><h4>E-Commernce</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="#" class="view-port">View Portfolio</a>
+                       <a href="e-commerce-solutions.html" class="view-port">View Portfolio</a>
                     </div>
                 </nav>
             </li>
