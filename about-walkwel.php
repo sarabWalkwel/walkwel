@@ -61,13 +61,11 @@
 <!-- primary services -->
 <div id="content" class="content aboutIn">	
     <div class="container-fluid" style="padding-top:40px;padding-bottom:40px">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="main-heading">
-                    <h3 >Walkwel creates simple, beautiful software<br> that helps organizations scale their business.<br>And thus, revenues.</h3>
-                </div>
-            </div>
-        </div>
+     
+           
+                    
+                
+       
         <div class="row">
             <div class="col-md-12" >
                 <div class="col-md-4">
@@ -108,62 +106,68 @@
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-md-12" >
-                <div class="main-heading">
-                    <h4 >Headquartered in the downtown of Jalandhar, since 2011 we've created software solutions in ERP, Web portals, e-commerce, mobile apps, desktop and websites. Alongside we just launched out first in-house tool PHD Online.in that's being used by few prominent Universities.<br/><Br/>
+        <div class="about-content">
+            <div class="container">
+              <div class="row ">
+                <div class="col-md-6 col-sm-6 text-center" > 
+                  <img src="img/about-walkwel.jpg" alt="About Walkwel" title="About Walkwel" class="img-responsive" /> 
+                </div>
+                <div class="col-md-6 col-sm-6 justify-txt">
+                  <h3 class="Heading"> Walkwel creates simple, beautiful software that helps organizations scale their business. And thus, revenues. </h3>
+                  <p>Headquartered in the downtown of Jalandhar, since 2011 we've created software solutions in ERP, Web portals, e-commerce, mobile apps, desktop and websites. Alongside we just launched out first in-house tool PHD Online.in that's being used by few prominent Universities. </p>
+                  <p>We work on Objective Based Design which ensures that you get more than good looking graphics. We don't just develop partnerships with our clients - we convert them into relationships. Because there's magic in caring for the ones you are working with.</p>
+                </div>
+              </div>
+              <hr>
+              </div>
 
-We work on Objective Based Design which ensures that you get more than good looking graphics. We don't just develop partnerships with our clients - we convert them into relationships. Because there's magic in caring for the ones you are working with.</h4>
-                </div>
-            </div>
-            <!--
-            <div class="col-md-12">
-                <div class="another-section">
-                    <div class="col-md-6">
-                        <div class="main-heading">
-                            <h3><small>Skilled Employees</small> </h3>
-                            <img src="assets/img/clock.png" alt="clock-walkwel" width="300" />
+            
+          
+              <div class="container">
+                        <div class="section-title">
+                            <!-- Heading -->
+                            <h2 class="title">Walkwel values</h2>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="main-heading">
-                            <h3><small>ESC Associate Partner</small>  </h3>
-                            <img src="assets/img/esc.jpg" alt="esc-with-walkwel" width="300" />
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="row services icons-circle">
+                                    <div class="item-box icons-color hover-black col-sm-6 col-md-6">
+                                       <h5 class="title">Bias for perfection</h5>
+                                        <!-- Text -->
+                                        <div>We iterate for perfection without compromising on ethics.</div>
+                                    </div>
+                                    <div class="item-box icons-color hover-black col-sm-6 col-md-6">
+                                        <h5 class="title">We are customers too</h5>
+                                        <!-- Text -->
+                                        <div>Our culture of empathy makes everyone a stakeholder in customer success.</div>
+                                    </div>
+                                     <div class="item-box icons-color hover-black col-sm-6 col-md-6">
+                                       <h5 class="title">Fun is essential</h5>
+                                        <!-- Text -->
+                                        <div>Because life is too short to be serious about everything.</div>
+                                    </div>
+                                    
+                                    <div class="item-box icons-color hover-black col-sm-6 col-md-6">
+                                       <h5 class="title">Always be learning</h5>
+                                        <!-- Text -->
+                                        <div>Everyday is an opportunity to inspire and learn from the best.</div>
+                                    </div>
+                                   <div class="item-box icons-color hover-black col-sm-6 col-md-6">
+                                      <h5 class="title">Transparency</h5>
+                                        <!-- Text -->
+                                        <div>Because it is the right sect to follow.</div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-5 animated fadeInRight visible" data-animation="fadeInRight">
+                                <!-- Image -->
+                                <img class="img-responsive" src="img/walkwel-values.jpg" alt="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6"></div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="another-section">
-                    <div class="col-md-6">
-                        <div class="main-heading">
-                            <h3><small>We work core India</small>  </h3>
-                            <img src="assets/img/clock.png" alt="clock-walkwel" width="300" />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="main-heading">
-                            <h3><small>Years of perfected expertise </small> </h3>
-                        </div>
-                    </div>
-                    <div class="col-md-6"></div>
-                </div>
-            </div>
-            -->
-        </div>   
-        <!--
-        <div class="row">
-            <div class="col-md-12">
-                <div class="main-heading fun-facts">
-                    <h3 >A few facts you may want to know.</h3>
-                    <h4 >Or not, but we’re putting them here anyway...</h4>
-                </div>
+              </div> 
             </div>
         </div>
-        -->
     </div>
 <!-- footer -->
 <?php include('footer.php') ?>

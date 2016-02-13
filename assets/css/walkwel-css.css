@@ -4328,6 +4328,19 @@ input[name=pincode] {
 .solutions-footer .main-heading h3 {
   font-size: 30px;
 }
+h3.Heading {
+    font-family: montserrat,sans-serif;
+    font-size: 16px;
+}
+
+.about-content {
+    margin-top: 60px;
+}
+
+.about-content .title {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 /*custom styles*/
 .mantra-text p

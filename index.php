@@ -1042,38 +1042,9 @@ svg{
 </div>
     
     <!-- what we offer slider -->
-    <div id="slider3" class="contactUs" >
-        <a id="h5"></a>
-        <div class="wrapper">
-            <div class="text" style="text-align:center">
-                <div class="main-heading" style="padding-bottom:20px">
-                    <h1 style="color:#fff;">Contact Us</h1>
-                    <h4 style="color:#fff; font-size:26px">If you have a new business enquiry,<br> a cracking project idea or simply want to have a chat <br>and explore how we can work together, we'd love to hear from you.</h4>
-                </div>
-                <div class="footer-icons">
-                    <div class="icon icon-telephone">
-                        <i class="fa fa-phone"></i>
-                        <p>+91-181-5041414</p>
-                    </div>
-                    <div class="icon icon-telephone">
-                        <i class="fa fa-envelope"></i>
-                        <p>info@walkwel.in</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   <?php require_once('footer.php') ?>
     <!-- footer -->
-    <div id="footer" class="m-footer">
-        <div class="address" style="border:none;">
-            <div class="wrapper">
-                <div class="m-footer-left" style="text-align:center; width:100%;">
-                <h3>Walkwel Technology Pvt. Ltd.</h3>
-                <p>4th Floor, PKF Building, Namdev Chowk, Jalandhar (PB).</p>   
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </div>
 <!-- scripts -->
 <script type="text/javascript" src="assets/js/ssm.js"></script>
