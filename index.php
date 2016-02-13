@@ -7,8 +7,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, user-scalable=no">
 <link rel="shortcut icon" href="assets/img/favicon.ico">
-
-
 <meta name="google-site-verification" content="13o4fDohXUvqSHVVKRlL8E5xE65IPE9QXN6KXFSBJmw" />
 <meta name="p:domain_verify" content="6e936a79889770d9057152483ea37fc3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">

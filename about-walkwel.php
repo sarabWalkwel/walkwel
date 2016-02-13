@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/set2.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
     <title>About us | Custom Software | Walkwel Technology</title>
     <meta name="google-site-verification" content="13o4fDohXUvqSHVVKRlL8E5xE65IPE9QXN6KXFSBJmw" />
     <meta name="p:domain_verify" content="6e936a79889770d9057152483ea37fc3"/>
@@ -60,15 +61,10 @@
 <!-- about us -->
 <!-- primary services -->
 <div id="content" class="content aboutIn">	
-    <div class="container-fluid" style="padding-top:40px;padding-bottom:40px">
-     
-           
-                    
-                
-       
-        <div class="row">
+    <div class="container" style="padding-top:40px;padding-bottom:40px">
+        <div class="row animatedParent animateOnce">
             <div class="col-md-12" >
-                <div class="col-md-4">
+                <div class="col-md-4 animated fadeInLeft">
                     <div class="block text-center">
                         <div class="">
                             <img src="assets/img/walkwel-vision.png" alt="walkwel-vision" />
@@ -80,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 animated fadeInUp">
                     <div class="block goal text-center">
                         <div class="">
                             <img src="assets/img/walkwel-goal.png" alt="walkwel-goal" />
@@ -93,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 animated fadeInRight">
                     <div class="block text-center">
                         <div class="">
                             <img src="assets/img/walkwel-culture.png" alt="walkwel-culture" />
@@ -105,14 +101,14 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div><hr>
         <div class="about-content">
             <div class="container">
-              <div class="row ">
-                <div class="col-md-6 col-sm-6 text-center" > 
+              <div class="row animatedParent animateOnce">
+                <div class="col-md-6 col-sm-6 text-center animated fadeInLeft" > 
                   <img src="img/about-walkwel.jpg" alt="About Walkwel" title="About Walkwel" class="img-responsive" /> 
                 </div>
-                <div class="col-md-6 col-sm-6 justify-txt">
+                <div class="col-md-6 col-sm-6 justify-txt animated fadeInRight">
                   <h3 class="Heading"> Walkwel creates simple, beautiful software that helps organizations scale their business. And thus, revenues. </h3>
                   <p>Headquartered in the downtown of Jalandhar, since 2011 we've created software solutions in ERP, Web portals, e-commerce, mobile apps, desktop and websites. Alongside we just launched out first in-house tool PHD Online.in that's being used by few prominent Universities. </p>
                   <p>We work on Objective Based Design which ensures that you get more than good looking graphics. We don't just develop partnerships with our clients - we convert them into relationships. Because there's magic in caring for the ones you are working with.</p>
@@ -120,59 +116,59 @@
               </div>
               <hr>
               </div>
-
-            
-          
               <div class="container">
                         <div class="section-title">
                             <!-- Heading -->
                             <h2 class="title">Walkwel values</h2>
                         </div>
-                        <div class="row">
-                            <div class="col-md-7">
+                        <div class="row animatedParent animateOnce">
+                            <div class="col-md-7 animated fadeInLeft">
                                 <div class="row services icons-circle">
                                     <div class="item-box icons-color hover-black col-sm-6 col-md-6">
                                        <h5 class="title">Bias for perfection</h5>
                                         <!-- Text -->
-                                        <div>We iterate for perfection without compromising on ethics.</div>
+                                        <p>We iterate for perfection without compromising on ethics.</p>
                                     </div>
                                     <div class="item-box icons-color hover-black col-sm-6 col-md-6">
                                         <h5 class="title">We are customers too</h5>
                                         <!-- Text -->
-                                        <div>Our culture of empathy makes everyone a stakeholder in customer success.</div>
+                                        <p>Our culture of empathy makes everyone a stakeholder in customer success.</p>
                                     </div>
                                      <div class="item-box icons-color hover-black col-sm-6 col-md-6">
                                        <h5 class="title">Fun is essential</h5>
                                         <!-- Text -->
-                                        <div>Because life is too short to be serious about everything.</div>
+                                        <p>Because life is too short to be serious about everything.</p>
                                     </div>
                                     
                                     <div class="item-box icons-color hover-black col-sm-6 col-md-6">
                                        <h5 class="title">Always be learning</h5>
                                         <!-- Text -->
-                                        <div>Everyday is an opportunity to inspire and learn from the best.</div>
+                                        <p>Everyday is an opportunity to inspire and learn from the best.</p>
                                     </div>
                                    <div class="item-box icons-color hover-black col-sm-6 col-md-6">
                                       <h5 class="title">Transparency</h5>
                                         <!-- Text -->
-                                        <div>Because it is the right sect to follow.</div>
+                                        <p>Because it is the right sect to follow.</p>
                                     </div>
                                     
                                 </div>
                             </div>
-                            <div class="col-md-5 animated fadeInRight visible" data-animation="fadeInRight">
+                            <div class="col-md-5 animated fadeInRight" >
                                 <!-- Image -->
                                 <img class="img-responsive" src="img/walkwel-values.jpg" alt="">
                             </div>
                         </div>
-              </div> 
+              </div>
             </div>
         </div>
     </div>
+
 <!-- footer -->
 <?php include('footer.php') ?>
 <!-- scripts -->
+<script src="js/jquery.js"></script>
 <script type="text/javascript" src="assets/js/skrollr.js"></script>
+<script src='js/css3-animate-it.js'></script>
 <script>
     // loading effect
 $(window).load(function(e) {

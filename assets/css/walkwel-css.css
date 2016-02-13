@@ -4547,7 +4547,9 @@ ul.sublist {
     text-align: center;
     height: 330px;
     float: left;
+    -moz-perspective: 700px;
     -webkit-perspective: 700;
+    perspective: 700;
     overflow:hidden;
     z-index: 999;
 }
@@ -4561,12 +4563,19 @@ ul.sublist {
     -webkit-transform-style: preserve-3d;
     -webkit-transition: all 0.4s ease-out;
     -webkit-transform-origin: 90px 90px -90px;
-    transition: all 0.3s ease-in;
+    -moz-transform-style: preserve-3d;
+    -moz-transition: all 0.4s ease-out;
+    -moz-transform-origin: 90px 90px -90px;
+    transform-style: preserve-3d;
+    transition: all 0.4s ease-out;
+    transform-origin: 90px 90px -90px;
     color: #fff;
     padding-top: 15%;
 }
 .location:hover .office {
     -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    transform: rotateX(90deg);
 }  
 .office p{
     color: #fff;
@@ -4596,6 +4605,14 @@ ul.sublist {
     -webkit-transform-style: preserve-3d;
     -webkit-transition: all 0.4s ease-out;
     -webkit-transform-origin: 90px 90px -90px;
+    -moz-transform: rotateX(-90deg);
+    -moz-transform-style: preserve-3d;
+    -moz-transition: all 0.4s ease-out;
+    -moz-transform-origin: 90px 90px -90px;
+    transform: rotateX(-90deg);
+    transform-style: preserve-3d;
+    transition: all 0.4s ease-out;
+    transform-origin: 90px 90px -90px;
     top:-165px;
     visibility: hidden;
     transition: all 0.3s ease-in;
@@ -4603,6 +4620,8 @@ ul.sublist {
 }
 .location:hover .map {
     -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
     visibility: visible;
     top:-330px;
     z-index: 1;
@@ -4619,6 +4638,13 @@ h4.located {
 .mobile
 {
     display: none;
+}
+.item-box .title {
+    margin: 0px;
+}
+
+.item-box p {
+    text-align: center;
 }
 
 /* Media Queries */
