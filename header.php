@@ -8,71 +8,6 @@
             </div>
             <div class="form">
                 <form method="post" id="quote-form" action="quote-email.php">
-                    <!-- 
-                	<div class="form-content">
-                    	<h1 class="text-center">What service are you looking for ?</h1>
-                    	<fieldset>
-                          <div class="col-md-3">                 
-                            <input type="checkbox" id="erp_solution" name="erp_solution" value="ERP Solution" />
-                            <label>ERP Solution</label>
-                        </div>
-                        <div class="col-md-3">
-                            <input type="checkbox" id="website" name="website" value="Website"/>
-                            <label>Website</label>
-                        </div>
-                        <div class="col-md-3">
-                            <input type="checkbox" id="bus_solution" name="bus_solution" value="Business Solution"/>
-                            <label>Business Solution</label>
-                        </div>
-                        <div class="col-md-3">
-                            <input type="checkbox" id="seo" name="seo" value="SEO"/>
-                            <label>SEO</label>
-                        </div>
-                        </fieldset>
-                    </div>
-                    <div class="form-content">
-                      <h1 class="text-center">2. What type of website solution are you looking for ?</h1>
-                      <fieldset>
-                          <div class="col-md-3">
-                          <input type="checkbox" name="cms" value="CMS" />
-                            <label>CMS</label>
-                            </div>
-                            <div class="col-md-3">
-                            <input type="checkbox" name="e_commerce" value="E-Commerce"/>
-                            <label>Ecommerce</label>
-                            </div>
-                            <div class="col-md-3">
-                            <input type="checkbox" name="apps" value="Apps"/>
-                            <label>Apps</label>
-                            </div>
-                            <div class="col-md-3">
-                            <input type="checkbox" name="development" value="Development"/>
-                            <label>Development</label>
-                            </div>
-                        </fieldset>
-                    </div> 
-                    <div class="form-content">
-                    	<h1 class="text-center">What is your budget for the project ?</h1>
-                        <fieldset>
-                            <div class="col-md-3">
-                            <input type="radio" name="budget" value="25,000 - 50,000" />
-                            <label>25,000 - 50,000</label>
-                            </div>
-                            <div class="col-md-3">
-                            <input type="radio" name="budget" value="50,000 to 1,00,000" />
-                            <label>50,000 to 1,00,000</label>
-                            </div>
-                            <div class="col-md-3">
-                            <input type="radio" name="budget" value="1,00,000 to 5,00,000"/>
-                            <label>1,00,000 to 5,00,000</label>
-                            </div>
-                            <div class="col-md-3">
-                            <input type="radio" name="budget" value="5,00,000+" />
-                            <label>5,00,000 +</label>
-                            </div>
-                        </fieldset>
-                    </div>
-                    -->
                     <div class="form-content">
                         <fieldset>
                             <div class="col-md-5 text-right">
@@ -213,66 +148,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about-walkwel.html">About Us</a></li>
-            <li><a id="showTop" href="solutions.html">Solutions &nbsp;<i class="fa fa-caret-down"></i></a>
-                <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="cbp-spmenu-s3">
-                    <div class="navigation21">
-                        <div class="block">
-                            <h4> Web Design </h4>
-                            <p>
-                                Following is the set of yarns we use to spin the web.
-                            </p>
-                        </div>
-                        <div class="block">
-                            <h4>Web Development</h4>
-                            <p>
-                            List of our “Soft”ware solutions that punch “Harddd”!!!
-                            </p>
-                        </div>
-                        <div class="block">
-                            <h4>Mobile Apps</h4>
-                            <p>
-                                Your ideas &amp; our apps "A match made in <span style="text-decoration: line-through;">Heaven</span> Walkwel"
-                            </p>
-                        </div>
-                        <div class="block">
-                            <h4>SEO</h4>
-                            <p>
-                                We love to add colour to a canvas as long as it is digital.
-                            </p>
-                        </div>
-                        <div class="block">
-                            <h4>Custom Software</h4>
-                            <p>
-                                To help you become a better juggler of tasks. 
-                            </p>
-                        </div>
-                        <div class="block">
-                            <h4>Testing</h4>
-                            <p>
-                                To help you become a better juggler of tasks. 
-                            </p>
-                        </div>
-                        <div class="block">
-                            <h4>Integration</h4>
-                            <p>
-                                To help you become a better juggler of tasks. 
-                            </p>
-                        </div>
-                        <div class="block">
-                            <h4>E-commerce Solutions</h4>
-                            <p>
-                                To help you become a better juggler of tasks. 
-                            </p>
-                        </div>
-                        <div class="block">
-                            <h4>Outsourcing</h4>
-                            <p>
-                                To help you become a better juggler of tasks. 
-                            </p>
-                        </div>
-                    </div>
-                </nav>
-            </li>
+            <li><a id="showTop" href="solutions.html">Solutions</a></li>
             <li><a id="showCareer" href="Career.html">Career &nbsp;<i class="fa fa-caret-down"></i></a>
                 <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="career-menu">
                     <div class="block" style="width:38%;">

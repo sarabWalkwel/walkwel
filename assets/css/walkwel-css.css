@@ -4646,6 +4646,247 @@ h4.located {
 .item-box p {
     text-align: center;
 }
+.navigation li:hover a
+{
+    text-decoration: none !important;
+}
+#ssl {
+    color: rgba(218, 107, 29, 0.8);
+    cursor: pointer;
+}
+/*home page inline css*/
+#request .form-control{
+        margin-bottom: 10px !important;
+    }
+    #contact{
+        display: none;
+    }
+
+    .bar{
+        background: #6a5e4a;
+        height: 15px;
+        width: 150px;
+        animation: bars 1s infinite;
+        margin-bottom: 2px;
+    }
+    .bar2{
+        animation-delay: -0.7s;
+        background-color: #5a4d38;
+    }
+    .bar3{
+        animation-delay: -0.4s;
+        background-color: #382d1c;
+    }
+    .bar4{
+        animation-delay: -0.2s;
+    }
+    .circle{
+        background: rgb(106, 94, 74);
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin-bottom: 2px;
+        display: inline-block;
+        animation: circles 3s infinite;
+
+    }
+    .circle:after {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 15px solid #ac7e31;
+    content: "";
+    height: 0;
+    left: 8px;
+    position: relative;
+    top: 14px;
+    width: 0;
+}
+    .circle2{
+        animation-delay: -0.7s;
+    }
+    .circle3{
+        animation-delay: -1.5s;
+    }
+    .circle4{
+        animation-delay: -0.2s;
+    }
+    .processCnt{
+        width: 600px;
+        height: 300px;
+        overflow: hidden;
+        display: block;
+        margin-left: 320px;
+        margin-top: 122px;
+    }
+    .processCircle{
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        background: #4a3d2a; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM0YTNkMmEiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMzYyZDFjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-radial-gradient(center, ellipse cover,  #4a3d2a 0%, #362d1c 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#4a3d2a), color-stop(100%,#362d1c)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #4a3d2a 0%,#362d1c 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #4a3d2a 0%,#362d1c 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #4a3d2a 0%,#362d1c 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #4a3d2a 0%,#362d1c 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a3d2a', endColorstr='#362d1c',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
+    }
+    .targetPoints{
+        background-color: #6a5d4a;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        border: 5px solid #c2b6a6;
+        position: absolute;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        z-index: 3;
+    }
+    .targetPoints.show{
+        opacity: 1;
+        transform: scale(1.8, 1.8);
+    }
+    .pt1{
+        margin-left: 87px;
+        margin-top: -736px;
+        animation-delay: 1s;
+    }
+    .pt2{
+        margin-left: 169px;
+        margin-top: -837px;
+        animation-delay: 2s;
+    }
+    .pt3{
+        margin-left: 231px;
+        margin-top: -926px;
+        animation-delay: 3s;
+    }
+    .pt4{
+        margin-left: 374px;
+        margin-top: -913px;
+        animation-delay: 4s;
+    }
+    .pt5{
+        margin-left: 456px;
+        margin-top: -825px;
+        animation-delay: 5s;
+    }
+    .pt6{
+        margin-left: 513px;
+        margin-top: -736px;
+        animation-delay: 6s;
+    }
+    .radarStick{
+        height: 1000px;
+        margin-left: 295px;
+        margin-top: -600px;
+        width: 10px;
+        background: #c2b6a6;
+         animation-fill-mode: forwards;  
+        -webkit-animation-fill-mode: forwards;
+        transform:rotateZ(90deg);
+    }
+    .targetPoints.animate{
+        animation: radarPoints 1s ease ;
+
+        opacity: 0;
+    }
+    .radarStick.animate{
+        animation: radarStick 7s linear;
+    }
+    @keyframes bars {
+        0% {
+            width: 150px;
+        }
+
+        50% {
+            width: 80px;
+        }
+
+        100% {
+            width: 150px;
+        }
+    }
+    @keyframes circles {
+    0% {
+        transform:rotateZ(0deg);
+    }
+
+    50% {
+        transform:rotateZ(360deg);
+    }
+
+    100% {
+        transform:rotateZ(0deg);
+    }
+    
+}
+@keyframes radarStick {
+    0% {
+        transform:rotateZ(0deg);
+    }
+
+    100% {
+        transform:rotateZ(1680deg);
+    }
+}
+@keyframes radarPoints {
+    0%,100% {
+        opacity: 0;
+        transform: scale(1, 1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.8, 1.8);
+    }
+
+}
+svg{
+    margin-top: -350px;
+    position: absolute;
+    opacity: 0;
+    animation: svg 1s linear;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;  
+    margin-left: 237px;
+    position: absolute;
+    z-index: 2;
+}
+@keyframes svg {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.mantra-text p{
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 70px 0;
+}
+    .grid figure {
+        height: 202px !important;
+    }
+@media (min-width: 501px) and (max-width: 820px){
+    .grid figure {
+        height: 140px !important;
+    }
+}
+@media (min-width: 300px) and (max-width: 500px){
+    .namstay-img{
+        margin-top: 40px;
+    }
+    .namstay-img img{
+        height: auto;
+    }
+}
 
 /* Media Queries */
 @media only screen and (max-width:480px) {
