@@ -21,6 +21,9 @@
 <meta name="distribution" content="Global" />
 <meta name="publisher" content="http://www.walkwel.in" />
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="bower_components/honeycombs.js/honeycombs/js/jquery.honeycombs.js"></script>
 <!--
 <link href='/web/20150423182850/http://fonts.googleapis.com/css?family=Montserrat:700|Raleway' rel='stylesheet' type='text/css'>
 -->
@@ -30,6 +33,7 @@
 <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick.css" />
 <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="bower_components/honeycombs.js/honeycombs/css/honeycombs.css" />
 <style>
     #request .form-control{
         margin-bottom: 10px !important;
@@ -727,7 +731,7 @@ svg{
                 <br>
                 <br>
                 <br>
-                <h2>When it comes down to it, we love what we do. Or else we wouldn't do it.</h2>
+                <h2>When it comes down to it, we love what we do. <BR/>Or else we wouldn't do it.</h2>
             </div>
             <div class="del del-qu">
             </div>
@@ -782,69 +786,90 @@ svg{
     <div class="solutions">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4">
-                    <img src="assets/img/solutions.png" alt="" style="margin-top:50px;" />
-                </div>
-                <div class="col-md-4">
-                    <div class="service">
-                        <a href="Web.html">
-                            <i class="fa fa-globe"></i>
-                            <div class="main-heading">
-                                <h4 class="text-center">Websites</h4>
-                                <h5 class="text-center">Backed by experience</h5>
-                                <p>Walkwel's team of designers, developers, testers and content marketers have you secure. E-commerce, portals, brochure sites - they are here.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service software">
-                        <a href="Software.html">
-                        <i class="fa fa-laptop"></i>
-                        <div class="main-heading">
-                            <h4 class="text-center">Software</h4>
-                                <h5 class="text-center">Awseome Software</h5>
-                            <p>Good software is amazing, rock steady and value for money. Get all of it, with a lasting relationship, at Walkwel.</p>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4  design">
-                    <div class="service">
-                        <a href="Design.html">
-                        <i class="fa fa-gratipay"></i>
-                        <div class="main-heading">
-                            <h4 class="text-center">Brand Identity</h4>
-                            <h5 class="text-center">More than design</h5>
-                            <p>Walkwel believes in Objective Based Design. Which means you get more than visual eye candy, that helps develop and grow your brand.</p>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4  mobile">
-                    <div class="service">
-                        <a href="Mobile.html">
-                        <i class="fa fa-mobile"></i>
-                        <div class="main-heading">
-                            <h4 class="text-center">Mobile App</h4>
-                            <h5 class="text-center">Undesk yourself</h5>
-                            <p>We build content-rich mobile apps for iOS, Android and Windows Phone. Native as well as hybrid. Not just apps we build relationships, over partnerships, with our clients.</p>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4  consulting">
-                    <div class="service">
-                        <a href="Consulting.html">
-                        <i class="fa fa-shopping-cart"></i>
-                        <div class="main-heading">
-                            <h4 class="text-center">E-Commerce</h4>
-                            <h5 class="text-center">Delivering Happy Smiles</h5>
-                            <p>Follow your instincts. Place a bet on the Internet. We'll make that happen. End to end solutions. Joy assured.</p>
-                        </div>
-                        </a>
-                    </div>
-                </div>
+              <div class="honeycombs">
+		<div class="comb">
+			<div class="front-content">
+                <img src="assets/img/solutions-icons/web-design.png" alt="" />
+				<h1 class="text-center">Web Design</h1>
+			</div>
+			<div class="back-content">
+				<p>We love anything that is delightful, engaging and fluid. So are our websites.</p>
+			</div>
+		</div>
+		<div class="comb">
+			<div class="front-content">
+                <img src="assets/img/solutions-icons/web-development.png" alt="" />
+				<h1 class="text-center">Web Development</h1>
+			</div>
+			<div class="back-content">
+				<p>All our websites are beautiful, responsive and performance optimized</p>
+			</div>
+		</div>
+		<div class="comb">
+			<div class="front-content">
+                <img src="assets/img/solutions-icons/mobile-app.png" alt="" />
+				<h1 class="text-center">Mobile Apps</h1>
+			</div>
+			<div class="back-content">
+				<p>PC sales might be dipping down but smartphone sales are consistently increasing. Shift your business to mobile.</p>
+			</div>
+		</div>
+		<div class="comb">
+			<div class="front-content">
+                <img src="assets/img/solutions-icons/seo.png" alt="" />
+				<h1 class="text-center">SEO</h1>
+			</div>
+			<div class="back-content">
+				<p>Get your website listed in all leading search engines such as Google and Bing, without spending a dime on paid advertisements.</p>
+			</div>
+		</div>
+		<div class="comb">
+			<div class="front-content">
+                <img src="assets/img/solutions-icons/software.png" alt="" />
+				<h1 class="text-center">Custom Software</h1>
+			</div>
+			<div class="back-content">
+				<p>You'll get the Software of your choice, with requirements as per your wishes.</p>
+			</div>
+		</div>
+		<div class="comb">
+			<div class="front-content">
+                <img src="assets/img/solutions-icons/testing.png" alt="" />
+				<h1 class="text-center">Testing</h1>
+			</div>
+			<div class="back-content">
+				<p>Finding and fixing faults, aka testing, is a serious activity.</p>
+			</div>
+		</div>
+		<div class="comb">
+			<div class="front-content">
+                <img src="assets/img/solutions-icons/integration.png" alt="" />
+				<h1 class="text-center">Integration</h1>
+			</div>
+			<div class="back-content">
+				<p>We can make your smartphone talk to your ERP system.</p>
+			</div>
+		</div>
+		<div class="comb">
+			<div class="front-content">
+                <img src="assets/img/solutions-icons/integration.png" alt="" />
+				<h1 class="text-center">E-Commerce<br/>Solutions</h1>
+			</div>
+			<div class="back-content">
+				<p>Move beyond brick and mortar business. Place a bet on the Internet.</p>
+			</div>
+		</div>
+		<div class="comb">
+			<div class="front-content">
+                <img src="assets/img/solutions-icons/outsource.png" alt="" />
+				<h1 class="text-center">Outsource</h1>
+			</div>
+			<div class="back-content">
+				<p>Finding and fixing faults, aka testing, is a serious activity.</p>
+			</div>
+		</div>
+		
+	</div>
             </div>
         </div>
     </div>
@@ -1077,11 +1102,9 @@ svg{
 </div>
 <!-- scripts -->
 <script type="text/javascript" src="assets/js/ssm.js"></script>
-<script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.validate.js"></script>
 <script type="text/javascript" src="assets/js/skrollr.js"></script>
 <script type="text/javascript" src="assets/js/walkwel.js"></script>
-<script type="text/javascript" src="bower_components/jquery/src/"></script>
 <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
 <script type="text/javascript">
     
@@ -1165,6 +1188,15 @@ $(document).scroll(function() {
             $('.targetPoints').addClass('show')
         },12000);
     };
+});
+</script>
+<script>
+	$(document).ready(function() {
+	$('.honeycombs').honeycombs({
+		combWidth:250,
+		margin: -20,
+		threshold: 3
+	});
 });
 </script>
 </body>

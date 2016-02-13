@@ -2748,7 +2748,7 @@ img.responsive {
     z-index: 23;
 }
 .aboutus {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .technologies {
   width: 20%;
@@ -3566,6 +3566,7 @@ h1 span {
   -ms-transition: all 250ms cubic-bezier(0.23, 1, 0.32, 1);
   transition: all 250ms cubic-bezier(0.23, 1, 0.32, 1);
 }
+/*
 .svg:hover {
   color: #fff;
   border: 0 #d19b26 solid;
@@ -3576,6 +3577,46 @@ h1 span {
 .svg:hover:after {
   right: 0;
 }
+*/
+/*
+.svg:hover {
+	color: #b2b0a9;
+}
+*/
+
+.svg::after {
+	content: '';
+	position: absolute;
+	height: 16px;
+	width: 100%;
+	top: 50%;
+	margin-top: -8px;
+	right: 0;
+	background: #F9F9F9;
+	transform: translate3d(-100%,0,0);
+	transition: transform 0.4s;
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.svg:hover::after {
+	transform: translate3d(100%,0,0);
+}
+
+.svg::before {
+	content: attr(data-letters);
+	position: absolute;
+	z-index: 2;
+	overflow: hidden;
+	color: #424242;
+	white-space: nowrap;
+	width: 0%;
+	transition: width 0.4s 0.3s;
+}
+
+.svg:hover::before {
+	width: 100%;
+}
+
 .land-delta .del-abt h1 span {
   background: #fff;
   font-family: chalkdustregular, ariel;
@@ -3594,7 +3635,7 @@ h1 span {
   font-size: 15px;
   text-transform: none;
   font-family: chalkdustregular, ariel;
-  margin-top: -9px;
+    line-height: 22px;
   color: #fff;
   font-weight: 400;
 }
@@ -4383,7 +4424,7 @@ input[name=pincode] {
     z-index: 22;
     width: 100%;
     background-color: rgba(0, 0, 0, .7);
-    background-image: url("../slider/slide4.jpg") ;
+    background-image: url("../slider/slide6.jpg") ;
     background-size: cover;
 }
 .solutions .service {

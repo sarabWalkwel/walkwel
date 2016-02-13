@@ -1,0 +1,14 @@
+{
+  "name": "honeycombs.js",
+  "homepage": "https://github.com/Tiotao/honeycombs.js",
+  "_release": "6f5a4f848e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6f5a4f848e4e6dbd88141d67d5aee2d43e4b42a6"
+  },
+  "_source": "https://github.com/Tiotao/honeycombs.js.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/Tiotao/honeycombs.js.git",
+  "_direct": true
+}
