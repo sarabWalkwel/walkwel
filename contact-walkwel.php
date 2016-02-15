@@ -50,7 +50,9 @@
 <link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/set2.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
-<link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />    
+<link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />  
+<link rel="stylesheet" type="text/css" href="assets/css/laxmi.css" />  
+<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />    
 </head>
 <body class="inner">
 <?php include('header.php') ?>
@@ -136,7 +138,7 @@
     </div>
     <div class="row">
       <div class="">
-        <div class="">
+        <div class="mobile-map">
           <div class="view_map">
             <div class="content-map">
               <div class="row">

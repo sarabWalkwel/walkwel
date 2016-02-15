@@ -75,7 +75,7 @@
 
         <div class="row">
             <div class="footer-sections">            
-                <div class="col-md-3 col-sm-4">
+                <div class="col-md-3 col-sm-6">
                     <div class="footer-widget">
                         <div class="widget-title"> 
                           <!-- Title -->
@@ -98,7 +98,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-4" id="solutions">
+                <div class="col-md-3 col-sm-6" id="solutions">
                     <div class="footer-widget">
                         <div class="widget-title"> 
                           <!-- Title -->
@@ -118,7 +118,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-4">
+                <div class="col-md-3 col-sm-6">
                     <div class="footer-widget">
                         <div class="widget-title"> 
                           <!-- Title -->
@@ -137,7 +137,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-4">
+                <div class="col-md-3 col-sm-6">
                     <div class="footer-widget">
                         <div class="widget-title"> 
                           <!-- Title -->
@@ -165,7 +165,7 @@
         </div>
     </div>
     <div class="address" style="border:none;">
-        <div class="wrapper">
+        <div>
             <div class="m-footer-left" style="text-align:center; width:100%;">
             <h3>Walkwel Technology Pvt. Ltd.</h3>
             </div>

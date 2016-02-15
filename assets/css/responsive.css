@@ -1,0 +1,32 @@
+/*=====================================================
+=            Bootstrap 2.3.2 Media Queries            =
+=====================================================*/
+@media only screen and (max-width : 1046px) {
+.logo a[data-100="width:60px;"]
+    {
+        width: 60px !important;
+    }
+}
+
+@media only screen and (max-width : 900px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+.m-contact-pg
+    {
+        margin-top: 190px;
+    }
+.mobile-map
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+
+}

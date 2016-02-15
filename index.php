@@ -152,7 +152,7 @@
 </div>
     
 <!--Header for desktop-->
-<div id="header" class="headerStick"  data-0="background:rgba(0, 0, 0, 0)" data-100="background:rgba(218, 107, 29, 0.8)">
+<div id="header" class="headerStick"  data-0="background:rgba(0, 0, 0, 0)" data-100="background:rgba(255, 66, 57, 0.8)">
     <div class="logo">
         <a href="index.html"  data-0="width:260px;" data-100="width:60px;">
           <img src="assets/img/logo.png" alt="Walkwel Technology Logo" title="Walkwel Technology Logo" />
@@ -606,9 +606,9 @@
 <script type="text/javascript" src="assets/js/ssm.js"></script>
 <script type="text/javascript" src="assets/js/jquery.validate.js"></script>
 <script type="text/javascript" src="assets/js/skrollr.js"></script>
+<script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
 <script type="text/javascript" src="assets/js/walkwel.js"></script>
 <script type="text/javascript" src="js/css3-animate-it.js"></script>
-<script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
 <script type="text/javascript">
 // Testimonial slider - slick    
 $(document).ready(function () {
