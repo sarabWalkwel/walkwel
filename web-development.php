@@ -1,94 +1,74 @@
 <?php $page='Portfolio';?>
-<!doctype html>
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+<meta charset="utf-8" />
+<title>Walkwel Technology Portfolio | E-commerce Website development Jalandhar</title>
+<meta name="robots" content="index, follow" />
+<meta name="title" content="Walkwel Technology Portfolio | E-commerce Website development Jalandhar"/>
+<meta name="keywords" content="Custom Web Applications Development Jalandhar Punjab, Offshore Development Custom Internet Applications, Custom Application, Social websites development, Asp.Net apps development,  Mobile Applications Development, E-commerce development." />
+<meta name="description" content="We do website, mobile apps, branding, testing, integration, custom software, digital e-commerce, ERP. For hospital, healthcare, education and industries" />
+<meta name="distribution" content="global" />
+<meta name="rating" content="General" />
+<meta name="language" content="En" />
+<meta name="robots" content="all" />
+<meta name="revisit-after" content="1 days">
 
-    <meta charset="utf-8">
+<meta property="og:title" content="Walkwel Technology Portfolio | E-commerce Website development Jalandhar"/>
+<meta property="og:description" content="We do website, mobile apps, branding, testing, integration, custom software, digital e-commerce, ERP. For hospital, healthcare, education and industries" />
+<meta property="og:type" content="Web Services" />
+<meta property="og:url" content="http://www.walkwel.in" />
+<meta property="og:site_name" content="Walkwel Technology Private Limited" />
+<meta property="og:image" content="http://walkwel.in/img/walkwel-logo.png" />
+<meta property="og:image:width" content="250" />
+<meta property="og:image:height" content="84" />
 
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+<meta name="dc.title" content="Walkwel Technology Portfolio | E-commerce Website development Jalandhar">
+<meta name="dc.description" content="We do website, mobile apps, branding, testing, integration, custom software, digital e-commerce, ERP. For hospital, healthcare, education and industries">
+<meta name="dc.keywords" content="Custom Web Applications Development Jalandhar Punjab, Offshore Development Custom Internet Applications, Custom Application, Social websites development, Asp.Net apps development,  Mobile Applications Development, E-commerce development.">
+<meta name="dc.language" content="En">
+<meta name="dc.source" content="http://www.walkwel.in">
+<meta name="dc.subject" content="Web Services, Mobile Applications Development Jalandhar">
+<meta name="dc.publisher" content="Walkwel Technology Private Limited">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+<!-- Favicon -->
+<link rel="shortcut icon" href="favicon.ico">
 
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
 
-    <link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-
-
-    <!-- Custom CSS -->
-
-    <link href="css/agency.css" rel="stylesheet">
-
-    <link href="css/style.css" rel="stylesheet">
-
-
-
-    <link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
-
-    <link rel="stylesheet" type="text/css" href="assets/css/set2.css" />
-
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
-
-    <link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
+<!-- Custom CSS -->
+<link href="css/agency.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/set2.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/laxmi.css" />
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-
-    <title>Walkwel Technology Portfolio | E-commerce Website development Jalandhar</title>
-
-    <meta name="google-site-verification" content="13o4fDohXUvqSHVVKRlL8E5xE65IPE9QXN6KXFSBJmw" />
-
-    <meta name="p:domain_verify" content="6e936a79889770d9057152483ea37fc3"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="Walkwel technology providing various types of services such as ERP, Web services, Mobile app development, Customer Software Development and enterprise solutions.">
-
-    <meta name="keywords" content="Enterprise Solutions, Web Design & Development, Walkwel, ERP, Mobile Applications Development, Web Development, Customer Software Development, Enterprise Resource Planning">
-
-    <meta name="robots" content="all, index, follow">
-
-    <meta name="copyright" content="Copyright © 2014 Walkwel Technology Pvt. Ltd. All Rights Reserved.">
-
-    <meta name="author" content="walkwel.in">
-
-    <meta name="language" content="English">
-
-    <meta name="revisit-after" content="7">
-
-    <meta name="rating" content="safe for kids">
-
-    <meta name="distribution" content="Global" />
-
-    <meta name="publisher" content="http://www.walkwel.in" />
-
-    <style type="text/css" media="screen">
-
-    body{ height: auto !important;}
-
-        
-
-    </style>
-
+<link rel="stylesheet" href="css/animations.css" type="text/css">
+    
+<style type="text/css" media="screen">
+body{ height: auto !important;}
+</style>
 </head>
 
 <body class="inner">
 
-<div id="loading">
-
+<!--loading code-->
+<div id="loading">  
+    <h1> <img src="assets/img/walkwel-logo.gif" alt="walkwel loading logo" width="140" height="140" /></h1>
 </div>
 
 <!-- Header logo/nav -->
-
 <?php include('header.php') ?>
-
+    
 <!-- Banner image/text -->
-
 <div id="banner" class="m-services-header" >
   <div class="slider">
       <div class="image">
@@ -114,7 +94,6 @@
 <!-- primary services -->
 
 <div id="content" class="content aboutIn ">	
-
     <div class="container-fluid" style="padding-top:0px;">
         <div style="padding:20px 20px 15px;" class="main-heading text-center">
        <h1 class="text-center">Web Development</h1>
@@ -226,12 +205,6 @@
 </div>
 
 <!-- scripts -->
-<script src="js/jquery.js"></script>
-<script type="text/javascript" src="assets/js/skrollr.js"></script>
-<script type="text/javascript" src="assets/js/jquery.slimscroll.js"></script>
-<script type="text/javascript" src="assets/js/walkwel.js"></script>
-
-<script src='js/css3-animate-it.js'></script>
 </body>
 
 </html>

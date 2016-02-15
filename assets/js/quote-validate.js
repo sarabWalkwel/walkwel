@@ -1,6 +1,6 @@
 
 
-$().ready(function() {
+$(Document).ready(function() {
 
 		// validate quote form
 

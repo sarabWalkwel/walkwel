@@ -1,38 +1,57 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
-    <!-- Bootstrap Core CSS -->
+<title>About Walkwel Technology | Software Development Company Jalandhar</title>
+<meta name="robots" content="index, follow" />
+<meta name="title" content="About Walkwel Technology | Software Development Company Jalandhar"/>
+<meta name="keywords" content="website design Jalandhar, web development Punjab, Website designing, website development, custom web applications Jalandhar, iPhone and Android Apps, mobile apps development Jalandhar Punjab India." />
+<meta name="description" content="We create best responsive &amp; parallex websites with pagespeed optimization and multi domains. Wordpress PHP .NET Java Laravel HTML5 CSS3. Jalandhar Punjab" />
+<meta name="distribution" content="global" />
+<meta name="rating" content="General" />
+<meta name="language" content="En" />
+<meta name="robots" content="all" />
+<meta name="revisit-after" content="1 days">
 
-    <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/set2.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-    <title>About us | Custom Software | Walkwel Technology</title>
-    <meta name="google-site-verification" content="13o4fDohXUvqSHVVKRlL8E5xE65IPE9QXN6KXFSBJmw" />
-    <meta name="p:domain_verify" content="6e936a79889770d9057152483ea37fc3"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Walkwel delivers specialized and high quality services for CMS, SEO, E-commerce, Custom Software & ERP development, Web Applications, and Mobile Apps Solutions.">
-    <meta name="keywords" content="ERP, CMS, SEO, Mobile Apps, E-commerce, Web Applications, Custom Software, Web Designing, IT Company, IT Services">
-    <meta name="robots" content="all, index, follow">
-    <meta name="copyright" content="Copyright © 2014 Walkwel Technology Pvt. Ltd. All Rights Reserved.">
-    <meta name="author" content="walkwel.in">
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="7">
-    <meta name="rating" content="safe for kids">
-    <meta name="distribution" content="Global" />
-    <meta name="publisher" content="http://www.walkwel.in" />
+<meta property="og:title" content="About Walkwel Technology | Software Development Company Jalandhar"/>
+<meta property="og:description" content="We create best responsive &amp; parallex websites with pagespeed optimization and multi domains. Wordpress PHP .NET Java Laravel HTML5 CSS3. Jalandhar Punjab" />
+<meta property="og:type" content="Web Services" />
+<meta property="og:url" content="http://www.walkwel.in" />
+<meta property="og:site_name" content="Walkwel Technology Private Limited" />
+<meta property="og:image" content="http://walkwel.in/assets/img/walkwel-logo.png" />
+<meta property="og:image:width" content="250" />
+<meta property="og:image:height" content="84" />
+
+<meta name="dc.title" content="About Walkwel Technology | Software Development Company Jalandhar">
+<meta name="dc.description" content="We create best responsive &amp; parallex websites with pagespeed optimization and multi domains. Wordpress PHP .NET Java Laravel HTML5 CSS3. Jalandhar Punjab">
+<meta name="dc.keywords" content="website design Jalandhar, web development Jalandhar Punjab, Website designing, website development, custom web applications Jalandhar, iPhone and Android Apps, mobile apps development Jalandhar Punjab India.">
+<meta name="dc.language" content="En">
+<meta name="dc.source" content="http://www.walkwel.in">
+<meta name="dc.subject" content="Web Services, Website Designing and Development Services">
+<meta name="dc.publisher" content="Walkwel Technology Private Limited">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="favicon.ico">
+    
+<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+<!-- Bootstrap Core CSS -->
+
+<!-- Custom CSS -->
+<link href="css/agency.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/set2.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
+<link rel="stylesheet" href="css/animations.css" type="text/css">
 </head>
 <body class="inner about">
+    
+<!--loading code-->
 <div id="loading">
     <h1> <img src="assets/img/walkwel-logo.gif" width="140" alt="walkwel-logo" height="140" /></h1>
 </div>
@@ -166,9 +185,6 @@
 <!-- footer -->
 <?php include('footer.php') ?>
 <!-- scripts -->
-<script src="js/jquery.js"></script>
-<script type="text/javascript" src="assets/js/skrollr.js"></script>
-<script src='js/css3-animate-it.js'></script>
 <script>
     // loading effect
 $(window).load(function(e) {
@@ -180,6 +196,5 @@ function show() {
   };
 
 </script>
-<script type="text/javascript" src="assets/js/walkwel.js"></script>
 </body>
 </html>

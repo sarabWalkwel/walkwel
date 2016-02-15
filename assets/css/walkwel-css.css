@@ -3837,13 +3837,12 @@ h1 span {
   float: left;
 }
 .m-career-form {
-  background-color: #444;
-  left: 151px;
-  margin-left: 15px;
-  padding: 40px;
-  position: absolute;
-  top: 29px;
-  width: 69.6%;
+    background-color: #444;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+    width: 69.6%;
 }
 .m-career-box {
   height: 68px;
@@ -4700,7 +4699,7 @@ h4.located {
         margin-bottom: 10px !important;
     }
     #contact{
-        display: none;
+/*        display: none;*/
     }
 
     .bar{

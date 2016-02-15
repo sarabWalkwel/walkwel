@@ -362,6 +362,56 @@ body
   -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.solutions
+
+/*process styles*/
+.process-row {
+    display: table-row;
+}
+.process-career {
+    display: table;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.process-step button[disabled] {
+    opacity: 1 !important;
+}
+.process-row::before {
+    background-color: #ccc;
+    bottom: 0;
+    content: " ";
+    height: 1px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+.process-step {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+}
+.process-step i
 {
+    color: #fff;
+}
+.process-step p {
+    margin-top:0px;
+    padding: 0;
+}
+
+.green-box {
+    background-color: #344860;
+}
+.btn-circle {
+    border-radius: 15px;
+    font-size: 12px;
+    height: 100px;
+    line-height: 1.42857;
+    padding: 6px 0;
+    text-align: center;
+    width: 100px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6
+{
+    color: #333;
 }

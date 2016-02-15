@@ -1,54 +1,80 @@
 <?php
  include('token.php');
 ?>
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<meta charset="utf-8">
+<title>Contact Walkwel Technology | Website and Software Development Company Jalandhar</title>
+<meta name="robots" content="index, follow" />
+<meta name="title" content="Contact Walkwel Technology | Website and Software Development Company Jalandhar"/>
+<meta name="keywords" content="Web design quotes, web development Jalandhar, SEO quote request" />
+<meta name="description" content="Best Website design, mobile apps development company in Jalandhar Punjab. We do custom software, ecommerce, iPhone, Android, ERP, SEO, industrial training" />
+<meta name="distribution" content="global" />
+<meta name="rating" content="General" />
+<meta name="language" content="En" />
+<meta name="robots" content="all" />
+<meta name="revisit-after" content="1 days">
 
-    <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+<meta property="og:title" content="Contact Walkwel Technology | Website and Software Development Company Jalandhar"/>
+<meta property="og:description" content="Best Website design, mobile apps development company in Jalandhar Punjab. We do custom software, ecommerce, iPhone, Android, ERP, SEO, industrial training" />
+<meta property="og:type" content="Web Services" />
+<meta property="og:url" content="http://www.walkwel.in" />
+<meta property="og:site_name" content="Walkwel Technology Private Limited" />
+<meta property="og:image" content="http://walkwel.in/img/walkwel-logo.png" />
+<meta property="og:image:width" content="250" />
+<meta property="og:image:height" content="84" />
 
-    <link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/set2.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />    
-    <title>Contact us | IT Services | Walkwel Technology</title>
-    <meta name="google-site-verification" content="13o4fDohXUvqSHVVKRlL8E5xE65IPE9QXN6KXFSBJmw" />
-    <meta name="p:domain_verify" content="6e936a79889770d9057152483ea37fc3"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="For any query or suggestion, please contact Walkwel specialist’s team for further information. Use contact form or contact details to connect with us.">
-    <meta name="keywords" content="ERP, CMS, SEO, Mobile Apps, E-commerce, Web Applications, Custom Software, Web Designing, IT Company, IT Services">
-    <meta name="robots" content="all, index, follow">
-    <meta name="copyright" content="Copyright © 2014 Walkwel Technology Pvt. Ltd. All Rights Reserved.">
-    <meta name="author" content="walkwel.in">
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="7">
-    <meta name="rating" content="safe for kids">
-    <meta name="distribution" content="Global" />
-    <meta name="publisher" content="http://www.walkwel.in" />
+<meta name="dc.title" content="Contact Walkwel Technology | Website and Software Development Company Jalandhar">
+<meta name="dc.description" content="Best Website design, mobile apps development company in Jalandhar Punjab. We do custom software, ecommerce, iPhone, Android, ERP, SEO, industrial training">
+<meta name="dc.keywords" content="Web design quotes, web development Jalandhar, SEO quote request">
+<meta name="dc.language" content="En">
+<meta name="dc.source" content="http://www.walkwel.in">
+<meta name="dc.subject" content="Private IT Jobs in Jalandhar Punjab">
+<meta name="dc.publisher" content="Walkwel Technology Private Limited">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/agency.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/set2.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />    
 </head>
 <body class="inner">
 <?php include('header.php') ?>
 <!-- Banner image/text -->
-<div id="banner" class="m-services-header contact" >
+<div id="banner" class="m-services-header" >
   <div class="slider">
       <div class="image">
-          <img src="assets/slider/contact-walkwel.jpg" alt="contact-Walkwel" class="responsive" />
+          <img src="assets/slider/aboutus.jpg" alt="about-walkwel" class="responsive" />
             <div class="m-about-head banner-title" style="width:100%; text-align:center;">
-            <h3>Interested in working with us?</h3>
-            </div>
+            <!--<h1>ABOUT US</h1>-->
+            <div class="container-fluid">
+                <h1>Contact Us</h1>
+                <div class="breadcrumb-box">
+                    <ul class="breadcrumb">
+                      <li> <a href="index.html">Home</a> </li>
+                      <li class="active">Contact Us</li>
+                    </ul>
+                </div>
+            </div>            
+        </div>
         </div>
     </div>
 </div>
-<!-- about us -->
+
 <!-- primary services -->
 <div id="services" class="m-contact-pg" ><!--  data-1600="top:1200px;" data-1300="top:1435px;" -->
   <div class="container-fluid">
@@ -146,15 +172,9 @@
       </div>
     </div>
     </div>
+<!-- footer -->
     <?php include('footer.php') ?>
 </div>
-<!-- footer -->
-
-<!-- scripts -->
-<script type="text/javascript" src="assets/js/skrollr.js"></script>
-<script type="text/javascript" src="assets/js/jquery.slimscroll.js"></script>
-<script type="text/javascript" src="assets/js/walkwel.js"></script>
-<script type="text/javascript" src="assets/js/contact-validate.js"></script>
 <script type="text/javascript">
   function hideViewMap(){
     $('.view_map').fadeOut('slow');
