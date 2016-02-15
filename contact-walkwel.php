@@ -134,43 +134,7 @@
         </div>    
       </div>
     </div>
-    <div class="row">
-      <div class="">
-        <div class="">
-          <div class="view_map">
-            <div class="content-map">
-              <div class="row">
-                <div class="col-md-12 text-center">
-                  <i class="fa fa-map-marker" style ="color:#666; font-size:50px; padding:20px 0;"></i>
-                </div>
-                <div class="col-md-12 text-center">
-                  <h3>4th Floor, PKF Building, Namdev Chowk, <br> Jalandhar (PB).<br><br></h3>   
-                  <a onclick="hideViewMap();" class="btn btn-default">View Map</a>
-                </div>
-                <div class="col-md-12 contact-detail">
-                  <div class="text-center" style="width:50%; float:left;"><p>Email - info@walkwel.in</p></div>
-                  <div class="col-md-6 text-center" style="width:50%; float:left;"><p>Contact - +91-181-5041414</p></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-          <div style="overflow:hidden;height:500px;width:100%;color:#444!important;">
-            <div id="gmap_canvas" style="height:500px;width:100%;"></div>
-            <style>#gmap_canvas img{max-width:none!important;background:none!important;}</style>
-            <a class="google-map-code" href="http://wordpress-themes.org" id="get-map-data">wordpress-themes.org</a>
-          </div>
-          <script type="text/javascript"> 
-            function init_map(){
-              var myOptions = {zoom:15,center:new google.maps.LatLng(31.321463,75.582381),mapTypeId: google.maps.MapTypeId.ROADMAP};
-              map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
-              marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(31.321463,75.582381)});
-              infowindow = new google.maps.InfoWindow({content:"<b>Walkwel Technology</b><br/>4th Floor, PKF Building, Namdev Chowk,<br/>Jalandhar (PB)." });
-              google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
-          </script>
-        </div>
-      </div>
-    </div>
+    
     </div>
 <!-- footer -->
     <?php include('footer.php') ?>

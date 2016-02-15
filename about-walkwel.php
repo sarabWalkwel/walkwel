@@ -181,19 +181,19 @@
             </div>
         </div>
     </div>
-
+    <div class="clearfix"></div>
 <!-- footer -->
 <?php include('footer.php') ?>
 <!-- scripts -->
 <script>
     // loading effect
-$(window).load(function(e) {
-    show();
-});
+// $(window).load(function(e) {
+//     show();
+// });
 
-function show() {
-    setTimeout($('#loading').fadeOut(200),500);
-  };
+// function show() {
+//     setTimeout($('#loading').fadeOut(200),500);
+//   };
 
 </script>
 </body>
