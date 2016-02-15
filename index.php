@@ -19,9 +19,7 @@
 <meta name="distribution" content="Global" />
 <meta name="publisher" content="http://www.walkwel.in" />
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
-<script type="text/javascript" src="bower_components/honeycombs.js/honeycombs/js/jquery.honeycombs.js"></script>
+
 <!--
 <link href='/web/20150423182850/http://fonts.googleapis.com/css?family=Montserrat:700|Raleway' rel='stylesheet' type='text/css'>
 -->
@@ -715,6 +713,8 @@
     
 </div>
 <!-- scripts -->
+<script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="bower_components/honeycombs.js/honeycombs/js/jquery.honeycombs.js"></script>
 <script type="text/javascript" src="assets/js/ssm.js"></script>
 <script type="text/javascript" src="assets/js/jquery.validate.js"></script>
 <script type="text/javascript" src="assets/js/skrollr.js"></script>
