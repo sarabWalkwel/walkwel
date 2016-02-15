@@ -152,11 +152,9 @@
 </div>
     
 <!--Header for desktop-->
-<<<<<<< HEAD
-<div id="header" class="headerStick"  data-0="background:rgba(0, 0, 0, 0)" data-100="background:rgba(255, 66, 57, 0.8)">
-=======
+
 <div id="header" class="headerStick"  data-0="background:rgba(0, 0, 0, 0.2)" data-100="background:rgba(255, 66, 57, 0.8)">
->>>>>>> ec90c901dd5ecdc1dc7ddcf028c33633b14758ec
+
     <div class="logo">
         <a href="index.html"  data-0="width:260px;" data-100="width:60px;"
         ><img src="assets/img/logo.png" alt="Walkwel Technology Logo" title="Walkwel Technology Logo" /></a>
