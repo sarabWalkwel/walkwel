@@ -136,7 +136,7 @@
         <a class="cancel"><i class="fa fa-times"></i></a>
     </div>
 </div>
-<div id="header" class="headerStick"  data-0="background:rgba(0, 0, 0, 0.2)" data-100="background:rgba(218, 107, 29, 0.8)">
+<div id="header" class="headerStick"  data-0="background:rgba(0, 0, 0, 0.2)" data-100="background:rgba(255, 66, 57, 0.8)">
     <div class="logo">
         <a href="index.html"  data-0="width:260px;" data-100="width:60px;"
         ><img src="assets/img/logo.png" alt="Walkwel Technology Logo" title="Walkwel Technology Logo" /></a>
@@ -216,6 +216,13 @@
             <li><a href="index.html" rel="Welcome to Walkwel Technology Private Limited"  title="Welcome to Walkwel Technology Private Limited">Home</a></li>
             <li><a href="about-walkwel.html" rel="About Walkwel" title="About Walkwel">About Us</a></li>
             <li><a  title="Walkwel Services" rel="Walkwel Services" href="solutions.html">Solutions</a></li>
+            <li class="dropdown-mymenu"><a  title="Walkwel Portfolio" rel="Walkwel Portfolio" href="#">Portfolio&nbsp;<i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-submenu" style="display:none;">
+                    <li><a href="web-development.html">Web Development</a></li>
+                    <li><a href="erp-solutions.html">ERP Solutions</a></li>
+                    <li><a href="e-commerce-solutions.html">E-Commerce</a></li>
+                </ul>
+            </li>
             <li><a href="careers-in-walkwel.html" title="Careers in Walkwel" rel="Careers in Walkwel">Career</a></li>
             <li><a href="contact-walkwel.html" title="Contact Walkwel" rel="Contact Walkwel">Contact</a></li>
         </ul>

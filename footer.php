@@ -189,3 +189,10 @@ $(document).ready(function($) {
 });
     
 </script>
+<script>
+    $(".dropdown-mymenu > a").click(function(e){
+        console.log("clicked")
+        e.preventDefault();
+        $(this).siblings('.dropdown-submenu').slideToggle(400);
+    });   
+</script>

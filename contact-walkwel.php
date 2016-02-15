@@ -136,6 +136,7 @@
         </div>    
       </div>
     </div>
+<<<<<<< HEAD
     <div class="row">
       <div class="">
         <div class="mobile-map">
@@ -173,6 +174,9 @@
         </div>
       </div>
     </div>
+=======
+    
+>>>>>>> ec90c901dd5ecdc1dc7ddcf028c33633b14758ec
     </div>
 <!-- footer -->
     <?php include('footer.php') ?>
