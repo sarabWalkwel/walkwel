@@ -139,17 +139,17 @@
 <div id="header" class="headerStick"  data-0="background:rgba(0, 0, 0, 0.2)" data-100="background:rgba(218, 107, 29, 0.8)">
     <div class="logo">
         <a href="index.html"  data-0="width:260px;" data-100="width:60px;"
-        ><img src="assets/img/logo.png" alt="Walkwel Technology" title="Walkwel Technology" /></a>
+        ><img src="assets/img/logo.png" alt="Walkwel Technology Logo" title="Walkwel Technology Logo" /></a>
     </div>
     <div class="quote">
         <a class="req-quote">Quote</a>
     </div>
     <div class="navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about-walkwel.html">About Us</a></li>
-            <li><a id="showTop" href="solutions.html">Solutions</a></li>
-            <li><a id="showCareer" href="Career.html">Career &nbsp;<i class="fa fa-caret-down"></i></a>
+            <li><a href="index.html" rel="Welcome to Walkwel Technology Private Limited" title="Welcome to Walkwel Technology Private Limited">Home</a></li>
+            <li><a href="about-walkwel.html" rel="About Walkwel" title="About Walkwel">About Us</a></li>
+            <li><a id="showTop" title="Walkwel Services" rel="Walkwel Services" href="solutions.html">Solutions</a></li>
+            <li><a id="showCareer" href="#" title="Careers in Walkwel" rel="Careers in Walkwel">Career &nbsp;<i class="fa fa-caret-down"></i></a>
                 <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="career-menu">
                     <div class="block" style="width:38%;">
                         <h4> <i class="fa fa-coffee"></i> &nbsp;Why work at Walkwel </h4>
@@ -174,50 +174,50 @@
                         <a href="Designer.html">Front End Designers</a>
                         <a href="Apps.html">Apps Developer (Android / IOS)</a>
                         <a href="JVM.html">Java Virtual Machine Developer ( JVM )</a>
-                        <a href="Career.html" class="call-to-action btn">View All Jobs</a>
+                        <a href="careers-in-walkwel.html" class="call-to-action btn">View All Jobs</a>
                     </div>
                 </nav>
             </li>
-            <li><a href="Portfolio.html" id="">Our Portfolio &nbsp;<i class="fa fa-caret-down"></i></a>
+            <li><a href="#" id="" title="Walkwel Portfolio" rel="Walkwel Portfolio">Our Portfolio &nbsp;<i class="fa fa-caret-down"></i></a>
                  <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top port-menu" >
                     <div class="block" style="width:458px;">
                        <img src="img/portfolioimage.jpg" alt="">
                     </div>
                     <div class="block" style="width:22%;">
-                       <a href="web-development.html"><h4>Web Development</h4></a>
+                       <a href="web-development.html" title="walkwel web development"><h4>Web Development</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="web-development.html" class="view-port">View Portfolio</a>
+                       <a href="web-development.html" class="view-port" title="walkwel web development" rel="walkwel web development">View Portfolio</a>
                     </div>
                     <div class="block" style="width:22%;">
                         <a href="erp-solutions.html"><h4>ERP Solutions</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="erp-solutions.html" class="view-port">View Portfolio</a>
+                       <a href="erp-solutions.html" title="Walkwel erp solutions" rel="walkwel erp solutions" class="view-port">View Portfolio</a>
                     </div>
                     <div class="block" style="width:22%; background:#f2f2f2;height: auto;padding-bottom: 40px;">
                          <a href="e-commerce-solutions.html"><h4>E-Commernce</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="e-commerce-solutions.html" class="view-port">View Portfolio</a>
+                       <a href="e-commerce-solutions.html" title="Walkwel e-commerce solutions" rel="Walkwel e-commerce solutions" class="view-port">View Portfolio</a>
                     </div>
                 </nav>
             </li>
-            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="contact-walkwel.html" title="Contact Walkwel" rel="Contact Walkwel">Contact</a></li>
         </ul>
     </div>
 </div>
 <div data-role="mobile" class="headerStick">
     <div class="logo">
-        <a href="index.html"><img src="assets/img/logo.png" alt="Walkwel-logo" title="Walkwel Technology" width="260" height="75" /></a>
+        <a href="index.html"><img src="assets/img/logo.png" alt="Walkwel Technology Logo" title="Walkwel Technology Logo" width="260" height="75" /></a>
     </div>
     <div class="quote">
         <a onclick="openMenu();">Menu</a>
     </div>
     <div class="navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About.html">Company</a></li>
-            <li><a href="Services.html">Solutions</a></li>
-            <li><a href="Career.html">Career</a></li>
-            <li><a href="contactUs.html">Contact</a></li>
+            <li><a href="index.html" rel="Welcome to Walkwel Technology Private Limited"  title="Welcome to Walkwel Technology Private Limited">Home</a></li>
+            <li><a href="about-walkwel.html" rel="About Walkwel" title="About Walkwel">About Us</a></li>
+            <li><a  title="Walkwel Services" rel="Walkwel Services" href="solutions.html">Solutions</a></li>
+            <li><a href="careers-in-walkwel.html" title="Careers in Walkwel" rel="Careers in Walkwel">Career</a></li>
+            <li><a href="contact-walkwel.html" title="Contact Walkwel" rel="Contact Walkwel">Contact</a></li>
         </ul>
     </div>
 </div>

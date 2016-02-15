@@ -177,10 +177,15 @@
 <script type="text/javascript" src="assets/js/jquery.validate.js"></script>
 <script type="text/javascript" src="assets/js/quote-validate.js"></script>
 <script type="text/javascript" src="assets/js/ssm.js"></script>
+<script type="text/javascript" src="assets/js/skrollr.js"></script>
+<script type="text/javascript" src="assets/js/jquery.slimscroll.js"></script>
+<script type="text/javascript" src="assets/js/walkwel.js"></script>
+<script src='js/css3-animate-it.js'></script>
 <script>
 $(document).ready(function($) {
     $("#ssl").click(function(event) {
         $(".sublist").toggleClass('sublist-height');
     });    
 });
+    
 </script>
