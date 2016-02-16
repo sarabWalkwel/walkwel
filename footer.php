@@ -145,7 +145,7 @@
                         </div>
                     <!-- Count -->
                         <div class="iso-cert">
-                            <img width="50" height="50" src="img/iso-certified.png" alt="" class="isologo"><p>AN ISO 9001:2008 <br>Certified Company</p>
+                            <img src="img/iso-certified.png" alt="" class="isologo"><p>AN ISO 9001:2008 <br>Certified Company</p>
 
                         </div>
                         <div class="footer-count">
@@ -167,7 +167,8 @@
     <div class="address" style="border:none;">
         <div>
             <div class="m-footer-left" style="text-align:center; width:100%;">
-            <h3>Walkwel Technology Pvt. Ltd.</h3>
+                <p>&copy; 2015-16 Walkwel Technology Pvt. Ltd.</p>
+          </div>
             </div>
         </div>
     </div>

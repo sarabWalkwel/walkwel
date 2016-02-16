@@ -27,7 +27,21 @@ body {
     background-image: url("../slider/slide4.jpg") ;
     background-size: contain;
     background-repeat: no-repeat;
-    font-family: Montserrat,sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'mf_hey_pretty_girlregular';
+    src: url('../fonts/mistis.eot');
+    src: url('../fonts/mistis.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mistis.woff2') format('woff2'),
+         url('../fonts/mistis.woff') format('woff'),
+         url('../fonts/mistis.ttf') format('truetype'),
+         url('../fonts/mistis.svg#mf_hey_pretty_girlregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 #cbp-spmenu-s3,
 #cbp-spmenu-s3 *,
@@ -227,7 +241,7 @@ h3 a {
     opacity: 1 !important;
 }
 .cbp-spmenu-horizontal .view-port {
-    background: url(../../img/portbg.jpg) no-repeat;
+    background: url(../../img/portbg.png) no-repeat;
     font-size: 10px !important;
     text-align: center;
     background-position: center;
@@ -237,7 +251,7 @@ h3 a {
     margin-left: 70px;
 }
 .cbp-spmenu-horizontal .view-port:hover {
-    background: url(../../img/porthbg.jpg) no-repeat;
+    background: url(../../img/porthbg.png) no-repeat;
     font-size: 10px !important;
     text-align: center;
     background-position: center;
@@ -330,7 +344,7 @@ h3 a {
     display: block;
     min-height: 100%;
     max-width: 100%;
-    opacity: .8
+    opacity:1;
 }
 .grid figure figcaption {
     color: #fff;
@@ -2444,6 +2458,7 @@ h3 {
 .navigation a {
   color: #fff;
   float: left;
+    font-family: Montserrat,sans-serif;
   font-size: 13px;
   padding: 0 15px;
   text-transform: uppercase;
@@ -2530,6 +2545,8 @@ img.responsive {
 }
 .textSlider span {
   padding: 0 10px;
+  position: relative;
+  top: -9px;
 }
 .textGroup {
   display: flex;
@@ -2740,7 +2757,7 @@ img.responsive {
 .aboutus {
     background: none repeat scroll 0 0 #fff;
     float: left;
-    padding: 70px 0;
+    padding: 70px 0 60px;
     position: relative;
     width: 100%;
     z-index: 23;
@@ -3094,7 +3111,7 @@ img.responsive {
 .m-footer                   { /*background-image: url(../img/footer-bg.png);*/  background-color: #54575a;  background-position: 10px center;  width: 100%;  z-index: 40;  float: left; }
 .m-footer-left              { float: left; z-index: 1000; }
 .m-footer-left h3           { color: #cacaca; font-size: 17px; margin-bottom: 0; z-index: 9999; font-weight: 800; text-transform: capitalize; margin-top: 15px; }
-.m-footer-left p            { color: #989898; margin: 0; z-index: 1000; padding: 0; line-height: 2; }
+.m-footer-left p            { color: #fff; margin: 0; z-index: 1000; padding: 12px 0; font-size: 12px; line-height: 2; }
 .m-footer-right             { display: inline-block; z-index: 1000; float: right; padding-top: 11px; }
 .address                    { background-color: #33383D;  border-bottom: 1px solid #3e3e3e; float: left; width: 100%; }
 .m-footer .container p,
@@ -3297,16 +3314,16 @@ ul.links li {
   font-weight: 400;
   font-size: 18px;
 }
-#request .form .form-control {
+#request .form .form-control, #contact .form .form-control {
   background: 0 0;
   border: none;
   border-bottom: 1px solid #333;
   margin-bottom: 10px;
 }
-#request .form .form-control.error {
+#request .form .form-control.error, #contact .form .form-control.error {
   border-color: #ff0000;
 }
-#request .form .form-control:focus {
+#request .form .form-control:focus, #contact .form .form-control:focus {
   box-shadow: none;
   background: #f2f2f2;
 }
@@ -3393,7 +3410,7 @@ input[type=checkbox] {
   position: fixed;
   height: 100%;
   width: 100%;
-  z-index: 100;
+  z-index: 1000;
   background: #ffffff;
 }
 #loading h1 {
@@ -3617,7 +3634,7 @@ h1 span {
 
 .land-delta .del-abt h1 span {
   background: #fff;
-  font-family: chalkdustregular, ariel;
+    font-family: 'Permanent Marker', cursive;
   float: left;
   clear: both;
   padding: 0 13px;
@@ -3627,12 +3644,12 @@ h1 span {
   cursor: pointer;
 }
 .land-delta .del-abt h1 span:hover {
-  color: #d19b26;
+  color: rgba(255, 66, 57, 1);
 }
 .land-delta .del-abt h2 {
-  font-size: 15px;
+  font-size: 18px;
   text-transform: none;
-  font-family: chalkdustregular, ariel;
+    font-family: 'Permanent Marker', cursive;
     line-height: 22px;
   color: #fff;
   font-weight: 400;
@@ -4273,7 +4290,7 @@ input[name=pincode] {
   top: 40%;
 }
 .goal {
-  border: 1px solid #F7B183;
+  border: 1px solid #ff4239;
   border-width: 0 1px;
 }
 .another-section .main-heading {
@@ -4331,7 +4348,7 @@ input[name=pincode] {
 }
 .callToAction {
   height: 100px;
-  background: #22A7F0;
+  background: #ff4239;
   padding: 40px;
   text-align: center;
 }
@@ -4553,9 +4570,18 @@ ul.sublist {
 {
     height: 70px !important;
 }
+.iso-cert
+{
+    overflow: hidden;
+}
+.footer-count > p
+{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
 .iso-cert img {
     float: left;
-    margin-right: 35px;
+    margin-right: 10px;
 }
 
 .iso-cert p {
@@ -4943,7 +4969,6 @@ svg{
     }
 }
 .mantra-text p{
-    font-family: Montserrat,sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 70px 0;

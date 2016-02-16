@@ -50,6 +50,7 @@
 <link rel="stylesheet" type="text/css" href="assets/css/set2.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/laxmi.css" />
 <link rel="stylesheet" href="css/animations.css" type="text/css">
     
 <style type="text/css" media="screen">
@@ -74,11 +75,11 @@
             <div class="m-about-head banner-title" style="width:100%; text-align:center;">
             <!--<h1>ABOUT US</h1>-->
             <div class="container-fluid">
-                <h1>Solutions</h1>
+                <h1>Walkwel Services</h1>
                 <div class="breadcrumb-box">
                     <ul class="breadcrumb">
                       <li> <a href="index.html">Home</a> </li>
-                      <li class="active">Solutions</li>
+                      <li class="active">Walkwel Services</li>
                     </ul>
                 </div>
             </div>            
@@ -90,7 +91,7 @@
 <!-- content solutions -->
 <div id="content" class="content aboutIn ">	
 
-    <div class="container" style="padding-top:40px;">
+    <div class="container-fluid" style="padding-top:40px;">
         <div class="row animatedParent animateOnce">
             <div class="col-md-6 ">
                 <div class="main-heading animated fadeInLeft">

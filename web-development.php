@@ -80,7 +80,7 @@ body{ height: auto !important;}
                 <div class="breadcrumb-box">
                     <ul class="breadcrumb">
                       <li> <a href="index.html">Home</a> </li>
-                      <li class="active">Web Development</li>
+                      <li class="active">Portfolio</li>
                     </ul>
                 </div>
             </div>            
@@ -95,9 +95,6 @@ body{ height: auto !important;}
 
 <div id="content" class="content aboutIn ">	
     <div class="container-fluid" style="padding-top:0px;">
-        <div style="padding:20px 20px 15px;" class="main-heading text-center">
-       <h1 class="text-center">Web Development</h1>
-    </div>
         <div class="row animatedParent animateOnce porfolio-container">
             
     <div class="portfolio-box" data-id="-1">
@@ -112,14 +109,14 @@ body{ height: auto !important;}
                 <li><p>HTML 5</p></li>
                 <li><p>Bootstrap</p></li>
               </ul>
-           <a href="http://www.niviasports.com/#/home" target="_parent" class="animated-btn animated-btn-1 animated-btn-abs"><svg>
+           <a href="http://www.niviasports.com/#/home" target="_blank" class="animated-btn animated-btn-1 animated-btn-abs"><svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>View More</a>
+            </svg>Visit Site</a>
         </div>
         <div  class="slider-port-dev-1 animated fadeInRight"><img src="assets/img/portfolio/nivia-sports.jpg" alt="" class="rwd-img" /></div>
     </div>
         </div>
-        
+        <hr>
         <div class="row animatedParent animateOnce porfolio-container">
             
     <div class="portfolio-box" data-id="-2">
@@ -137,11 +134,15 @@ body{ height: auto !important;}
                 <li><p>HTML 5</p></li>
                 <li><p>Bootstrap</p></li>
               </ul>
+           <a href="http://www.capitolhospital.com/" target="_blank" class="animated-btn animated-btn-1 animated-btn-abs"><svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+            </svg>Visit Site</a>
         </div>
     </div>
         </div>
         
         
+        <hr>
         <div class="row animatedParent animateOnce porfolio-container">
             
     <div class="portfolio-box" data-id="-3">
@@ -155,33 +156,13 @@ body{ height: auto !important;}
                 <li><p>HTML 5</p></li>
                 <li><p>Bootstrap</p></li>
               </ul>
-           <a href="" class="animated-btn animated-btn-1 animated-btn-abs"><svg>
+           <a href="http://tastyplatform.com.au/" target="_blank" class="animated-btn animated-btn-1 animated-btn-abs"><svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>View More</a>
+            </svg>Visit Site</a>
         </div>
         <div  class="slider-port-dev-1 animated fadeInRight"><img src="assets/img/portfolio/tastyplatform.jpg" alt="" class="rwd-img" /></div>
     </div>
         </div>
-        <!--
-
-        <div class="row animatedParent animateOnce">
-
-            <div class="col-md-12">
-
-                <div class="main-heading fun-facts">
-
-                    <h3 >A few facts you may want to know.</h3>
-
-                    <h4 >Or not, but we’re putting them here anyway...</h4>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        --> 
-
     </div>
 
     <div class="row animatedParent animateOnce">

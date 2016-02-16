@@ -47,6 +47,7 @@
 <link rel="stylesheet" type="text/css" href="assets/css/set2.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/laxmi.css" />
 <link rel="stylesheet" href="css/animations.css" type="text/css">
 </head>
 <body class="inner about">
@@ -80,7 +81,7 @@
 <!-- about us -->
 <!-- primary services -->
 <div id="content" class="content aboutIn">	
-    <div class="container" style="padding-top:40px;padding-bottom:40px">
+    <div class="container-fluid" style="padding-top:40px;padding-bottom:40px">
         <div class="row animatedParent animateOnce">
             <div class="col-md-12" >
                 <div class="col-md-4 animated fadeInLeft">
@@ -122,7 +123,7 @@
             </div>
         </div><hr>
         <div class="about-content">
-            <div class="container">
+            <div class="container-fluid">
               <div class="row animatedParent animateOnce">
                 <div class="col-md-6 col-sm-6 text-center animated fadeInLeft" > 
                   <img src="img/about-walkwel.jpg" alt="About Walkwel" title="About Walkwel" class="img-responsive" /> 

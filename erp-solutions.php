@@ -82,7 +82,7 @@ body{ height: auto !important;}
                 <div class="breadcrumb-box">
                     <ul class="breadcrumb">
                       <li> <a href="index.html">Home</a> </li>
-                      <li class="active">ERP Solutions</li>
+                      <li class="active">Portfolio</li>
                     </ul>
                 </div>
             </div>            
@@ -94,9 +94,6 @@ body{ height: auto !important;}
 <!-- primary services -->
 <div id="content" class="content aboutIn ">	
     <div class="container-fluid" style="padding-top:0px;">
-        <div style="padding:20px 20px 15px;" class="main-heading text-center">
-       <h1 class="text-center">ERP Solutions</h1>
-    </div>
         <div class="row animatedParent animateOnce porfolio-container">
                     
     <div class="portfolio-box" data-id="-1">
@@ -113,12 +110,13 @@ body{ height: auto !important;}
               </ul>
            <a href="http://phdonline.in/" target="_blank" class="animated-btn animated-btn-1 animated-btn-abs"><svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>View More</a>
+            </svg>Visit Site</a>
         </div>
         <div  class="slider-port-dev-1 animated fadeInRight"><img src="assets/img/portfolio/phd-online.jpg" alt="" class="rwd-img" /></div>
     </div>
         </div>
         
+        <hr>
         <div class="row animatedParent animateOnce porfolio-container">
             
     <div class="portfolio-box" data-id="-2">
@@ -136,14 +134,12 @@ body{ height: auto !important;}
                 <li><p>HTML 5</p></li>
                 <li><p>Bootstrap</p></li>
               </ul>
-           <a href="" class="animated-btn animated-btn-1 animated-btn-abs"><svg>
-                <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>View More</a>
         </div>
     </div>
         </div>
         
-        
+      
+        <hr>  
         <div class="row animatedParent animateOnce porfolio-container">
             
     <div class="portfolio-box" data-id="-3">
@@ -158,7 +154,7 @@ body{ height: auto !important;}
                 <li><p>HTML 5</p></li>
                 <li><p>Bootstrap</p></li>
               </ul>
-           <a href="" class="animated-btn animated-btn-1 animated-btn-abs"><svg>
+           <a href="http://www.isb.edu/" target="_blank" class="animated-btn animated-btn-1 animated-btn-abs"><svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
             </svg>View More</a>
         </div>

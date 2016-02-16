@@ -116,7 +116,7 @@ body
 }
 .portfolio-box[data-id="-1"] > div:first-child, .portfolio-box[data-id="-3"] > div:first-child, .portfolio-box[data-id="-2"] > div:last-child {
     overflow: hidden;
-    background-color:floralwhite;
+    background-color:white;
 }
 .porfolio-container > div:first-child
 {
@@ -135,11 +135,11 @@ body
     left: 230px;
 }
 .animated-btn.animated-btn-abs {
-    color: #da6b1d;
+    color: #ff4239;
 }
 .animated-btn-1.animated-btn-abs rect
 {
-    stroke: #da6b1d;
+    stroke: #ff4239;
 }
 /*image slide by css*/
 
@@ -168,25 +168,33 @@ body
 }
 .slick-slide[data-id="2"]
 {
-    background: url(../img/testimonial/nivia.png) no-repeat center center;
+    background: url(../img/testimonial/sg.png) no-repeat center center;
     width: 146px;
     height: 132px;
 }
 .slick-current[data-id="2"]
 {
-    background:url(../img/testimonial/nivia-real.png) no-repeat center 40px, url("../img/active-arrow-11.png") no-repeat scroll center 0;
+    background:url(../img/testimonial/sg-real.png) no-repeat center 40px, url("../img/active-arrow-11.png") no-repeat scroll center 0;
     width: 146px;
     height: 132px;
 }
 .slick-slide[data-id="3"]
 {
-    background: url(../img/testimonial/phd.png) no-repeat center center;
+    background: url(../img/testimonial/link7.png) no-repeat center center;
     width: 146px;
     height: 132px;
 }
+/*
 .slick-current[data-id="3"]
 {
     background:url(../img/testimonial/phd-real.png) no-repeat center 40px, url("../img/active-arrow-12.png") no-repeat scroll center 0;
+    width: 146px;
+    height: 132px;
+}
+*/
+.slick-current[data-id="3"]
+{
+    background:url(../img/testimonial/link7-real.png) no-repeat center 40px, url("../img/active-arrow-12.png") no-repeat scroll center 0;
     width: 146px;
     height: 132px;
 }
@@ -274,7 +282,7 @@ body
     font-size: 24px;
     font-weight: 300;
     line-height: 36px;
-    padding: 20px 44px 10px;
+    padding: 20px 30px 10px;
     text-align: center;
 }
 .testimonial-box > div:first-child h1
@@ -362,6 +370,25 @@ body
   -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
 }
+.cbp-spmenu-horizontal .menu-animated-btn.animated-btn-1 a
+{
+    padding: 0 !important;
+}
+.cbp-spmenu-horizontal .menu-animated-btn.animated-btn-1
+{
+    color:  rgba(255, 66, 57, 1) !important;
+    font-family: open_sansregular !important;
+    line-height: 20px !important;
+    margin-left: 25px;
+    margin-top: 18px;
+}
+.cbp-spmenu-horizontal .menu-animated-btn.animated-btn-1:hover
+{
+    background: transparent !important;
+}
+.menu-animated-btn.animated-btn-1 rect {
+  stroke:  rgba(255, 66, 57, 1);
+}
 
 /*process styles*/
 .process-row {
@@ -418,4 +445,8 @@ body
 .img-responsive
 {
     height: 100% !important;
+}
+.work-benefits > li {
+    padding-left: 25px;
+    text-align: left;
 }

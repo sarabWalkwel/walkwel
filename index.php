@@ -33,9 +33,12 @@
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="favicon.ico">
-<!--
-<link href='/web/20150423182850/http://fonts.googleapis.com/css?family=Montserrat:700|Raleway' rel='stylesheet' type='text/css'>
--->
+<!--font custom -->
+<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/laxmi.css" />
@@ -168,31 +171,28 @@
             <li><a href="about-walkwel.html" rel="About Walkwel" title="About Walkwel">About Us</a></li>
             <li><a id="showTop" title="Walkwel Services" rel="Walkwel Services" href="solutions.html">Solutions</a></li>
             <li><a id="showCareer" href="#" title="Careers in Walkwel" rel="Careers in Walkwel">Career &nbsp;<i class="fa fa-caret-down"></i></a>
-                <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="career-menu">
-                    <div class="block" style="width:38%;">
-                        <h4> <i class="fa fa-coffee"></i> &nbsp;Why work at Walkwel </h4>
-                        <h6>How about transforming into a digi-ninja!!!!</h6>
-                        <p>A cheerful friendly character, with dogged determination, dedication to perfection &amp; loads of passion for tech. A right mix of these ingredients form the mythical Ninja. We invite anyone who possesses these inherent traits to join us on this epic journey to become “Staff of Legends”….
+                 <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top port-menu" >
+                    <div class="block" style="width:458px;">
+                       <img src="img/portfolioimage.jpg" alt="">
+                    </div>
+                    <div class="block" style="width:36%;">
+                        <h4 style="text-align: left; padding-left: 25px; margin-bottom: 10px;"> <i class="fa fa-coffee"></i> &nbsp;Why work at Walkwel </h4>
+                        <h6 style="text-align: left; font-size:16px; padding-left: 25px; margin-bottom: 10px;">How about transforming into a digi-ninja!!!!</h6>
+                        <p class="text-left" style="padding: 0px 25px;">A cheerful friendly character, with dogged determination, dedication to perfection &amp; loads of passion for tech. A right mix of these ingredients form the mythical Ninja. We invite anyone who possesses these inherent traits to join us.
 
                         </p>
                     </div>
                     <div class="block" style="width:30%;">
-                        <h4> <i class="fa fa-birthday-cake"></i> &nbsp;Benefits </h4>
+                        <h4 style="text-align: left; padding-left: 25px; margin-bottom: 10px;"> <i class="fa fa-birthday-cake"></i> &nbsp;Benefits </h4>
                         <ul class="work-benefits">
                             <li>Competitive salary</li>
                             <li>Holiday increases according to length of service</li>
                             <li>Smart casual dress code</li>
                             <li>Regular staff nights out</li>
                         </ul>
-                    </div>
-                    <div class="block" style="width:30%; background:#f2f2f2; border:1px solid #ddd;height: auto;padding-bottom: 40px;">
-                        <h4><i class="fa fa-bullhorn"></i> &nbsp;Current Vacancies</h4>
-                        <a href="Analytics.html">Analytics</a>
-                        <a href="PHP.html">PHP Developer</a>
-                        <a href="Designer.html">Front End Designers</a>
-                        <a href="Apps.html">Apps Developer (Android / IOS)</a>
-                        <a href="JVM.html">Java Virtual Machine Developer ( JVM )</a>
-                        <a href="careers-in-walkwel.html" class="call-to-action btn">View All Jobs</a>
+                        <a class="animated-btn animated-btn-1 menu-animated-btn" href="careers-in-walkwel.php" tabindex="-1"><svg>
+                <rect height="100%" width="100%" fill="none" y="0" x="0"/>
+            </svg>View All Jobs</a>
                     </div>
                 </nav>
             </li>
@@ -204,17 +204,29 @@
                     <div class="block" style="width:22%;">
                        <a href="web-development.html" title="walkwel web development"><h4>Web Development</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="web-development.html" class="view-port" title="walkwel web development" rel="walkwel web development">View Portfolio</a>
+                        <a class="animated-btn animated-btn-1 menu-animated-btn" href="web-development.html" style="margin: 0px auto ! important; float: none ! important;" title="walkwel web development" rel="walkwel web development" tabindex="-1">
+                        <svg>
+                           <rect height="100%" width="100%" fill="none" y="0" x="0"/>
+                         </svg>View Portfolio
+                        </a>
                     </div>
                     <div class="block" style="width:22%;">
                         <a href="erp-solutions.html"><h4>ERP Solutions</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="erp-solutions.html" title="Walkwel erp solutions" rel="walkwel erp solutions" class="view-port">View Portfolio</a>
+                       <a class="animated-btn animated-btn-1 menu-animated-btn" href="erp-solutions.html" title="Walkwel erp solutions" rel="walkwel erp solutions"  style="margin: 0px auto ! important; float: none ! important;" title="walkwel web development" rel="walkwel web development" tabindex="-1">
+                        <svg>
+                           <rect height="100%" width="100%" fill="none" y="0" x="0"/>
+                         </svg>View Portfolio
+                        </a>
                     </div>
                     <div class="block" style="width:22%; background:#f2f2f2;height: auto;padding-bottom: 40px;">
                          <a href="e-commerce-solutions.html"><h4>E-Commernce</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="e-commerce-solutions.html" title="Walkwel e-commerce solutions" rel="Walkwel e-commerce solutions" class="view-port">View Portfolio</a>
+                        <a class="animated-btn animated-btn-1 menu-animated-btn" href="e-commerce-solutions.html" title="Walkwel e-commerce solutions" rel="Walkwel e-commerce solutions" style="margin: 0px auto ! important; float: none ! important;" title="walkwel web development" rel="walkwel web development" tabindex="-1">
+                        <svg>
+                           <rect height="100%" width="100%" fill="none" y="0" x="0"/>
+                         </svg>View Portfolio
+                        </a>
                     </div>
                 </nav>
             </li>
@@ -513,6 +525,43 @@
                             </figcaption>           
                         </figure>
                     </div>
+                    <div class="grid">
+                        <figure class="effect-goliath">
+                            <img src="img/magento.jpg" alt="img18"/>
+                            <figcaption>
+                                <h2> <span></span></h2>
+                                <p>Magneto</p>
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/wordpress.jpg" alt="img22"/>
+                            <figcaption>
+                                <h2><span></span></h2>
+                                <p>Wordpress</p>
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/jquery.jpg" alt="img18"/>
+                            <figcaption>
+                                <h2> <span></span></h2>
+                                <p>Jquery</p>
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/rails.jpg" alt="img22"/>
+                            <figcaption>
+                                <h2><span></span></h2>
+                                <p>Ruby Rail</p>
+                            </figcaption>           
+                        </figure>
+                        <figure class="effect-goliath">
+                            <img src="img/angularjs.jpg" alt="img22"/>
+                            <figcaption>
+                                <h2><span></span></h2>
+                                <p>Angular JS</p>
+                            </figcaption>           
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
@@ -526,70 +575,72 @@
     <div class="slider slider-for">
     <div class="testimonial-box" data-id="11">
        <div>
-           <h2>"Really impressed with your team. Everything we said was done quickly. Took initiatives without our involvement and delivered on time."</h2>
+           <h2>"Walkwel gave us the expertise and execution we were looking for. Their professional and win-win attitude is commendable."</h2>
            <hr>
-           <h1>Mukesh Kumar<Br/>CEO, Founder</h1>
-           <a href="" class="animated-btn animated-btn-1"><svg>
+           <h1>M Singh<Br/>Director - ISB Hyderabad</h1>
+           <a href="http://www.isb.edu/" target="_blank" class="animated-btn animated-btn-1"><svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>Learn More</a>
+            </svg>Visit Site</a>
         </div>
         <div><img src="assets/img/testimonial/isb-pic.jpg" alt="" /></div>
     </div>
     
     <div class="testimonial-box" data-id="12">
        <div>
-           <h2>"Everything we said was done quickly. Took initiatives without our involvement and delivered on time. Perfect"</h2>
+           <h2>"Really impressed with your team. Everything we said was done quickly. Took initiatives without our involvement and delivered on time."</h2>
            <hr>
-           <h1>Neelesh Mishra<Br/>Director, CEO</h1>
-           <a href="" class="animated-btn animated-btn-1"><svg>
+           <h1>Chris Gain<Br/>Senior IT Project Consultant  - BrandReach Online Pte Ltd</h1>
+           <a href="http://www.sgbrandreach.com/" target="_blank" class="animated-btn animated-btn-1"><svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>Learn More</a>
+            </svg>Visit Site</a>
         </div>
-        <div><img src="assets/img/testimonial/nivia-pic.jpg" alt="" /></div>
+        <div><img src="assets/img/testimonial/sg.jpg" alt="" /></div>
     </div>
     <div class="testimonial-box" data-id="13">
        <div>
-           <h2>"Really impressed with your team. Everything we said was done quickly. Took initiatives without our involvement and delivered on time."</h2>
+           <h2>"I was positively surprised by Walkwel, they delivered work very fast and overall communication and work was done very professionally. I would definitely work with them again in the future."</h2>
            <hr>
-           <h1>Mukesh Kumar<Br/>CEO, Founder</h1>
+           <h1>Karel Kapteyn<Br/>CEO</h1>
+<!--
            <a href="" class="animated-btn animated-btn-1"><svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>Learn More</a>
+            </svg>Visit Site</a>
+-->
         </div>
         <div><img src="assets/img/testimonial/college.jpg" alt="" /></div>
     </div>
 
     <div class="testimonial-box" data-id="14">
        <div>
-           <h2>"Really impressed with your team. Everything we said was done quickly. Took initiatives without our involvement and delivered on time."</h2>
+           <h2></h2>
            <hr>
-           <h1>Mukesh Kumar<Br/>CEO, Founder</h1>
+           <h1></h1>
            <a href="" class="animated-btn animated-btn-1"><svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>Learn More</a>
+            </svg>Visit Site</a>
         </div>
         <div><img src="assets/img/testimonial/isb-pic.jpg" alt="" /></div>
     </div>
     
     <div class="testimonial-box" data-id="15">
        <div>
-           <h2>"Everything we said was done quickly. Took initiatives without our involvement and delivered on time. Perfect"</h2>
+           <h2></h2>
            <hr>
-           <h1>Neelesh Mishra<Br/>Director, CEO</h1>
+           <h1></h1>
            <a href="" class="animated-btn animated-btn-1"><svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>Learn More</a>
+            </svg>Visit Site</a>
         </div>
         <div><img src="assets/img/testimonial/nivia-pic.jpg" alt="" /></div>
     </div>
     <div class="testimonial-box" data-id="16">
        <div>
-           <h2>"Really impressed with your team. Everything we said was done quickly. Took initiatives without our involvement and delivered on time."</h2>
+           <h2></h2>
            <hr>
-           <h1>Mukesh Kumar<Br/>CEO, Founder</h1>
+           <h1></h1>
            <a href="" class="animated-btn animated-btn-1"><svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>Learn More</a>
+            </svg>Visit Site</a>
         </div>
         <div><img src="assets/img/testimonial/college.jpg" alt="" /></div>
     </div>
@@ -752,7 +803,7 @@
                         </div>
                     <!-- Count -->
                         <div class="iso-cert">
-                            <img width="50" height="50" src="img/iso-certified.png" alt="" class="isologo"><p>AN ISO 9001:2008 <br>Certified Company</p>
+                            <img src="img/iso-certified.png" alt="" class="isologo"><p>AN ISO 9001:2008 <br>Certified Company</p>
 
                         </div>
                         <div class="footer-count">
@@ -774,8 +825,8 @@
     <div class="address" style="border:none;">
         <div class="wrapper">
             <div class="m-footer-left" style="text-align:center; width:100%;">
-            <h3>Walkwel Technology Pvt. Ltd.</h3>
-            </div>
+                <p>&copy; 2015-16 Walkwel Technology Pvt. Ltd.</p>
+          </div>
         </div>
     </div>
 </div>

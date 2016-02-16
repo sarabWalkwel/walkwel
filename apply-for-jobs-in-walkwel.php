@@ -51,6 +51,7 @@ include('token.php');
 <link rel="stylesheet" type="text/css" href="assets/css/set2.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/walkwel-css.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/laxmi.css" />
 
 <style>
 .button_down_container {
@@ -171,7 +172,7 @@ body{
 
     	<div class="image">
 
-        	<img src="assets/slider/career-header-walkwel.jpg" alt="career-header-walkwel" class="responsive" />
+        	<img src="assets/slider/aboutus.jpg" alt="career-header-walkwel" class="responsive" />
 
           <div class="m-about-head banner-title" style="width:100%; text-align:center;">
 

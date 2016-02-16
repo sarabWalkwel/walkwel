@@ -150,31 +150,28 @@
             <li><a href="about-walkwel.html" rel="About Walkwel" title="About Walkwel">About Us</a></li>
             <li><a id="showTop" title="Walkwel Services" rel="Walkwel Services" href="solutions.html">Solutions</a></li>
             <li><a id="showCareer" href="#" title="Careers in Walkwel" rel="Careers in Walkwel">Career &nbsp;<i class="fa fa-caret-down"></i></a>
-                <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="career-menu">
-                    <div class="block" style="width:38%;">
-                        <h4> <i class="fa fa-coffee"></i> &nbsp;Why work at Walkwel </h4>
-                        <h6>How about transforming into a digi-ninja!!!!</h6>
-                        <p>A cheerful friendly character, with dogged determination, dedication to perfection &amp; loads of passion for tech. A right mix of these ingredients form the mythical Ninja. We invite anyone who possesses these inherent traits to join us on this epic journey to become “Staff of Legends”….
+                 <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top port-menu" >
+                    <div class="block" style="width:458px;">
+                       <img src="img/portfolioimage.jpg" alt="">
+                    </div>
+                    <div class="block" style="width:36%;">
+                        <h4 style="text-align: left; padding-left: 25px; margin-bottom: 10px;"> <i class="fa fa-coffee"></i> &nbsp;Why work at Walkwel </h4>
+                        <h6 style="text-align: left; font-size:16px; padding-left: 25px; margin-bottom: 10px;">How about transforming into a digi-ninja!!!!</h6>
+                        <p class="text-left" style="padding: 0px 25px;">A cheerful friendly character, with dogged determination, dedication to perfection &amp; loads of passion for tech. A right mix of these ingredients form the mythical Ninja. We invite anyone who possesses these inherent traits to join us.
 
                         </p>
                     </div>
                     <div class="block" style="width:30%;">
-                        <h4> <i class="fa fa-birthday-cake"></i> &nbsp;Benefits </h4>
+                        <h4 style="text-align: left; padding-left: 25px; margin-bottom: 10px;"> <i class="fa fa-birthday-cake"></i> &nbsp;Benefits </h4>
                         <ul class="work-benefits">
                             <li>Competitive salary</li>
                             <li>Holiday increases according to length of service</li>
                             <li>Smart casual dress code</li>
                             <li>Regular staff nights out</li>
                         </ul>
-                    </div>
-                    <div class="block" style="width:30%; background:#f2f2f2; border:1px solid #ddd;height: auto;padding-bottom: 40px;">
-                        <h4><i class="fa fa-bullhorn"></i> &nbsp;Current Vacancies</h4>
-                        <a href="Analytics.html">Analytics</a>
-                        <a href="PHP.html">PHP Developer</a>
-                        <a href="Designer.html">Front End Designers</a>
-                        <a href="Apps.html">Apps Developer (Android / IOS)</a>
-                        <a href="JVM.html">Java Virtual Machine Developer ( JVM )</a>
-                        <a href="careers-in-walkwel.html" class="call-to-action btn">View All Jobs</a>
+                        <a class="animated-btn animated-btn-1 menu-animated-btn" href="careers-in-walkwel.php" tabindex="-1"><svg>
+                <rect height="100%" width="100%" fill="none" y="0" x="0"/>
+            </svg>View All Jobs</a>
                     </div>
                 </nav>
             </li>
@@ -186,17 +183,29 @@
                     <div class="block" style="width:22%;">
                        <a href="web-development.html" title="walkwel web development"><h4>Web Development</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="web-development.html" class="view-port" title="walkwel web development" rel="walkwel web development">View Portfolio</a>
+                        <a class="animated-btn animated-btn-1 menu-animated-btn" href="web-development.html" style="margin: 0px auto ! important; float: none ! important;" title="walkwel web development" rel="walkwel web development" tabindex="-1">
+                        <svg>
+                           <rect height="100%" width="100%" fill="none" y="0" x="0"/>
+                         </svg>View Portfolio
+                        </a>
                     </div>
                     <div class="block" style="width:22%;">
                         <a href="erp-solutions.html"><h4>ERP Solutions</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="erp-solutions.html" title="Walkwel erp solutions" rel="walkwel erp solutions" class="view-port">View Portfolio</a>
+                       <a class="animated-btn animated-btn-1 menu-animated-btn" href="erp-solutions.html" title="Walkwel erp solutions" rel="walkwel erp solutions"  style="margin: 0px auto ! important; float: none ! important;" title="walkwel web development" rel="walkwel web development" tabindex="-1">
+                        <svg>
+                           <rect height="100%" width="100%" fill="none" y="0" x="0"/>
+                         </svg>View Portfolio
+                        </a>
                     </div>
                     <div class="block" style="width:22%; background:#f2f2f2;height: auto;padding-bottom: 40px;">
                          <a href="e-commerce-solutions.html"><h4>E-Commernce</h4></a>
                        <p>Progressively fashion catalysts for change after functional unities.</p>
-                       <a href="e-commerce-solutions.html" title="Walkwel e-commerce solutions" rel="Walkwel e-commerce solutions" class="view-port">View Portfolio</a>
+                        <a class="animated-btn animated-btn-1 menu-animated-btn" href="e-commerce-solutions.html" title="Walkwel e-commerce solutions" rel="Walkwel e-commerce solutions" style="margin: 0px auto ! important; float: none ! important;" title="walkwel web development" rel="walkwel web development" tabindex="-1">
+                        <svg>
+                           <rect height="100%" width="100%" fill="none" y="0" x="0"/>
+                         </svg>View Portfolio
+                        </a>
                     </div>
                 </nav>
             </li>
