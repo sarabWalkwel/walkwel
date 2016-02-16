@@ -4689,7 +4689,7 @@ ul.sublist {
     z-index: 1;
 }
 h4.located {
-    color:rgba(255, 66, 57, 1);
+    color:rgba(255, 255, 255, 1);
     font-size: 30px;
 }
 .m-footer-left h3
@@ -4713,7 +4713,7 @@ h4.located {
     text-decoration: none !important;
 }
 #ssl {
-    color: rgba(218, 107, 29, 0.8);
+    color: rgba(255, 66, 57, 0.8);
     cursor: pointer;
 }
 .address
@@ -4756,6 +4756,18 @@ div#about1 .main-heading {
 
 div#about1 .main-heading h1 {
     margin-top: 0;
+}
+a.scroll-top {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    color: rgba(255, 66, 57, 0.6);
+    overflow: hidden;
+    height: 0px;
+    z-index: 999999999999999;
+}
+a.scroll-top:hover {
+    color: rgba(255, 66, 57, 1);
 }
 /*home page inline css*/
 #request .form-control{

@@ -173,6 +173,7 @@
         </div>
     </div>
 </div>
+<a href="#" class="scroll-top"><i class="fa fa-arrow-circle-up fa-3x"></i></a>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.validate.js"></script>
@@ -188,12 +189,25 @@ $(document).ready(function($) {
         $(".sublist").toggleClass('sublist-height');
     });    
 });
-    
-</script>
-<script>
-    $(".dropdown-mymenu > a").click(function(e){
-        console.log("clicked")
-        e.preventDefault();
-        $(this).siblings('.dropdown-submenu').slideToggle(400);
-    });   
+$(".dropdown-mymenu > a").click(function(e){
+    console.log("clicked")
+    e.preventDefault();
+    $(this).siblings('.dropdown-submenu').slideToggle(400);
+}); 
+$(window).scroll(function() {
+    var a = $(this).scrollTop();
+    if(a>10)
+    {
+        $(".scroll-top").css('height', '42px');
+    }
+    else
+    {
+        $(".scroll-top").css('height', '0px');
+    }
+}); 
+$(".scroll-top").click(function(e){
+    e.preventDefault();
+
+    $('html, body').animate({scrollTop:0},800);
+}) 
 </script>
