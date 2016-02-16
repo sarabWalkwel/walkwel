@@ -433,7 +433,7 @@
     
     <!-- technologies -->
     <div id="about1" style="z-index:26" class="technologies" >
-        <div class="main-heading text-center" style="padding-top:30px; padding-bottom:20px">
+        <div class="main-heading text-center" style="padding-top:60px; padding-bottom:15px">
             <h1 class=" text-center">We provide solutions using these technologies</h1>
         </div>
         <div class="container-fluid">

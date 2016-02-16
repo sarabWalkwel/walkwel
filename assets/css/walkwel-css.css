@@ -310,7 +310,7 @@ h3 a {
 .grid {
     position: relative;
     margin: 0 auto;
-    padding: 1em 0 4em;
+    padding: 0;
     list-style: none;
     text-align: center
 }
@@ -2195,7 +2195,7 @@ dfn {
 }
 h1 {
     font-size: 2em;
-    margin: .67em 0;
+    margin: 22px 0;
 }
 mark {
     background: #ff0;
@@ -2775,7 +2775,7 @@ img.responsive {
 .technologies {
     float: left;
     width: 100%;
-    padding: 2% 0 100px!important;
+    padding: 2% 0 60px!important;
     background-color: #fff;
     z-index: 22
 }
@@ -4725,7 +4725,7 @@ div#about1 {
 }
 
 div#about1 .main-heading {
-    padding-top: 0px !important;
+    padding-top: 75px;
 }
 
 div#about1 .main-heading h1 {
