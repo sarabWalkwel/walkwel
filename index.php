@@ -774,12 +774,13 @@
     <div class="address" style="border:none;">
         <div class="wrapper">
             <div class="m-footer-left" style="text-align:center; width:100%;">
-            <h3>Walkwel Technology Pvt. Ltd.</h3>
+            <h3><span style="font-weight: lighter !important;font-size: 14px;">&#169; 2015 - 2016</span> Walkwel Technology Pvt. Ltd.</h3>
             </div>
         </div>
     </div>
 </div>
 </div>
+<a href="#" class="scroll-top"><i class="fa fa-arrow-circle-up fa-3x"></i></a>
 <!-- scripts -->
 <script src="assets/js/jquery-1.10.1.min.js"></script>
 <script type="text/javascript" src="bower_components/honeycombs.js/honeycombs/js/jquery.honeycombs.js"></script>
@@ -888,13 +889,32 @@ $(document).scroll(function() {
 });
 </script>
 <script>
-   
-        $(".dropdown-mymenu > a").click(function(e){
-            console.log("")
-            e.preventDefault();
-            $(this).siblings('.dropdown-submenu').slideToggle(400);
-        });   
-  
+    $(document).ready(function($) {
+        $("#ssl").click(function(event) {
+            $(".sublist").toggleClass('sublist-height');
+        });    
+    });
+    $(".dropdown-mymenu > a").click(function(e){
+        console.log("clicked")
+        e.preventDefault();
+        $(this).siblings('.dropdown-submenu').slideToggle(400);
+    }); 
+    $(window).scroll(function() {
+        var a = $(this).scrollTop();
+        if(a>10)
+        {
+            $(".scroll-top").css('height', '42px');
+        }
+        else
+        {
+            $(".scroll-top").css('height', '0px');
+        }
+    }); 
+    $(".scroll-top").click(function(e){
+        e.preventDefault();
+
+        $('html, body').animate({scrollTop:0},800);
+    }) 
 </script>
 </body>
 </html>
