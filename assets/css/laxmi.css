@@ -24,6 +24,7 @@ body
 #testimonials-clients
 {
     clear: both;
+    background: #fff;
 }
 .rwd-img
 {
@@ -449,4 +450,71 @@ body
 .work-benefits > li {
     padding-left: 25px;
     text-align: left;
+}
+    .slick-slide[data-id="1"], .slick-slide[data-id="2"], .slick-slide[data-id="3"], .slick-slide[data-id="4"], .slick-slide[data-id="5"], .slick-slide[data-id="6"]
+    {
+        cursor: pointer
+    }
+
+/* Media Queries */
+@media only screen and (max-width:768px) {
+
+ .testimonial-box > div:last-child, .process-row::before
+    {
+        display: none;
+    }
+    .testimonial-box > div
+    {
+        width: 100%;
+    }
+    .testimonial-box > div:first-child h2 {
+    font-size: 14px;
+    line-height: 30px;
+    }
+    .testimonial-box > div:first-child h1 {
+    font-size: 12px;
+    line-height: 20px;
+    }
+    .slick-slide[data-id="1"], .slick-slide[data-id="2"], .slick-slide[data-id="3"], .slick-slide[data-id="4"], .slick-slide[data-id="5"], .slick-slide[data-id="6"]
+    {
+        display: none !important;
+    }
+    .slick-prev, .slick-next {
+    font-size: 0;
+    height: 40px;
+    top: -189px !important;
+    width: 40px;
+    background-size: 40px 40px !important;
+}
+    img.responsive {
+    max-width: auto;
+    min-width: auto;
+    width: auto;
+}
+    .portfolio-box
+{
+    height: auto;
+}
+    .portfolio-box > div {
+    float: none;
+    height: auto;
+    width: 100%;
+}
+    .contact-wrapper
+    {
+        width: 100%;
+    }
+    .process-career, .process-row
+    {
+        display: block;
+    }
+    .process-step
+    {
+        display: inline;
+    }
+    .btn-circle
+    {
+        display: block;
+        margin: 0 auto;
+    }
 }
